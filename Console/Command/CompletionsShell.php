@@ -7,6 +7,8 @@ class CompletionsShell extends AppShell {
 
 	const CONST_REGEX = '/define\(\'([^\']+)\'/m';
 
+	const PROPERTY_REGEX = '/public\s\$([^\s]+)/m';
+
 	const FUNCTION_REGEX = '/public\sfunction\s([^_\(]+)\(/m';
 
 	const IGNORE_REGEX = '/Test/';
@@ -60,6 +62,9 @@ class CompletionsShell extends AppShell {
 		$completions = array_merge($completions, $matches[1]);
 
 		preg_match_all(self::CONST_REGEX, $text, $matches);
+		$completions = array_merge($completions, $matches[1]);
+
+		preg_match_all(self::PROPERTY_REGEX, $text, $matches);
 		$completions = array_merge($completions, $matches[1]);
 
 		preg_match_all(self::FUNCTION_REGEX, $text, $matches);
