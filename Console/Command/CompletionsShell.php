@@ -7,11 +7,16 @@ class CompletionsShell extends AppShell {
 
 	const CONST_REGEX = '/define\(\'([^\']+)\'/m';
 
-	const PROPERTY_REGEX = '/public\s\$([^\s]+)/m';
+	const PROPERTY_REGEX = '/public\s\$([^\s;]+)/m';
 
-	const FUNCTION_REGEX = '/public\sfunction\s([^_\(]+)\(/m';
+	const FUNCTION_REGEX = '/public\sfunction\s([^_\(]+)\((.*)\)/m';
+
+	const STATIC_REGEX = '/public\sstatic\sfunction\s([^_\(]+)\((.*)\)/m';
 
 	const IGNORE_REGEX = '/Test/';
+
+	private $__functionCompletions = array();
+	private $__staticCompletions = array();
 
 	public function startup() {}
 
@@ -34,12 +39,38 @@ class CompletionsShell extends AppShell {
 	}
 
 	protected function _makeCompletionJson($completions) {
+		array_walk_recursive($completions, function(&$val, $index) {
+			$val = str_replace('$', '\$', $val);
+		});
+		array_walk_recursive($this->__functionCompletions, function(&$val, $index) {
+			$val = str_replace('$', '\$', $val);
+		});
+		array_walk_recursive($this->__staticCompletions, function(&$val, $index) {
+			$val = str_replace('$', '\$', $val);
+		});
+
 		$json = array(
 			'scope' => 'source.php - variable.other.php',
 			'completions' => array('php'),
 		);
 		foreach ($completions as $completion) {
-			$json['completions'][] = array('trigger' => $completion, 'contents' => $completion);
+			$json['completions'][] = $completion;
+		}
+		foreach ($this->__functionCompletions as $file => $completion) {
+			foreach ($completion[0] as $key => $match) {
+				$json['completions'][] = array(
+					'trigger' => $completion[1][$key] . ' [' . str_replace('.php', '', $file) . ']',
+					'contents' => $completion[1][$key] . '(' . $completion[2][$key] . ')',
+				);
+			}
+		}
+		foreach ($this->__staticCompletions as $file => $completion) {
+			foreach ($completion[0] as $key => $match) {
+				$json['completions'][] = array(
+					'trigger' => str_replace('.php', '', $file) . '::' . $completion[1][$key],
+					'contents' => str_replace('.php', '', $file) . '::' . $completion[1][$key] . '(' . $completion[2][$key] . ')',
+				);
+			}
 		}
 		return json_encode($json);
 	}
@@ -68,7 +99,10 @@ class CompletionsShell extends AppShell {
 		$completions = array_merge($completions, $matches[1]);
 
 		preg_match_all(self::FUNCTION_REGEX, $text, $matches);
-		$completions = array_merge($completions, $matches[1]);
+		$this->__functionCompletions[basename($file)] = $matches;
+
+		preg_match_all(self::STATIC_REGEX, $text, $matches);
+		$this->__staticCompletions[basename($file)] = $matches;
 
 		return $completions;
 	}
