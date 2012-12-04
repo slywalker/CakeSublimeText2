@@ -33,7 +33,10 @@ class CompletionsShell extends AppShell {
 		$completions = array_unique($completions);
 
 		$json = $this->_makeCompletionJson($completions);
-		$dist = dirname(dirname(dirname(__FILE__))) . DS . 'CakePHP' .DS . 'CakePHP.sublime-completions';
+		$dist = dirname(dirname(dirname(__FILE__))) . DS . 'CakePHP' .DS . 'ClassesCompletions.sublime-completions';
+		if (!is_dir(dirname($dist))) {
+			mkdir(dirname($dist), 0777, true);
+		}
 		file_put_contents($dist, $json);
 		$this->out('dist: ' . $dist);
 	}
@@ -51,15 +54,18 @@ class CompletionsShell extends AppShell {
 
 		$json = array(
 			'scope' => 'source.php - variable.other.php',
-			'completions' => array('php'),
+			'completions' => array(),
 		);
 		foreach ($completions as $completion) {
-			$json['completions'][] = $completion;
+			$json['completions'][] = array(
+				'trigger' => $completion . "\t[CakePHP]",
+				'contents' => $completion,
+			);
 		}
 		foreach ($this->__functionCompletions as $file => $completion) {
 			foreach ($completion[0] as $key => $match) {
 				$json['completions'][] = array(
-					'trigger' => $completion[1][$key] . ' [' . str_replace('.php', '', $file) . ']',
+					'trigger' => $completion[1][$key] . "\t[" . str_replace('.php', '', $file) . ']',
 					'contents' => $completion[1][$key] . '(' . $completion[2][$key] . ')',
 				);
 			}
