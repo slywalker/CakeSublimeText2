@@ -1,0 +1,1373 @@
+{
+    "scope": "source.php - variable.other.php",
+    "completions": [
+        {
+            "trigger": "Cache::config",
+            "contents": "Cache::config(\\$name = null, \\$settings = array())"
+        },
+        {
+            "trigger": "Cache::configured",
+            "contents": "Cache::configured()"
+        },
+        {
+            "trigger": "Cache::drop",
+            "contents": "Cache::drop(\\$name)"
+        },
+        {
+            "trigger": "Cache::set",
+            "contents": "Cache::set(\\$settings = array(), \\$value = null, \\$config = 'default')"
+        },
+        {
+            "trigger": "Cache::gc",
+            "contents": "Cache::gc(\\$config = 'default', \\$expires = null)"
+        },
+        {
+            "trigger": "Cache::write",
+            "contents": "Cache::write(\\$key, \\$value, \\$config = 'default')"
+        },
+        {
+            "trigger": "Cache::read",
+            "contents": "Cache::read(\\$key, \\$config = 'default')"
+        },
+        {
+            "trigger": "Cache::increment",
+            "contents": "Cache::increment(\\$key, \\$offset = 1, \\$config = 'default')"
+        },
+        {
+            "trigger": "Cache::decrement",
+            "contents": "Cache::decrement(\\$key, \\$offset = 1, \\$config = 'default')"
+        },
+        {
+            "trigger": "Cache::delete",
+            "contents": "Cache::delete(\\$key, \\$config = 'default')"
+        },
+        {
+            "trigger": "Cache::clear",
+            "contents": "Cache::clear(\\$check = false, \\$config = 'default')"
+        },
+        {
+            "trigger": "Cache::clearGroup",
+            "contents": "Cache::clearGroup(\\$group, \\$config = 'default')"
+        },
+        {
+            "trigger": "Cache::isInitialized",
+            "contents": "Cache::isInitialized(\\$config = 'default')"
+        },
+        {
+            "trigger": "Cache::settings",
+            "contents": "Cache::settings(\\$name = 'default')"
+        },
+        {
+            "trigger": "ConsoleErrorHandler::getStderr",
+            "contents": "ConsoleErrorHandler::getStderr()"
+        },
+        {
+            "trigger": "ConsoleOptionParser::create",
+            "contents": "ConsoleOptionParser::create(\\$command, \\$defaultOptions = true)"
+        },
+        {
+            "trigger": "ConsoleOptionParser::buildFromArray",
+            "contents": "ConsoleOptionParser::buildFromArray(\\$spec)"
+        },
+        {
+            "trigger": "ShellDispatcher::run",
+            "contents": "ShellDispatcher::run(\\$argv)"
+        },
+        {
+            "trigger": "AuthComponent::user",
+            "contents": "AuthComponent::user(\\$key = null)"
+        },
+        {
+            "trigger": "AuthComponent::password",
+            "contents": "AuthComponent::password(\\$password)"
+        },
+        {
+            "trigger": "DigestAuthenticate::password",
+            "contents": "DigestAuthenticate::password(\\$username, \\$password, \\$realm)"
+        },
+        {
+            "trigger": "App::path",
+            "contents": "App::path(\\$type, \\$plugin = null)"
+        },
+        {
+            "trigger": "App::paths",
+            "contents": "App::paths()"
+        },
+        {
+            "trigger": "App::build",
+            "contents": "App::build(\\$paths = array(), \\$mode = App::PREPEND)"
+        },
+        {
+            "trigger": "App::pluginPath",
+            "contents": "App::pluginPath(\\$plugin)"
+        },
+        {
+            "trigger": "App::themePath",
+            "contents": "App::themePath(\\$theme)"
+        },
+        {
+            "trigger": "App::core",
+            "contents": "App::core(\\$type)"
+        },
+        {
+            "trigger": "App::objects",
+            "contents": "App::objects(\\$type, \\$path = null, \\$cache = true)"
+        },
+        {
+            "trigger": "App::uses",
+            "contents": "App::uses(\\$className, \\$location)"
+        },
+        {
+            "trigger": "App::load",
+            "contents": "App::load(\\$className)"
+        },
+        {
+            "trigger": "App::location",
+            "contents": "App::location(\\$className)"
+        },
+        {
+            "trigger": "App::import",
+            "contents": "App::import(\\$type = null, \\$name = null, \\$parent = true, \\$search = array(), \\$file = null, \\$return = false)"
+        },
+        {
+            "trigger": "App::init",
+            "contents": "App::init()"
+        },
+        {
+            "trigger": "App::shutdown",
+            "contents": "App::shutdown()"
+        },
+        {
+            "trigger": "CakePlugin::load",
+            "contents": "CakePlugin::load(\\$plugin, \\$config = array())"
+        },
+        {
+            "trigger": "CakePlugin::loadAll",
+            "contents": "CakePlugin::loadAll(\\$options = array())"
+        },
+        {
+            "trigger": "CakePlugin::path",
+            "contents": "CakePlugin::path(\\$plugin)"
+        },
+        {
+            "trigger": "CakePlugin::bootstrap",
+            "contents": "CakePlugin::bootstrap(\\$plugin)"
+        },
+        {
+            "trigger": "CakePlugin::routes",
+            "contents": "CakePlugin::routes(\\$plugin = null)"
+        },
+        {
+            "trigger": "CakePlugin::loaded",
+            "contents": "CakePlugin::loaded(\\$plugin = null)"
+        },
+        {
+            "trigger": "CakePlugin::unload",
+            "contents": "CakePlugin::unload(\\$plugin = null)"
+        },
+        {
+            "trigger": "Configure::bootstrap",
+            "contents": "Configure::bootstrap(\\$boot = true)"
+        },
+        {
+            "trigger": "Configure::write",
+            "contents": "Configure::write(\\$config, \\$value = null)"
+        },
+        {
+            "trigger": "Configure::read",
+            "contents": "Configure::read(\\$var = null)"
+        },
+        {
+            "trigger": "Configure::delete",
+            "contents": "Configure::delete(\\$var = null)"
+        },
+        {
+            "trigger": "Configure::config",
+            "contents": "Configure::config(\\$name, ConfigReaderInterface \\$reader)"
+        },
+        {
+            "trigger": "Configure::configured",
+            "contents": "Configure::configured(\\$name = null)"
+        },
+        {
+            "trigger": "Configure::drop",
+            "contents": "Configure::drop(\\$name)"
+        },
+        {
+            "trigger": "Configure::load",
+            "contents": "Configure::load(\\$key, \\$config = 'default', \\$merge = true)"
+        },
+        {
+            "trigger": "Configure::dump",
+            "contents": "Configure::dump(\\$key, \\$config = 'default', \\$keys = array())"
+        },
+        {
+            "trigger": "Configure::version",
+            "contents": "Configure::version()"
+        },
+        {
+            "trigger": "Configure::store",
+            "contents": "Configure::store(\\$name, \\$cacheConfig = 'default', \\$data = null)"
+        },
+        {
+            "trigger": "Configure::restore",
+            "contents": "Configure::restore(\\$name, \\$cacheConfig = 'default')"
+        },
+        {
+            "trigger": "Configure::clear",
+            "contents": "Configure::clear()"
+        },
+        {
+            "trigger": "ErrorHandler::handleException",
+            "contents": "ErrorHandler::handleException(Exception \\$exception)"
+        },
+        {
+            "trigger": "ErrorHandler::handleError",
+            "contents": "ErrorHandler::handleError(\\$code, \\$description, \\$file = null, \\$line = null, \\$context = null)"
+        },
+        {
+            "trigger": "ErrorHandler::handleFatalError",
+            "contents": "ErrorHandler::handleFatalError(\\$code, \\$description, \\$file, \\$line)"
+        },
+        {
+            "trigger": "ErrorHandler::mapErrorCode",
+            "contents": "ErrorHandler::mapErrorCode(\\$code)"
+        },
+        {
+            "trigger": "CakeEventManager::instance",
+            "contents": "CakeEventManager::instance(\\$manager = null)"
+        },
+        {
+            "trigger": "I18n::&getInstance",
+            "contents": "I18n::&getInstance()"
+        },
+        {
+            "trigger": "I18n::translate",
+            "contents": "I18n::translate(\\$singular, \\$plural = null, \\$domain = null, \\$category = 6, \\$count = null, \\$language = null)"
+        },
+        {
+            "trigger": "I18n::clear",
+            "contents": "I18n::clear()"
+        },
+        {
+            "trigger": "I18n::domains",
+            "contents": "I18n::domains()"
+        },
+        {
+            "trigger": "I18n::loadMo",
+            "contents": "I18n::loadMo(\\$filename)"
+        },
+        {
+            "trigger": "I18n::loadPo",
+            "contents": "I18n::loadPo(\\$filename)"
+        },
+        {
+            "trigger": "I18n::loadLocaleDefinition",
+            "contents": "I18n::loadLocaleDefinition(\\$filename)"
+        },
+        {
+            "trigger": "Multibyte::utf8",
+            "contents": "Multibyte::utf8(\\$string)"
+        },
+        {
+            "trigger": "Multibyte::ascii",
+            "contents": "Multibyte::ascii(\\$array)"
+        },
+        {
+            "trigger": "Multibyte::stripos",
+            "contents": "Multibyte::stripos(\\$haystack, \\$needle, \\$offset = 0)"
+        },
+        {
+            "trigger": "Multibyte::stristr",
+            "contents": "Multibyte::stristr(\\$haystack, \\$needle, \\$part = false)"
+        },
+        {
+            "trigger": "Multibyte::strlen",
+            "contents": "Multibyte::strlen(\\$string)"
+        },
+        {
+            "trigger": "Multibyte::strpos",
+            "contents": "Multibyte::strpos(\\$haystack, \\$needle, \\$offset = 0)"
+        },
+        {
+            "trigger": "Multibyte::strrchr",
+            "contents": "Multibyte::strrchr(\\$haystack, \\$needle, \\$part = false)"
+        },
+        {
+            "trigger": "Multibyte::strrichr",
+            "contents": "Multibyte::strrichr(\\$haystack, \\$needle, \\$part = false)"
+        },
+        {
+            "trigger": "Multibyte::strripos",
+            "contents": "Multibyte::strripos(\\$haystack, \\$needle, \\$offset = 0)"
+        },
+        {
+            "trigger": "Multibyte::strrpos",
+            "contents": "Multibyte::strrpos(\\$haystack, \\$needle, \\$offset = 0)"
+        },
+        {
+            "trigger": "Multibyte::strstr",
+            "contents": "Multibyte::strstr(\\$haystack, \\$needle, \\$part = false)"
+        },
+        {
+            "trigger": "Multibyte::strtolower",
+            "contents": "Multibyte::strtolower(\\$string)"
+        },
+        {
+            "trigger": "Multibyte::strtoupper",
+            "contents": "Multibyte::strtoupper(\\$string)"
+        },
+        {
+            "trigger": "Multibyte::substrCount",
+            "contents": "Multibyte::substrCount(\\$haystack, \\$needle)"
+        },
+        {
+            "trigger": "Multibyte::substr",
+            "contents": "Multibyte::substr(\\$string, \\$start, \\$length = null)"
+        },
+        {
+            "trigger": "Multibyte::mimeEncode",
+            "contents": "Multibyte::mimeEncode(\\$string, \\$charset = null, \\$newline = \"\\r\\n\")"
+        },
+        {
+            "trigger": "Multibyte::checkMultibyte",
+            "contents": "Multibyte::checkMultibyte(\\$string)"
+        },
+        {
+            "trigger": "CakeLog::config",
+            "contents": "CakeLog::config(\\$key, \\$config)"
+        },
+        {
+            "trigger": "CakeLog::configured",
+            "contents": "CakeLog::configured()"
+        },
+        {
+            "trigger": "CakeLog::levels",
+            "contents": "CakeLog::levels(\\$levels = array(), \\$append = true)"
+        },
+        {
+            "trigger": "CakeLog::defaultLevels",
+            "contents": "CakeLog::defaultLevels()"
+        },
+        {
+            "trigger": "CakeLog::drop",
+            "contents": "CakeLog::drop(\\$streamName)"
+        },
+        {
+            "trigger": "CakeLog::enabled",
+            "contents": "CakeLog::enabled(\\$streamName)"
+        },
+        {
+            "trigger": "CakeLog::enable",
+            "contents": "CakeLog::enable(\\$streamName)"
+        },
+        {
+            "trigger": "CakeLog::disable",
+            "contents": "CakeLog::disable(\\$streamName)"
+        },
+        {
+            "trigger": "CakeLog::stream",
+            "contents": "CakeLog::stream(\\$streamName)"
+        },
+        {
+            "trigger": "CakeLog::write",
+            "contents": "CakeLog::write(\\$type, \\$message, \\$scope = array())"
+        },
+        {
+            "trigger": "CakeLog::emergency",
+            "contents": "CakeLog::emergency(\\$message, \\$scope = array())"
+        },
+        {
+            "trigger": "CakeLog::alert",
+            "contents": "CakeLog::alert(\\$message, \\$scope = array())"
+        },
+        {
+            "trigger": "CakeLog::critical",
+            "contents": "CakeLog::critical(\\$message, \\$scope = array())"
+        },
+        {
+            "trigger": "CakeLog::error",
+            "contents": "CakeLog::error(\\$message, \\$scope = array())"
+        },
+        {
+            "trigger": "CakeLog::warning",
+            "contents": "CakeLog::warning(\\$message, \\$scope = array())"
+        },
+        {
+            "trigger": "CakeLog::notice",
+            "contents": "CakeLog::notice(\\$message, \\$scope = array())"
+        },
+        {
+            "trigger": "CakeLog::debug",
+            "contents": "CakeLog::debug(\\$message, \\$scope = array())"
+        },
+        {
+            "trigger": "CakeLog::info",
+            "contents": "CakeLog::info(\\$message, \\$scope = array())"
+        },
+        {
+            "trigger": "ConnectionManager::getDataSource",
+            "contents": "ConnectionManager::getDataSource(\\$name)"
+        },
+        {
+            "trigger": "ConnectionManager::sourceList",
+            "contents": "ConnectionManager::sourceList()"
+        },
+        {
+            "trigger": "ConnectionManager::getSourceName",
+            "contents": "ConnectionManager::getSourceName(\\$source)"
+        },
+        {
+            "trigger": "ConnectionManager::loadDataSource",
+            "contents": "ConnectionManager::loadDataSource(\\$connName)"
+        },
+        {
+            "trigger": "ConnectionManager::enumConnectionObjects",
+            "contents": "ConnectionManager::enumConnectionObjects()"
+        },
+        {
+            "trigger": "ConnectionManager::create",
+            "contents": "ConnectionManager::create(\\$name = '', \\$config = array())"
+        },
+        {
+            "trigger": "ConnectionManager::drop",
+            "contents": "ConnectionManager::drop(\\$name)"
+        },
+        {
+            "trigger": "CakeSession::init",
+            "contents": "CakeSession::init(\\$base = null)"
+        },
+        {
+            "trigger": "CakeSession::start",
+            "contents": "CakeSession::start()"
+        },
+        {
+            "trigger": "CakeSession::started",
+            "contents": "CakeSession::started()"
+        },
+        {
+            "trigger": "CakeSession::check",
+            "contents": "CakeSession::check(\\$name = null)"
+        },
+        {
+            "trigger": "CakeSession::id",
+            "contents": "CakeSession::id(\\$id = null)"
+        },
+        {
+            "trigger": "CakeSession::delete",
+            "contents": "CakeSession::delete(\\$name)"
+        },
+        {
+            "trigger": "CakeSession::error",
+            "contents": "CakeSession::error()"
+        },
+        {
+            "trigger": "CakeSession::valid",
+            "contents": "CakeSession::valid()"
+        },
+        {
+            "trigger": "CakeSession::userAgent",
+            "contents": "CakeSession::userAgent(\\$userAgent = null)"
+        },
+        {
+            "trigger": "CakeSession::read",
+            "contents": "CakeSession::read(\\$name = null)"
+        },
+        {
+            "trigger": "CakeSession::write",
+            "contents": "CakeSession::write(\\$name, \\$value = null)"
+        },
+        {
+            "trigger": "CakeSession::destroy",
+            "contents": "CakeSession::destroy()"
+        },
+        {
+            "trigger": "CakeSession::clear",
+            "contents": "CakeSession::clear()"
+        },
+        {
+            "trigger": "CakeSession::renew",
+            "contents": "CakeSession::renew()"
+        },
+        {
+            "trigger": "CakeRequest::header",
+            "contents": "CakeRequest::header(\\$name)"
+        },
+        {
+            "trigger": "CakeRequest::acceptLanguage",
+            "contents": "CakeRequest::acceptLanguage(\\$language = null)"
+        },
+        {
+            "trigger": "CakeEmail::deliver",
+            "contents": "CakeEmail::deliver(\\$to = null, \\$subject = null, \\$message = null, \\$transportConfig = 'fast', \\$send = true)"
+        },
+        {
+            "trigger": "BasicAuthentication::authentication",
+            "contents": "BasicAuthentication::authentication(HttpSocket \\$http, &\\$authInfo)"
+        },
+        {
+            "trigger": "BasicAuthentication::proxyAuthentication",
+            "contents": "BasicAuthentication::proxyAuthentication(HttpSocket \\$http, &\\$proxyInfo)"
+        },
+        {
+            "trigger": "DigestAuthentication::authentication",
+            "contents": "DigestAuthentication::authentication(HttpSocket \\$http, &\\$authInfo)"
+        },
+        {
+            "trigger": "Router::defaultRouteClass",
+            "contents": "Router::defaultRouteClass(\\$routeClass = null)"
+        },
+        {
+            "trigger": "Router::getNamedExpressions",
+            "contents": "Router::getNamedExpressions()"
+        },
+        {
+            "trigger": "Router::resourceMap",
+            "contents": "Router::resourceMap(\\$resourceMap = null)"
+        },
+        {
+            "trigger": "Router::connect",
+            "contents": "Router::connect(\\$route, \\$defaults = array(), \\$options = array())"
+        },
+        {
+            "trigger": "Router::redirect",
+            "contents": "Router::redirect(\\$route, \\$url, \\$options = array())"
+        },
+        {
+            "trigger": "Router::connectNamed",
+            "contents": "Router::connectNamed(\\$named, \\$options = array())"
+        },
+        {
+            "trigger": "Router::namedConfig",
+            "contents": "Router::namedConfig()"
+        },
+        {
+            "trigger": "Router::mapResources",
+            "contents": "Router::mapResources(\\$controller, \\$options = array())"
+        },
+        {
+            "trigger": "Router::prefixes",
+            "contents": "Router::prefixes()"
+        },
+        {
+            "trigger": "Router::parse",
+            "contents": "Router::parse(\\$url)"
+        },
+        {
+            "trigger": "Router::setRequestInfo",
+            "contents": "Router::setRequestInfo(\\$request)"
+        },
+        {
+            "trigger": "Router::popRequest",
+            "contents": "Router::popRequest()"
+        },
+        {
+            "trigger": "Router::getRequest",
+            "contents": "Router::getRequest(\\$current = false)"
+        },
+        {
+            "trigger": "Router::getParams",
+            "contents": "Router::getParams(\\$current = false)"
+        },
+        {
+            "trigger": "Router::getParam",
+            "contents": "Router::getParam(\\$name = 'controller', \\$current = false)"
+        },
+        {
+            "trigger": "Router::getPaths",
+            "contents": "Router::getPaths(\\$current = false)"
+        },
+        {
+            "trigger": "Router::reload",
+            "contents": "Router::reload()"
+        },
+        {
+            "trigger": "Router::promote",
+            "contents": "Router::promote(\\$which = null)"
+        },
+        {
+            "trigger": "Router::url",
+            "contents": "Router::url(\\$url = null, \\$full = false)"
+        },
+        {
+            "trigger": "Router::queryString",
+            "contents": "Router::queryString(\\$q, \\$extra = array(), \\$escape = false)"
+        },
+        {
+            "trigger": "Router::reverse",
+            "contents": "Router::reverse(\\$params, \\$full = false)"
+        },
+        {
+            "trigger": "Router::normalize",
+            "contents": "Router::normalize(\\$url = '/')"
+        },
+        {
+            "trigger": "Router::&requestRoute",
+            "contents": "Router::&requestRoute()"
+        },
+        {
+            "trigger": "Router::&currentRoute",
+            "contents": "Router::&currentRoute()"
+        },
+        {
+            "trigger": "Router::stripPlugin",
+            "contents": "Router::stripPlugin(\\$base, \\$plugin = null)"
+        },
+        {
+            "trigger": "Router::parseExtensions",
+            "contents": "Router::parseExtensions()"
+        },
+        {
+            "trigger": "Router::extensions",
+            "contents": "Router::extensions()"
+        },
+        {
+            "trigger": "Router::setExtensions",
+            "contents": "Router::setExtensions(\\$extensions, \\$merge = true)"
+        },
+        {
+            "trigger": "CakeNumber::precision",
+            "contents": "CakeNumber::precision(\\$number, \\$precision = 3)"
+        },
+        {
+            "trigger": "CakeNumber::toReadableSize",
+            "contents": "CakeNumber::toReadableSize(\\$size)"
+        },
+        {
+            "trigger": "CakeNumber::toPercentage",
+            "contents": "CakeNumber::toPercentage(\\$number, \\$precision = 2)"
+        },
+        {
+            "trigger": "CakeNumber::format",
+            "contents": "CakeNumber::format(\\$number, \\$options = false)"
+        },
+        {
+            "trigger": "CakeNumber::currency",
+            "contents": "CakeNumber::currency(\\$number, \\$currency = 'USD', \\$options = array())"
+        },
+        {
+            "trigger": "CakeNumber::addFormat",
+            "contents": "CakeNumber::addFormat(\\$formatName, \\$options)"
+        },
+        {
+            "trigger": "CakeTime::convertSpecifiers",
+            "contents": "CakeTime::convertSpecifiers(\\$format, \\$time = null)"
+        },
+        {
+            "trigger": "CakeTime::convert",
+            "contents": "CakeTime::convert(\\$serverTime, \\$timezone)"
+        },
+        {
+            "trigger": "CakeTime::timezone",
+            "contents": "CakeTime::timezone(\\$timezone = null)"
+        },
+        {
+            "trigger": "CakeTime::serverOffset",
+            "contents": "CakeTime::serverOffset()"
+        },
+        {
+            "trigger": "CakeTime::fromString",
+            "contents": "CakeTime::fromString(\\$dateString, \\$timezone = null)"
+        },
+        {
+            "trigger": "CakeTime::nice",
+            "contents": "CakeTime::nice(\\$dateString = null, \\$timezone = null, \\$format = null)"
+        },
+        {
+            "trigger": "CakeTime::niceShort",
+            "contents": "CakeTime::niceShort(\\$dateString = null, \\$timezone = null)"
+        },
+        {
+            "trigger": "CakeTime::daysAsSql",
+            "contents": "CakeTime::daysAsSql(\\$begin, \\$end, \\$fieldName, \\$timezone = null)"
+        },
+        {
+            "trigger": "CakeTime::dayAsSql",
+            "contents": "CakeTime::dayAsSql(\\$dateString, \\$fieldName, \\$timezone = null)"
+        },
+        {
+            "trigger": "CakeTime::isToday",
+            "contents": "CakeTime::isToday(\\$dateString, \\$timezone = null)"
+        },
+        {
+            "trigger": "CakeTime::isThisWeek",
+            "contents": "CakeTime::isThisWeek(\\$dateString, \\$timezone = null)"
+        },
+        {
+            "trigger": "CakeTime::isThisMonth",
+            "contents": "CakeTime::isThisMonth(\\$dateString, \\$timezone = null)"
+        },
+        {
+            "trigger": "CakeTime::isThisYear",
+            "contents": "CakeTime::isThisYear(\\$dateString, \\$timezone = null)"
+        },
+        {
+            "trigger": "CakeTime::wasYesterday",
+            "contents": "CakeTime::wasYesterday(\\$dateString, \\$timezone = null)"
+        },
+        {
+            "trigger": "CakeTime::isTomorrow",
+            "contents": "CakeTime::isTomorrow(\\$dateString, \\$timezone = null)"
+        },
+        {
+            "trigger": "CakeTime::toQuarter",
+            "contents": "CakeTime::toQuarter(\\$dateString, \\$range = false)"
+        },
+        {
+            "trigger": "CakeTime::toUnix",
+            "contents": "CakeTime::toUnix(\\$dateString, \\$timezone = null)"
+        },
+        {
+            "trigger": "CakeTime::toServer",
+            "contents": "CakeTime::toServer(\\$dateString, \\$timezone = null, \\$format = 'Y-m-d H:i:s')"
+        },
+        {
+            "trigger": "CakeTime::toAtom",
+            "contents": "CakeTime::toAtom(\\$dateString, \\$timezone = null)"
+        },
+        {
+            "trigger": "CakeTime::toRSS",
+            "contents": "CakeTime::toRSS(\\$dateString, \\$timezone = null)"
+        },
+        {
+            "trigger": "CakeTime::timeAgoInWords",
+            "contents": "CakeTime::timeAgoInWords(\\$dateTime, \\$options = array())"
+        },
+        {
+            "trigger": "CakeTime::wasWithinLast",
+            "contents": "CakeTime::wasWithinLast(\\$timeInterval, \\$dateString, \\$timezone = null)"
+        },
+        {
+            "trigger": "CakeTime::isWithinNext",
+            "contents": "CakeTime::isWithinNext(\\$timeInterval, \\$dateString, \\$timezone = null)"
+        },
+        {
+            "trigger": "CakeTime::gmt",
+            "contents": "CakeTime::gmt(\\$dateString = null)"
+        },
+        {
+            "trigger": "CakeTime::format",
+            "contents": "CakeTime::format(\\$date, \\$format = null, \\$default = false, \\$timezone = null)"
+        },
+        {
+            "trigger": "CakeTime::i18nFormat",
+            "contents": "CakeTime::i18nFormat(\\$date, \\$format = null, \\$default = false, \\$timezone = null)"
+        },
+        {
+            "trigger": "CakeTime::listTimezones",
+            "contents": "CakeTime::listTimezones(\\$filter = null, \\$country = null, \\$group = true)"
+        },
+        {
+            "trigger": "ClassRegistry::&getInstance",
+            "contents": "ClassRegistry::&getInstance()"
+        },
+        {
+            "trigger": "ClassRegistry::init",
+            "contents": "ClassRegistry::init(\\$class, \\$strict = false)"
+        },
+        {
+            "trigger": "ClassRegistry::addObject",
+            "contents": "ClassRegistry::addObject(\\$key, \\$object)"
+        },
+        {
+            "trigger": "ClassRegistry::removeObject",
+            "contents": "ClassRegistry::removeObject(\\$key)"
+        },
+        {
+            "trigger": "ClassRegistry::isKeySet",
+            "contents": "ClassRegistry::isKeySet(\\$key)"
+        },
+        {
+            "trigger": "ClassRegistry::keys",
+            "contents": "ClassRegistry::keys()"
+        },
+        {
+            "trigger": "ClassRegistry::&getObject",
+            "contents": "ClassRegistry::&getObject(\\$key)"
+        },
+        {
+            "trigger": "ClassRegistry::config",
+            "contents": "ClassRegistry::config(\\$type, \\$param = array())"
+        },
+        {
+            "trigger": "ClassRegistry::map",
+            "contents": "ClassRegistry::map(\\$key, \\$name)"
+        },
+        {
+            "trigger": "ClassRegistry::mapKeys",
+            "contents": "ClassRegistry::mapKeys()"
+        },
+        {
+            "trigger": "ClassRegistry::flush",
+            "contents": "ClassRegistry::flush()"
+        },
+        {
+            "trigger": "Debugger::&getInstance",
+            "contents": "Debugger::&getInstance(\\$class = null)"
+        },
+        {
+            "trigger": "Debugger::dump",
+            "contents": "Debugger::dump(\\$var)"
+        },
+        {
+            "trigger": "Debugger::log",
+            "contents": "Debugger::log(\\$var, \\$level = LOG_DEBUG)"
+        },
+        {
+            "trigger": "Debugger::showError",
+            "contents": "Debugger::showError(\\$code, \\$description, \\$file = null, \\$line = null, \\$context = null)"
+        },
+        {
+            "trigger": "Debugger::trace",
+            "contents": "Debugger::trace(\\$options = array())"
+        },
+        {
+            "trigger": "Debugger::trimPath",
+            "contents": "Debugger::trimPath(\\$path)"
+        },
+        {
+            "trigger": "Debugger::excerpt",
+            "contents": "Debugger::excerpt(\\$file, \\$line, \\$context = 2)"
+        },
+        {
+            "trigger": "Debugger::exportVar",
+            "contents": "Debugger::exportVar(\\$var, \\$depth = 3)"
+        },
+        {
+            "trigger": "Debugger::outputAs",
+            "contents": "Debugger::outputAs(\\$format = null)"
+        },
+        {
+            "trigger": "Debugger::addFormat",
+            "contents": "Debugger::addFormat(\\$format, array \\$strings)"
+        },
+        {
+            "trigger": "Debugger::getType",
+            "contents": "Debugger::getType(\\$var)"
+        },
+        {
+            "trigger": "Debugger::checkSecurityKeys",
+            "contents": "Debugger::checkSecurityKeys()"
+        },
+        {
+            "trigger": "File::prepare",
+            "contents": "File::prepare(\\$data, \\$forceWindows = false)"
+        },
+        {
+            "trigger": "Folder::isWindowsPath",
+            "contents": "Folder::isWindowsPath(\\$path)"
+        },
+        {
+            "trigger": "Folder::isAbsolute",
+            "contents": "Folder::isAbsolute(\\$path)"
+        },
+        {
+            "trigger": "Folder::normalizePath",
+            "contents": "Folder::normalizePath(\\$path)"
+        },
+        {
+            "trigger": "Folder::correctSlashFor",
+            "contents": "Folder::correctSlashFor(\\$path)"
+        },
+        {
+            "trigger": "Folder::slashTerm",
+            "contents": "Folder::slashTerm(\\$path)"
+        },
+        {
+            "trigger": "Folder::addPathElement",
+            "contents": "Folder::addPathElement(\\$path, \\$element)"
+        },
+        {
+            "trigger": "Folder::isSlashTerm",
+            "contents": "Folder::isSlashTerm(\\$path)"
+        },
+        {
+            "trigger": "Hash::get",
+            "contents": "Hash::get(array \\$data, \\$path)"
+        },
+        {
+            "trigger": "Hash::extract",
+            "contents": "Hash::extract(array \\$data, \\$path)"
+        },
+        {
+            "trigger": "Hash::insert",
+            "contents": "Hash::insert(array \\$data, \\$path, \\$values = null)"
+        },
+        {
+            "trigger": "Hash::remove",
+            "contents": "Hash::remove(array \\$data, \\$path)"
+        },
+        {
+            "trigger": "Hash::combine",
+            "contents": "Hash::combine(array \\$data, \\$keyPath, \\$valuePath = null, \\$groupPath = null)"
+        },
+        {
+            "trigger": "Hash::format",
+            "contents": "Hash::format(array \\$data, array \\$paths, \\$format)"
+        },
+        {
+            "trigger": "Hash::contains",
+            "contents": "Hash::contains(array \\$data, array \\$needle)"
+        },
+        {
+            "trigger": "Hash::check",
+            "contents": "Hash::check(array \\$data, \\$path)"
+        },
+        {
+            "trigger": "Hash::filter",
+            "contents": "Hash::filter(array \\$data, \\$callback = array('self', '_filter'))"
+        },
+        {
+            "trigger": "Hash::flatten",
+            "contents": "Hash::flatten(array \\$data, \\$separator = '.')"
+        },
+        {
+            "trigger": "Hash::expand",
+            "contents": "Hash::expand(\\$data, \\$separator = '.')"
+        },
+        {
+            "trigger": "Hash::merge",
+            "contents": "Hash::merge(array \\$data, \\$merge)"
+        },
+        {
+            "trigger": "Hash::numeric",
+            "contents": "Hash::numeric(array \\$data)"
+        },
+        {
+            "trigger": "Hash::dimensions",
+            "contents": "Hash::dimensions(array \\$data)"
+        },
+        {
+            "trigger": "Hash::maxDimensions",
+            "contents": "Hash::maxDimensions(array \\$data)"
+        },
+        {
+            "trigger": "Hash::map",
+            "contents": "Hash::map(array \\$data, \\$path, \\$function)"
+        },
+        {
+            "trigger": "Hash::reduce",
+            "contents": "Hash::reduce(array \\$data, \\$path, \\$function)"
+        },
+        {
+            "trigger": "Hash::apply",
+            "contents": "Hash::apply(array \\$data, \\$path, \\$function)"
+        },
+        {
+            "trigger": "Hash::sort",
+            "contents": "Hash::sort(array \\$data, \\$path, \\$dir, \\$type = 'regular')"
+        },
+        {
+            "trigger": "Hash::diff",
+            "contents": "Hash::diff(array \\$data, \\$compare)"
+        },
+        {
+            "trigger": "Hash::mergeDiff",
+            "contents": "Hash::mergeDiff(array \\$data, \\$compare)"
+        },
+        {
+            "trigger": "Hash::normalize",
+            "contents": "Hash::normalize(array \\$data, \\$assoc = true)"
+        },
+        {
+            "trigger": "Hash::nest",
+            "contents": "Hash::nest(array \\$data, \\$options = array())"
+        },
+        {
+            "trigger": "Inflector::reset",
+            "contents": "Inflector::reset()"
+        },
+        {
+            "trigger": "Inflector::rules",
+            "contents": "Inflector::rules(\\$type, \\$rules, \\$reset = false)"
+        },
+        {
+            "trigger": "Inflector::pluralize",
+            "contents": "Inflector::pluralize(\\$word)"
+        },
+        {
+            "trigger": "Inflector::singularize",
+            "contents": "Inflector::singularize(\\$word)"
+        },
+        {
+            "trigger": "Inflector::camelize",
+            "contents": "Inflector::camelize(\\$lowerCaseAndUnderscoredWord)"
+        },
+        {
+            "trigger": "Inflector::underscore",
+            "contents": "Inflector::underscore(\\$camelCasedWord)"
+        },
+        {
+            "trigger": "Inflector::humanize",
+            "contents": "Inflector::humanize(\\$lowerCaseAndUnderscoredWord)"
+        },
+        {
+            "trigger": "Inflector::tableize",
+            "contents": "Inflector::tableize(\\$className)"
+        },
+        {
+            "trigger": "Inflector::classify",
+            "contents": "Inflector::classify(\\$tableName)"
+        },
+        {
+            "trigger": "Inflector::variable",
+            "contents": "Inflector::variable(\\$string)"
+        },
+        {
+            "trigger": "Inflector::slug",
+            "contents": "Inflector::slug(\\$string, \\$replacement = '_')"
+        },
+        {
+            "trigger": "ObjectCollection::normalizeObjectArray",
+            "contents": "ObjectCollection::normalizeObjectArray(\\$objects)"
+        },
+        {
+            "trigger": "Sanitize::paranoid",
+            "contents": "Sanitize::paranoid(\\$string, \\$allowed = array())"
+        },
+        {
+            "trigger": "Sanitize::escape",
+            "contents": "Sanitize::escape(\\$string, \\$connection = 'default')"
+        },
+        {
+            "trigger": "Sanitize::html",
+            "contents": "Sanitize::html(\\$string, \\$options = array())"
+        },
+        {
+            "trigger": "Sanitize::stripWhitespace",
+            "contents": "Sanitize::stripWhitespace(\\$str)"
+        },
+        {
+            "trigger": "Sanitize::stripImages",
+            "contents": "Sanitize::stripImages(\\$str)"
+        },
+        {
+            "trigger": "Sanitize::stripScripts",
+            "contents": "Sanitize::stripScripts(\\$str)"
+        },
+        {
+            "trigger": "Sanitize::stripAll",
+            "contents": "Sanitize::stripAll(\\$str)"
+        },
+        {
+            "trigger": "Sanitize::stripTags",
+            "contents": "Sanitize::stripTags(\\$str)"
+        },
+        {
+            "trigger": "Sanitize::clean",
+            "contents": "Sanitize::clean(\\$data, \\$options = array())"
+        },
+        {
+            "trigger": "Security::inactiveMins",
+            "contents": "Security::inactiveMins()"
+        },
+        {
+            "trigger": "Security::generateAuthKey",
+            "contents": "Security::generateAuthKey()"
+        },
+        {
+            "trigger": "Security::validateAuthKey",
+            "contents": "Security::validateAuthKey(\\$authKey)"
+        },
+        {
+            "trigger": "Security::hash",
+            "contents": "Security::hash(\\$string, \\$type = null, \\$salt = false)"
+        },
+        {
+            "trigger": "Security::setHash",
+            "contents": "Security::setHash(\\$hash)"
+        },
+        {
+            "trigger": "Security::cipher",
+            "contents": "Security::cipher(\\$text, \\$key)"
+        },
+        {
+            "trigger": "Security::rijndael",
+            "contents": "Security::rijndael(\\$text, \\$key, \\$operation)"
+        },
+        {
+            "trigger": "Set::merge",
+            "contents": "Set::merge(\\$data, \\$merge = null)"
+        },
+        {
+            "trigger": "Set::filter",
+            "contents": "Set::filter(array \\$var)"
+        },
+        {
+            "trigger": "Set::pushDiff",
+            "contents": "Set::pushDiff(\\$array, \\$array2)"
+        },
+        {
+            "trigger": "Set::map",
+            "contents": "Set::map(\\$class = 'stdClass', \\$tmp = 'stdClass')"
+        },
+        {
+            "trigger": "Set::numeric",
+            "contents": "Set::numeric(\\$array = null)"
+        },
+        {
+            "trigger": "Set::enum",
+            "contents": "Set::enum(\\$select, \\$list = null)"
+        },
+        {
+            "trigger": "Set::format",
+            "contents": "Set::format(\\$data, \\$format, \\$keys)"
+        },
+        {
+            "trigger": "Set::extract",
+            "contents": "Set::extract(\\$path, \\$data = null, \\$options = array())"
+        },
+        {
+            "trigger": "Set::matches",
+            "contents": "Set::matches(\\$conditions, \\$data = array(), \\$i = null, \\$length = null)"
+        },
+        {
+            "trigger": "Set::classicExtract",
+            "contents": "Set::classicExtract(\\$data, \\$path = null)"
+        },
+        {
+            "trigger": "Set::insert",
+            "contents": "Set::insert(\\$list, \\$path, \\$data = null)"
+        },
+        {
+            "trigger": "Set::remove",
+            "contents": "Set::remove(\\$list, \\$path = null)"
+        },
+        {
+            "trigger": "Set::check",
+            "contents": "Set::check(\\$data, \\$path = null)"
+        },
+        {
+            "trigger": "Set::diff",
+            "contents": "Set::diff(\\$val1, \\$val2 = null)"
+        },
+        {
+            "trigger": "Set::contains",
+            "contents": "Set::contains(\\$val1, \\$val2 = null)"
+        },
+        {
+            "trigger": "Set::countDim",
+            "contents": "Set::countDim(\\$array = null, \\$all = false, \\$count = 0)"
+        },
+        {
+            "trigger": "Set::normalize",
+            "contents": "Set::normalize(\\$list, \\$assoc = true, \\$sep = ',', \\$trim = true)"
+        },
+        {
+            "trigger": "Set::combine",
+            "contents": "Set::combine(\\$data, \\$path1 = null, \\$path2 = null, \\$groupPath = null)"
+        },
+        {
+            "trigger": "Set::reverse",
+            "contents": "Set::reverse(\\$object)"
+        },
+        {
+            "trigger": "Set::flatten",
+            "contents": "Set::flatten(\\$data, \\$separator = '.')"
+        },
+        {
+            "trigger": "Set::expand",
+            "contents": "Set::expand(\\$data, \\$separator = '.')"
+        },
+        {
+            "trigger": "Set::sort",
+            "contents": "Set::sort(\\$data, \\$path, \\$dir)"
+        },
+        {
+            "trigger": "Set::apply",
+            "contents": "Set::apply(\\$path, \\$data, \\$callback, \\$options = array())"
+        },
+        {
+            "trigger": "Set::nest",
+            "contents": "Set::nest(\\$data, \\$options = array())"
+        },
+        {
+            "trigger": "Set::get",
+            "contents": "Set::get(\\$input, \\$path = null)"
+        },
+        {
+            "trigger": "String::uuid",
+            "contents": "String::uuid()"
+        },
+        {
+            "trigger": "String::tokenize",
+            "contents": "String::tokenize(\\$data, \\$separator = ',', \\$leftBound = '(', \\$rightBound = ')')"
+        },
+        {
+            "trigger": "String::insert",
+            "contents": "String::insert(\\$str, \\$data, \\$options = array())"
+        },
+        {
+            "trigger": "String::cleanInsert",
+            "contents": "String::cleanInsert(\\$str, \\$options)"
+        },
+        {
+            "trigger": "String::wrap",
+            "contents": "String::wrap(\\$text, \\$options = array())"
+        },
+        {
+            "trigger": "String::highlight",
+            "contents": "String::highlight(\\$text, \\$phrase, \\$options = array())"
+        },
+        {
+            "trigger": "String::stripLinks",
+            "contents": "String::stripLinks(\\$text)"
+        },
+        {
+            "trigger": "String::truncate",
+            "contents": "String::truncate(\\$text, \\$length = 100, \\$options = array())"
+        },
+        {
+            "trigger": "String::excerpt",
+            "contents": "String::excerpt(\\$text, \\$phrase, \\$radius = 100, \\$ending = '...')"
+        },
+        {
+            "trigger": "String::toList",
+            "contents": "String::toList(\\$list, \\$and = 'and', \\$separator = ', ')"
+        },
+        {
+            "trigger": "Validation::notEmpty",
+            "contents": "Validation::notEmpty(\\$check)"
+        },
+        {
+            "trigger": "Validation::alphaNumeric",
+            "contents": "Validation::alphaNumeric(\\$check)"
+        },
+        {
+            "trigger": "Validation::between",
+            "contents": "Validation::between(\\$check, \\$min, \\$max)"
+        },
+        {
+            "trigger": "Validation::blank",
+            "contents": "Validation::blank(\\$check)"
+        },
+        {
+            "trigger": "Validation::cc",
+            "contents": "Validation::cc(\\$check, \\$type = 'fast', \\$deep = false, \\$regex = null)"
+        },
+        {
+            "trigger": "Validation::comparison",
+            "contents": "Validation::comparison(\\$check1, \\$operator = null, \\$check2 = null)"
+        },
+        {
+            "trigger": "Validation::custom",
+            "contents": "Validation::custom(\\$check, \\$regex = null)"
+        },
+        {
+            "trigger": "Validation::date",
+            "contents": "Validation::date(\\$check, \\$format = 'ymd', \\$regex = null)"
+        },
+        {
+            "trigger": "Validation::datetime",
+            "contents": "Validation::datetime(\\$check, \\$dateFormat = 'ymd', \\$regex = null)"
+        },
+        {
+            "trigger": "Validation::time",
+            "contents": "Validation::time(\\$check)"
+        },
+        {
+            "trigger": "Validation::boolean",
+            "contents": "Validation::boolean(\\$check)"
+        },
+        {
+            "trigger": "Validation::decimal",
+            "contents": "Validation::decimal(\\$check, \\$places = null, \\$regex = null)"
+        },
+        {
+            "trigger": "Validation::email",
+            "contents": "Validation::email(\\$check, \\$deep = false, \\$regex = null)"
+        },
+        {
+            "trigger": "Validation::equalTo",
+            "contents": "Validation::equalTo(\\$check, \\$comparedTo)"
+        },
+        {
+            "trigger": "Validation::extension",
+            "contents": "Validation::extension(\\$check, \\$extensions = array('gif', 'jpeg', 'png', 'jpg'))"
+        },
+        {
+            "trigger": "Validation::ip",
+            "contents": "Validation::ip(\\$check, \\$type = 'both')"
+        },
+        {
+            "trigger": "Validation::minLength",
+            "contents": "Validation::minLength(\\$check, \\$min)"
+        },
+        {
+            "trigger": "Validation::maxLength",
+            "contents": "Validation::maxLength(\\$check, \\$max)"
+        },
+        {
+            "trigger": "Validation::money",
+            "contents": "Validation::money(\\$check, \\$symbolPosition = 'left')"
+        },
+        {
+            "trigger": "Validation::multiple",
+            "contents": "Validation::multiple(\\$check, \\$options = array(), \\$strict = true)"
+        },
+        {
+            "trigger": "Validation::numeric",
+            "contents": "Validation::numeric(\\$check)"
+        },
+        {
+            "trigger": "Validation::naturalNumber",
+            "contents": "Validation::naturalNumber(\\$check, \\$allowZero = false)"
+        },
+        {
+            "trigger": "Validation::phone",
+            "contents": "Validation::phone(\\$check, \\$regex = null, \\$country = 'all')"
+        },
+        {
+            "trigger": "Validation::postal",
+            "contents": "Validation::postal(\\$check, \\$regex = null, \\$country = 'us')"
+        },
+        {
+            "trigger": "Validation::range",
+            "contents": "Validation::range(\\$check, \\$lower = null, \\$upper = null)"
+        },
+        {
+            "trigger": "Validation::ssn",
+            "contents": "Validation::ssn(\\$check, \\$regex = null, \\$country = null)"
+        },
+        {
+            "trigger": "Validation::url",
+            "contents": "Validation::url(\\$check, \\$strict = false)"
+        },
+        {
+            "trigger": "Validation::inList",
+            "contents": "Validation::inList(\\$check, \\$list, \\$strict = true)"
+        },
+        {
+            "trigger": "Validation::userDefined",
+            "contents": "Validation::userDefined(\\$check, \\$object, \\$method, \\$args = null)"
+        },
+        {
+            "trigger": "Validation::uuid",
+            "contents": "Validation::uuid(\\$check)"
+        },
+        {
+            "trigger": "Validation::luhn",
+            "contents": "Validation::luhn(\\$check, \\$deep = false)"
+        },
+        {
+            "trigger": "Validation::mimeType",
+            "contents": "Validation::mimeType(\\$check, \\$mimeTypes = array())"
+        },
+        {
+            "trigger": "Validation::uploadError",
+            "contents": "Validation::uploadError(\\$check)"
+        },
+        {
+            "trigger": "Xml::build",
+            "contents": "Xml::build(\\$input, \\$options = array())"
+        },
+        {
+            "trigger": "Xml::fromArray",
+            "contents": "Xml::fromArray(\\$input, \\$options = array())"
+        },
+        {
+            "trigger": "Xml::toArray",
+            "contents": "Xml::toArray(\\$obj)"
+        }
+    ]
+}

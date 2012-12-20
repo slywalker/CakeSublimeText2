@@ -1,0 +1,157 @@
+{
+    "scope": "source.php - variable.other.php",
+    "completions": [
+        {
+            "trigger": "Cache\t[CakePHP]",
+            "contents": "Cache"
+        },
+        {
+            "trigger": "PhpAco\t[CakePHP]",
+            "contents": "PhpAco"
+        },
+        {
+            "trigger": "PhpAro\t[CakePHP]",
+            "contents": "PhpAro"
+        },
+        {
+            "trigger": "NotFoundException\t[CakePHP]",
+            "contents": "NotFoundException"
+        },
+        {
+            "trigger": "MethodNotAllowedException\t[CakePHP]",
+            "contents": "MethodNotAllowedException"
+        },
+        {
+            "trigger": "InternalErrorException\t[CakePHP]",
+            "contents": "InternalErrorException"
+        },
+        {
+            "trigger": "CakeException\t[CakePHP]",
+            "contents": "CakeException"
+        },
+        {
+            "trigger": "MissingControllerException\t[CakePHP]",
+            "contents": "MissingControllerException"
+        },
+        {
+            "trigger": "MissingActionException\t[CakePHP]",
+            "contents": "MissingActionException"
+        },
+        {
+            "trigger": "PrivateActionException\t[CakePHP]",
+            "contents": "PrivateActionException"
+        },
+        {
+            "trigger": "MissingComponentException\t[CakePHP]",
+            "contents": "MissingComponentException"
+        },
+        {
+            "trigger": "MissingBehaviorException\t[CakePHP]",
+            "contents": "MissingBehaviorException"
+        },
+        {
+            "trigger": "MissingViewException\t[CakePHP]",
+            "contents": "MissingViewException"
+        },
+        {
+            "trigger": "MissingLayoutException\t[CakePHP]",
+            "contents": "MissingLayoutException"
+        },
+        {
+            "trigger": "MissingHelperException\t[CakePHP]",
+            "contents": "MissingHelperException"
+        },
+        {
+            "trigger": "MissingDatabaseException\t[CakePHP]",
+            "contents": "MissingDatabaseException"
+        },
+        {
+            "trigger": "MissingConnectionException\t[CakePHP]",
+            "contents": "MissingConnectionException"
+        },
+        {
+            "trigger": "MissingTaskException\t[CakePHP]",
+            "contents": "MissingTaskException"
+        },
+        {
+            "trigger": "MissingShellMethodException\t[CakePHP]",
+            "contents": "MissingShellMethodException"
+        },
+        {
+            "trigger": "MissingShellException\t[CakePHP]",
+            "contents": "MissingShellException"
+        },
+        {
+            "trigger": "MissingDatasourceConfigException\t[CakePHP]",
+            "contents": "MissingDatasourceConfigException"
+        },
+        {
+            "trigger": "MissingDatasourceException\t[CakePHP]",
+            "contents": "MissingDatasourceException"
+        },
+        {
+            "trigger": "MissingTableException\t[CakePHP]",
+            "contents": "MissingTableException"
+        },
+        {
+            "trigger": "MissingModelException\t[CakePHP]",
+            "contents": "MissingModelException"
+        },
+        {
+            "trigger": "MissingTestLoaderException\t[CakePHP]",
+            "contents": "MissingTestLoaderException"
+        },
+        {
+            "trigger": "MissingPluginException\t[CakePHP]",
+            "contents": "MissingPluginException"
+        },
+        {
+            "trigger": "MissingDispatcherFilterException\t[CakePHP]",
+            "contents": "MissingDispatcherFilterException"
+        },
+        {
+            "trigger": "AclException\t[CakePHP]",
+            "contents": "AclException"
+        },
+        {
+            "trigger": "CacheException\t[CakePHP]",
+            "contents": "CacheException"
+        },
+        {
+            "trigger": "RouterException\t[CakePHP]",
+            "contents": "RouterException"
+        },
+        {
+            "trigger": "CakeLogException\t[CakePHP]",
+            "contents": "CakeLogException"
+        },
+        {
+            "trigger": "CakeSessionException\t[CakePHP]",
+            "contents": "CakeSessionException"
+        },
+        {
+            "trigger": "ConfigureException\t[CakePHP]",
+            "contents": "ConfigureException"
+        },
+        {
+            "trigger": "SocketException\t[CakePHP]",
+            "contents": "SocketException"
+        },
+        {
+            "trigger": "XmlException\t[CakePHP]",
+            "contents": "XmlException"
+        },
+        {
+            "trigger": "ConsoleException\t[CakePHP]",
+            "contents": "ConsoleException"
+        },
+        {
+            "trigger": "FatalErrorException\t[CakePHP]",
+            "contents": "FatalErrorException"
+        },
+        {
+            "trigger": "NotImplementedException\t[CakePHP]",
+            "contents": "NotImplementedException"
+        }
+    ]
+}

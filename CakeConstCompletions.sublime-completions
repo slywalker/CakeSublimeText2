@@ -1,0 +1,89 @@
+{
+    "scope": "source.php - variable.other.php",
+    "completions": [
+        {
+            "trigger": "SECOND\t[CakePHP]",
+            "contents": "SECOND"
+        },
+        {
+            "trigger": "MINUTE\t[CakePHP]",
+            "contents": "MINUTE"
+        },
+        {
+            "trigger": "HOUR\t[CakePHP]",
+            "contents": "HOUR"
+        },
+        {
+            "trigger": "DAY\t[CakePHP]",
+            "contents": "DAY"
+        },
+        {
+            "trigger": "WEEK\t[CakePHP]",
+            "contents": "WEEK"
+        },
+        {
+            "trigger": "MONTH\t[CakePHP]",
+            "contents": "MONTH"
+        },
+        {
+            "trigger": "YEAR\t[CakePHP]",
+            "contents": "YEAR"
+        },
+        {
+            "trigger": "APP\t[CakePHP]",
+            "contents": "APP"
+        },
+        {
+            "trigger": "APPLIBS\t[CakePHP]",
+            "contents": "APPLIBS"
+        },
+        {
+            "trigger": "CSS\t[CakePHP]",
+            "contents": "CSS"
+        },
+        {
+            "trigger": "JS\t[CakePHP]",
+            "contents": "JS"
+        },
+        {
+            "trigger": "IMAGES\t[CakePHP]",
+            "contents": "IMAGES"
+        },
+        {
+            "trigger": "TESTS\t[CakePHP]",
+            "contents": "TESTS"
+        },
+        {
+            "trigger": "TMP\t[CakePHP]",
+            "contents": "TMP"
+        },
+        {
+            "trigger": "LOGS\t[CakePHP]",
+            "contents": "LOGS"
+        },
+        {
+            "trigger": "CACHE\t[CakePHP]",
+            "contents": "CACHE"
+        },
+        {
+            "trigger": "VENDORS\t[CakePHP]",
+            "contents": "VENDORS"
+        },
+        {
+            "trigger": "IMAGES_URL\t[CakePHP]",
+            "contents": "IMAGES_URL"
+        },
+        {
+            "trigger": "CSS_URL\t[CakePHP]",
+            "contents": "CSS_URL"
+        },
+        {
+            "trigger": "JS_URL\t[CakePHP]",
+            "contents": "JS_URL"
+        },
+        {
+            "trigger": "FULL_BASE_URL\t[CakePHP]",
+            "contents": "FULL_BASE_URL"
+        }
+    ]
+}

@@ -1,0 +1,1821 @@
+{
+    "scope": "source.php - variable.other.php",
+    "completions": [
+        {
+            "trigger": "settings\t[CacheEngine]",
+            "contents": "settings"
+        },
+        {
+            "trigger": "settings\t[FileEngine]",
+            "contents": "settings"
+        },
+        {
+            "trigger": "settings\t[MemcacheEngine]",
+            "contents": "settings"
+        },
+        {
+            "trigger": "settings\t[RedisEngine]",
+            "contents": "settings"
+        },
+        {
+            "trigger": "settings\t[XcacheEngine]",
+            "contents": "settings"
+        },
+        {
+            "trigger": "OptionParser\t[Shell]",
+            "contents": "OptionParser"
+        },
+        {
+            "trigger": "interactive\t[Shell]",
+            "contents": "interactive"
+        },
+        {
+            "trigger": "params\t[Shell]",
+            "contents": "params"
+        },
+        {
+            "trigger": "command\t[Shell]",
+            "contents": "command"
+        },
+        {
+            "trigger": "args\t[Shell]",
+            "contents": "args"
+        },
+        {
+            "trigger": "name\t[Shell]",
+            "contents": "name"
+        },
+        {
+            "trigger": "plugin\t[Shell]",
+            "contents": "plugin"
+        },
+        {
+            "trigger": "tasks\t[Shell]",
+            "contents": "tasks"
+        },
+        {
+            "trigger": "taskNames\t[Shell]",
+            "contents": "taskNames"
+        },
+        {
+            "trigger": "uses\t[Shell]",
+            "contents": "uses"
+        },
+        {
+            "trigger": "Tasks\t[Shell]",
+            "contents": "Tasks"
+        },
+        {
+            "trigger": "stdout\t[Shell]",
+            "contents": "stdout"
+        },
+        {
+            "trigger": "stderr\t[Shell]",
+            "contents": "stderr"
+        },
+        {
+            "trigger": "stdin\t[Shell]",
+            "contents": "stdin"
+        },
+        {
+            "trigger": "uses\t[Shell]",
+            "contents": "uses"
+        },
+        {
+            "trigger": "tasks\t[Shell]",
+            "contents": "tasks"
+        },
+        {
+            "trigger": "params\t[ShellDispatcher]",
+            "contents": "params"
+        },
+        {
+            "trigger": "args\t[ShellDispatcher]",
+            "contents": "args"
+        },
+        {
+            "trigger": "taskPathPrefix\t[TaskCollection]",
+            "contents": "taskPathPrefix"
+        },
+        {
+            "trigger": "Acl\t[AclShell]",
+            "contents": "Acl"
+        },
+        {
+            "trigger": "args\t[AclShell]",
+            "contents": "args"
+        },
+        {
+            "trigger": "connection\t[AclShell]",
+            "contents": "connection"
+        },
+        {
+            "trigger": "tasks\t[AclShell]",
+            "contents": "tasks"
+        },
+        {
+            "trigger": "paths\t[ApiShell]",
+            "contents": "paths"
+        },
+        {
+            "trigger": "tasks\t[BakeShell]",
+            "contents": "tasks"
+        },
+        {
+            "trigger": "connection\t[BakeShell]",
+            "contents": "connection"
+        },
+        {
+            "trigger": "associations\t[ConsoleShell]",
+            "contents": "associations"
+        },
+        {
+            "trigger": "badCommandChars\t[ConsoleShell]",
+            "contents": "badCommandChars"
+        },
+        {
+            "trigger": "models\t[ConsoleShell]",
+            "contents": "models"
+        },
+        {
+            "trigger": "dataSource\t[I18nShell]",
+            "contents": "dataSource"
+        },
+        {
+            "trigger": "tasks\t[I18nShell]",
+            "contents": "tasks"
+        },
+        {
+            "trigger": "Schema\t[SchemaShell]",
+            "contents": "Schema"
+        },
+        {
+            "trigger": "plugin\t[BakeTask]",
+            "contents": "plugin"
+        },
+        {
+            "trigger": "connection\t[BakeTask]",
+            "contents": "connection"
+        },
+        {
+            "trigger": "interactive\t[BakeTask]",
+            "contents": "interactive"
+        },
+        {
+            "trigger": "tasks\t[ControllerTask]",
+            "contents": "tasks"
+        },
+        {
+            "trigger": "path\t[ControllerTask]",
+            "contents": "path"
+        },
+        {
+            "trigger": "path\t[DbConfigTask]",
+            "contents": "path"
+        },
+        {
+            "trigger": "databaseClassName\t[DbConfigTask]",
+            "contents": "databaseClassName"
+        },
+        {
+            "trigger": "tasks\t[FixtureTask]",
+            "contents": "tasks"
+        },
+        {
+            "trigger": "path\t[FixtureTask]",
+            "contents": "path"
+        },
+        {
+            "trigger": "import\t[FixtureTask]",
+            "contents": "import"
+        },
+        {
+            "trigger": "path\t[ModelTask]",
+            "contents": "path"
+        },
+        {
+            "trigger": "tasks\t[ModelTask]",
+            "contents": "tasks"
+        },
+        {
+            "trigger": "skipTables\t[ModelTask]",
+            "contents": "skipTables"
+        },
+        {
+            "trigger": "path\t[PluginTask]",
+            "contents": "path"
+        },
+        {
+            "trigger": "bootstrap\t[PluginTask]",
+            "contents": "bootstrap"
+        },
+        {
+            "trigger": "configPath\t[ProjectTask]",
+            "contents": "configPath"
+        },
+        {
+            "trigger": "templateVars\t[TemplateTask]",
+            "contents": "templateVars"
+        },
+        {
+            "trigger": "templatePaths\t[TemplateTask]",
+            "contents": "templatePaths"
+        },
+        {
+            "trigger": "path\t[TestTask]",
+            "contents": "path"
+        },
+        {
+            "trigger": "tasks\t[TestTask]",
+            "contents": "tasks"
+        },
+        {
+            "trigger": "classTypes\t[TestTask]",
+            "contents": "classTypes"
+        },
+        {
+            "trigger": "baseTypes\t[TestTask]",
+            "contents": "baseTypes"
+        },
+        {
+            "trigger": "tasks\t[ViewTask]",
+            "contents": "tasks"
+        },
+        {
+            "trigger": "path\t[ViewTask]",
+            "contents": "path"
+        },
+        {
+            "trigger": "controllerName\t[ViewTask]",
+            "contents": "controllerName"
+        },
+        {
+            "trigger": "template\t[ViewTask]",
+            "contents": "template"
+        },
+        {
+            "trigger": "scaffoldActions\t[ViewTask]",
+            "contents": "scaffoldActions"
+        },
+        {
+            "trigger": "noTemplateActions\t[ViewTask]",
+            "contents": "noTemplateActions"
+        },
+        {
+            "trigger": "cacheAction\t[core]",
+            "contents": "cacheAction"
+        },
+        {
+            "trigger": "cacheAction\t[core]",
+            "contents": "cacheAction"
+        },
+        {
+            "trigger": "name\t[db_acl]",
+            "contents": "name"
+        },
+        {
+            "trigger": "acos\t[db_acl]",
+            "contents": "acos"
+        },
+        {
+            "trigger": "aros\t[db_acl]",
+            "contents": "aros"
+        },
+        {
+            "trigger": "aros_acos\t[db_acl]",
+            "contents": "aros_acos"
+        },
+        {
+            "trigger": "name\t[i18n]",
+            "contents": "name"
+        },
+        {
+            "trigger": "i18n\t[i18n]",
+            "contents": "i18n"
+        },
+        {
+            "trigger": "name\t[sessions]",
+            "contents": "name"
+        },
+        {
+            "trigger": "cake_sessions\t[sessions]",
+            "contents": "cake_sessions"
+        },
+        {
+            "trigger": "uses\t[PagesController]",
+            "contents": "uses"
+        },
+        {
+            "trigger": "name\t[CakeErrorController]",
+            "contents": "name"
+        },
+        {
+            "trigger": "uses\t[CakeErrorController]",
+            "contents": "uses"
+        },
+        {
+            "trigger": "settings\t[Component]",
+            "contents": "settings"
+        },
+        {
+            "trigger": "components\t[Component]",
+            "contents": "components"
+        },
+        {
+            "trigger": "components\t[ComponentCollection]",
+            "contents": "components"
+        },
+        {
+            "trigger": "name\t[Controller]",
+            "contents": "name"
+        },
+        {
+            "trigger": "uses\t[Controller]",
+            "contents": "uses"
+        },
+        {
+            "trigger": "uses\t[Controller]",
+            "contents": "uses"
+        },
+        {
+            "trigger": "helpers\t[Controller]",
+            "contents": "helpers"
+        },
+        {
+            "trigger": "helpers\t[Controller]",
+            "contents": "helpers"
+        },
+        {
+            "trigger": "request\t[Controller]",
+            "contents": "request"
+        },
+        {
+            "trigger": "response\t[Controller]",
+            "contents": "response"
+        },
+        {
+            "trigger": "viewPath\t[Controller]",
+            "contents": "viewPath"
+        },
+        {
+            "trigger": "layoutPath\t[Controller]",
+            "contents": "layoutPath"
+        },
+        {
+            "trigger": "viewVars\t[Controller]",
+            "contents": "viewVars"
+        },
+        {
+            "trigger": "view\t[Controller]",
+            "contents": "view"
+        },
+        {
+            "trigger": "layout\t[Controller]",
+            "contents": "layout"
+        },
+        {
+            "trigger": "autoRender\t[Controller]",
+            "contents": "autoRender"
+        },
+        {
+            "trigger": "autoLayout\t[Controller]",
+            "contents": "autoLayout"
+        },
+        {
+            "trigger": "Components\t[Controller]",
+            "contents": "Components"
+        },
+        {
+            "trigger": "components\t[Controller]",
+            "contents": "components"
+        },
+        {
+            "trigger": "components\t[Controller]",
+            "contents": "components"
+        },
+        {
+            "trigger": "viewClass\t[Controller]",
+            "contents": "viewClass"
+        },
+        {
+            "trigger": "View\t[Controller]",
+            "contents": "View"
+        },
+        {
+            "trigger": "ext\t[Controller]",
+            "contents": "ext"
+        },
+        {
+            "trigger": "plugin\t[Controller]",
+            "contents": "plugin"
+        },
+        {
+            "trigger": "cacheAction\t[Controller]",
+            "contents": "cacheAction"
+        },
+        {
+            "trigger": "cacheAction\t[Controller]",
+            "contents": "cacheAction"
+        },
+        {
+            "trigger": "passedArgs\t[Controller]",
+            "contents": "passedArgs"
+        },
+        {
+            "trigger": "scaffold\t[Controller]",
+            "contents": "scaffold"
+        },
+        {
+            "trigger": "methods\t[Controller]",
+            "contents": "methods"
+        },
+        {
+            "trigger": "modelClass\t[Controller]",
+            "contents": "modelClass"
+        },
+        {
+            "trigger": "modelKey\t[Controller]",
+            "contents": "modelKey"
+        },
+        {
+            "trigger": "validationErrors\t[Controller]",
+            "contents": "validationErrors"
+        },
+        {
+            "trigger": "controller\t[Scaffold]",
+            "contents": "controller"
+        },
+        {
+            "trigger": "name\t[Scaffold]",
+            "contents": "name"
+        },
+        {
+            "trigger": "model\t[Scaffold]",
+            "contents": "model"
+        },
+        {
+            "trigger": "viewPath\t[Scaffold]",
+            "contents": "viewPath"
+        },
+        {
+            "trigger": "layout\t[Scaffold]",
+            "contents": "layout"
+        },
+        {
+            "trigger": "request\t[Scaffold]",
+            "contents": "request"
+        },
+        {
+            "trigger": "scaffoldTitle\t[Scaffold]",
+            "contents": "scaffoldTitle"
+        },
+        {
+            "trigger": "scaffold\t[Scaffold]",
+            "contents": "scaffold"
+        },
+        {
+            "trigger": "Aro\t[AclComponent]",
+            "contents": "Aro"
+        },
+        {
+            "trigger": "Aco\t[AclComponent]",
+            "contents": "Aco"
+        },
+        {
+            "trigger": "components\t[AuthComponent]",
+            "contents": "components"
+        },
+        {
+            "trigger": "authenticate\t[AuthComponent]",
+            "contents": "authenticate"
+        },
+        {
+            "trigger": "authorize\t[AuthComponent]",
+            "contents": "authorize"
+        },
+        {
+            "trigger": "ajaxLogin\t[AuthComponent]",
+            "contents": "ajaxLogin"
+        },
+        {
+            "trigger": "flash\t[AuthComponent]",
+            "contents": "flash"
+        },
+        {
+            "trigger": "loginAction\t[AuthComponent]",
+            "contents": "loginAction"
+        },
+        {
+            "trigger": "loginRedirect\t[AuthComponent]",
+            "contents": "loginRedirect"
+        },
+        {
+            "trigger": "logoutRedirect\t[AuthComponent]",
+            "contents": "logoutRedirect"
+        },
+        {
+            "trigger": "authError\t[AuthComponent]",
+            "contents": "authError"
+        },
+        {
+            "trigger": "allowedActions\t[AuthComponent]",
+            "contents": "allowedActions"
+        },
+        {
+            "trigger": "request\t[AuthComponent]",
+            "contents": "request"
+        },
+        {
+            "trigger": "response\t[AuthComponent]",
+            "contents": "response"
+        },
+        {
+            "trigger": "name\t[CookieComponent]",
+            "contents": "name"
+        },
+        {
+            "trigger": "time\t[CookieComponent]",
+            "contents": "time"
+        },
+        {
+            "trigger": "cookiePath\t[CookieComponent]",
+            "contents": "cookiePath"
+        },
+        {
+            "trigger": "path\t[CookieComponent]",
+            "contents": "path"
+        },
+        {
+            "trigger": "domain\t[CookieComponent]",
+            "contents": "domain"
+        },
+        {
+            "trigger": "secure\t[CookieComponent]",
+            "contents": "secure"
+        },
+        {
+            "trigger": "key\t[CookieComponent]",
+            "contents": "key"
+        },
+        {
+            "trigger": "httpOnly\t[CookieComponent]",
+            "contents": "httpOnly"
+        },
+        {
+            "trigger": "type\t[CookieComponent]",
+            "contents": "type"
+        },
+        {
+            "trigger": "type\t[CookieComponent]",
+            "contents": "type"
+        },
+        {
+            "trigger": "to\t[EmailComponent]",
+            "contents": "to"
+        },
+        {
+            "trigger": "from\t[EmailComponent]",
+            "contents": "from"
+        },
+        {
+            "trigger": "replyTo\t[EmailComponent]",
+            "contents": "replyTo"
+        },
+        {
+            "trigger": "readReceipt\t[EmailComponent]",
+            "contents": "readReceipt"
+        },
+        {
+            "trigger": "return\t[EmailComponent]",
+            "contents": "return"
+        },
+        {
+            "trigger": "cc\t[EmailComponent]",
+            "contents": "cc"
+        },
+        {
+            "trigger": "bcc\t[EmailComponent]",
+            "contents": "bcc"
+        },
+        {
+            "trigger": "date\t[EmailComponent]",
+            "contents": "date"
+        },
+        {
+            "trigger": "subject\t[EmailComponent]",
+            "contents": "subject"
+        },
+        {
+            "trigger": "headers\t[EmailComponent]",
+            "contents": "headers"
+        },
+        {
+            "trigger": "additionalParams\t[EmailComponent]",
+            "contents": "additionalParams"
+        },
+        {
+            "trigger": "layout\t[EmailComponent]",
+            "contents": "layout"
+        },
+        {
+            "trigger": "template\t[EmailComponent]",
+            "contents": "template"
+        },
+        {
+            "trigger": "lineFeed\t[EmailComponent]",
+            "contents": "lineFeed"
+        },
+        {
+            "trigger": "sendAs\t[EmailComponent]",
+            "contents": "sendAs"
+        },
+        {
+            "trigger": "delivery\t[EmailComponent]",
+            "contents": "delivery"
+        },
+        {
+            "trigger": "charset\t[EmailComponent]",
+            "contents": "charset"
+        },
+        {
+            "trigger": "attachments\t[EmailComponent]",
+            "contents": "attachments"
+        },
+        {
+            "trigger": "xMailer\t[EmailComponent]",
+            "contents": "xMailer"
+        },
+        {
+            "trigger": "filePaths\t[EmailComponent]",
+            "contents": "filePaths"
+        },
+        {
+            "trigger": "smtpOptions\t[EmailComponent]",
+            "contents": "smtpOptions"
+        },
+        {
+            "trigger": "textMessage\t[EmailComponent]",
+            "contents": "textMessage"
+        },
+        {
+            "trigger": "htmlMessage\t[EmailComponent]",
+            "contents": "htmlMessage"
+        },
+        {
+            "trigger": "messageId\t[EmailComponent]",
+            "contents": "messageId"
+        },
+        {
+            "trigger": "settings\t[PaginatorComponent]",
+            "contents": "settings"
+        },
+        {
+            "trigger": "whitelist\t[PaginatorComponent]",
+            "contents": "whitelist"
+        },
+        {
+            "trigger": "ajaxLayout\t[RequestHandlerComponent]",
+            "contents": "ajaxLayout"
+        },
+        {
+            "trigger": "enabled\t[RequestHandlerComponent]",
+            "contents": "enabled"
+        },
+        {
+            "trigger": "request\t[RequestHandlerComponent]",
+            "contents": "request"
+        },
+        {
+            "trigger": "response\t[RequestHandlerComponent]",
+            "contents": "response"
+        },
+        {
+            "trigger": "ext\t[RequestHandlerComponent]",
+            "contents": "ext"
+        },
+        {
+            "trigger": "blackHoleCallback\t[SecurityComponent]",
+            "contents": "blackHoleCallback"
+        },
+        {
+            "trigger": "requirePost\t[SecurityComponent]",
+            "contents": "requirePost"
+        },
+        {
+            "trigger": "requireGet\t[SecurityComponent]",
+            "contents": "requireGet"
+        },
+        {
+            "trigger": "requirePut\t[SecurityComponent]",
+            "contents": "requirePut"
+        },
+        {
+            "trigger": "requireDelete\t[SecurityComponent]",
+            "contents": "requireDelete"
+        },
+        {
+            "trigger": "requireSecure\t[SecurityComponent]",
+            "contents": "requireSecure"
+        },
+        {
+            "trigger": "requireAuth\t[SecurityComponent]",
+            "contents": "requireAuth"
+        },
+        {
+            "trigger": "allowedControllers\t[SecurityComponent]",
+            "contents": "allowedControllers"
+        },
+        {
+            "trigger": "allowedActions\t[SecurityComponent]",
+            "contents": "allowedActions"
+        },
+        {
+            "trigger": "disabledFields\t[SecurityComponent]",
+            "contents": "disabledFields"
+        },
+        {
+            "trigger": "unlockedFields\t[SecurityComponent]",
+            "contents": "unlockedFields"
+        },
+        {
+            "trigger": "validatePost\t[SecurityComponent]",
+            "contents": "validatePost"
+        },
+        {
+            "trigger": "csrfCheck\t[SecurityComponent]",
+            "contents": "csrfCheck"
+        },
+        {
+            "trigger": "csrfExpires\t[SecurityComponent]",
+            "contents": "csrfExpires"
+        },
+        {
+            "trigger": "csrfUseOnce\t[SecurityComponent]",
+            "contents": "csrfUseOnce"
+        },
+        {
+            "trigger": "csrfLimit\t[SecurityComponent]",
+            "contents": "csrfLimit"
+        },
+        {
+            "trigger": "components\t[SecurityComponent]",
+            "contents": "components"
+        },
+        {
+            "trigger": "request\t[SecurityComponent]",
+            "contents": "request"
+        },
+        {
+            "trigger": "config\t[IniAcl]",
+            "contents": "config"
+        },
+        {
+            "trigger": "userPath\t[IniAcl]",
+            "contents": "userPath"
+        },
+        {
+            "trigger": "options\t[PhpAcl]",
+            "contents": "options"
+        },
+        {
+            "trigger": "Aro\t[PhpAcl]",
+            "contents": "Aro"
+        },
+        {
+            "trigger": "Aco\t[PhpAcl]",
+            "contents": "Aco"
+        },
+        {
+            "trigger": "map\t[PhpAcl]",
+            "contents": "map"
+        },
+        {
+            "trigger": "aliases\t[PhpAcl]",
+            "contents": "aliases"
+        },
+        {
+            "trigger": "settings\t[BaseAuthenticate]",
+            "contents": "settings"
+        },
+        {
+            "trigger": "settings\t[BaseAuthorize]",
+            "contents": "settings"
+        },
+        {
+            "trigger": "components\t[BasicAuthenticate]",
+            "contents": "components"
+        },
+        {
+            "trigger": "settings\t[BasicAuthenticate]",
+            "contents": "settings"
+        },
+        {
+            "trigger": "components\t[DigestAuthenticate]",
+            "contents": "components"
+        },
+        {
+            "trigger": "settings\t[DigestAuthenticate]",
+            "contents": "settings"
+        },
+        {
+            "trigger": "controller\t[ExceptionRenderer]",
+            "contents": "controller"
+        },
+        {
+            "trigger": "template\t[ExceptionRenderer]",
+            "contents": "template"
+        },
+        {
+            "trigger": "method\t[ExceptionRenderer]",
+            "contents": "method"
+        },
+        {
+            "trigger": "error\t[ExceptionRenderer]",
+            "contents": "error"
+        },
+        {
+            "trigger": "data\t[CakeEvent]",
+            "contents": "data"
+        },
+        {
+            "trigger": "result\t[CakeEvent]",
+            "contents": "result"
+        },
+        {
+            "trigger": "l10n\t[I18n]",
+            "contents": "l10n"
+        },
+        {
+            "trigger": "domain\t[I18n]",
+            "contents": "domain"
+        },
+        {
+            "trigger": "category\t[I18n]",
+            "contents": "category"
+        },
+        {
+            "trigger": "language\t[L10n]",
+            "contents": "language"
+        },
+        {
+            "trigger": "languagePath\t[L10n]",
+            "contents": "languagePath"
+        },
+        {
+            "trigger": "lang\t[L10n]",
+            "contents": "lang"
+        },
+        {
+            "trigger": "locale\t[L10n]",
+            "contents": "locale"
+        },
+        {
+            "trigger": "default\t[L10n]",
+            "contents": "default"
+        },
+        {
+            "trigger": "charset\t[L10n]",
+            "contents": "charset"
+        },
+        {
+            "trigger": "direction\t[L10n]",
+            "contents": "direction"
+        },
+        {
+            "trigger": "found\t[L10n]",
+            "contents": "found"
+        },
+        {
+            "trigger": "cacheQueries\t[AclNode]",
+            "contents": "cacheQueries"
+        },
+        {
+            "trigger": "actsAs\t[AclNode]",
+            "contents": "actsAs"
+        },
+        {
+            "trigger": "name\t[Aco]",
+            "contents": "name"
+        },
+        {
+            "trigger": "hasAndBelongsToMany\t[Aco]",
+            "contents": "hasAndBelongsToMany"
+        },
+        {
+            "trigger": "name\t[AcoAction]",
+            "contents": "name"
+        },
+        {
+            "trigger": "belongsTo\t[AcoAction]",
+            "contents": "belongsTo"
+        },
+        {
+            "trigger": "name\t[Aro]",
+            "contents": "name"
+        },
+        {
+            "trigger": "hasAndBelongsToMany\t[Aro]",
+            "contents": "hasAndBelongsToMany"
+        },
+        {
+            "trigger": "modelName\t[BehaviorCollection]",
+            "contents": "modelName"
+        },
+        {
+            "trigger": "actsAs\t[BehaviorCollection]",
+            "contents": "actsAs"
+        },
+        {
+            "trigger": "name\t[CakeSchema]",
+            "contents": "name"
+        },
+        {
+            "trigger": "path\t[CakeSchema]",
+            "contents": "path"
+        },
+        {
+            "trigger": "file\t[CakeSchema]",
+            "contents": "file"
+        },
+        {
+            "trigger": "connection\t[CakeSchema]",
+            "contents": "connection"
+        },
+        {
+            "trigger": "plugin\t[CakeSchema]",
+            "contents": "plugin"
+        },
+        {
+            "trigger": "tables\t[CakeSchema]",
+            "contents": "tables"
+        },
+        {
+            "trigger": "name\t[I18nModel]",
+            "contents": "name"
+        },
+        {
+            "trigger": "useTable\t[I18nModel]",
+            "contents": "useTable"
+        },
+        {
+            "trigger": "displayField\t[I18nModel]",
+            "contents": "displayField"
+        },
+        {
+            "trigger": "useDbConfig\t[Model]",
+            "contents": "useDbConfig"
+        },
+        {
+            "trigger": "useTable\t[Model]",
+            "contents": "useTable"
+        },
+        {
+            "trigger": "displayField\t[Model]",
+            "contents": "displayField"
+        },
+        {
+            "trigger": "id\t[Model]",
+            "contents": "id"
+        },
+        {
+            "trigger": "data\t[Model]",
+            "contents": "data"
+        },
+        {
+            "trigger": "schemaName\t[Model]",
+            "contents": "schemaName"
+        },
+        {
+            "trigger": "table\t[Model]",
+            "contents": "table"
+        },
+        {
+            "trigger": "primaryKey\t[Model]",
+            "contents": "primaryKey"
+        },
+        {
+            "trigger": "validate\t[Model]",
+            "contents": "validate"
+        },
+        {
+            "trigger": "validate\t[Model]",
+            "contents": "validate"
+        },
+        {
+            "trigger": "validate\t[Model]",
+            "contents": "validate"
+        },
+        {
+            "trigger": "validate\t[Model]",
+            "contents": "validate"
+        },
+        {
+            "trigger": "validate\t[Model]",
+            "contents": "validate"
+        },
+        {
+            "trigger": "validate\t[Model]",
+            "contents": "validate"
+        },
+        {
+            "trigger": "validate\t[Model]",
+            "contents": "validate"
+        },
+        {
+            "trigger": "validationErrors\t[Model]",
+            "contents": "validationErrors"
+        },
+        {
+            "trigger": "validationDomain\t[Model]",
+            "contents": "validationDomain"
+        },
+        {
+            "trigger": "tablePrefix\t[Model]",
+            "contents": "tablePrefix"
+        },
+        {
+            "trigger": "name\t[Model]",
+            "contents": "name"
+        },
+        {
+            "trigger": "alias\t[Model]",
+            "contents": "alias"
+        },
+        {
+            "trigger": "tableToModel\t[Model]",
+            "contents": "tableToModel"
+        },
+        {
+            "trigger": "cacheQueries\t[Model]",
+            "contents": "cacheQueries"
+        },
+        {
+            "trigger": "belongsTo\t[Model]",
+            "contents": "belongsTo"
+        },
+        {
+            "trigger": "belongsTo\t[Model]",
+            "contents": "belongsTo"
+        },
+        {
+            "trigger": "belongsTo\t[Model]",
+            "contents": "belongsTo"
+        },
+        {
+            "trigger": "hasOne\t[Model]",
+            "contents": "hasOne"
+        },
+        {
+            "trigger": "hasOne\t[Model]",
+            "contents": "hasOne"
+        },
+        {
+            "trigger": "hasOne\t[Model]",
+            "contents": "hasOne"
+        },
+        {
+            "trigger": "hasMany\t[Model]",
+            "contents": "hasMany"
+        },
+        {
+            "trigger": "hasMany\t[Model]",
+            "contents": "hasMany"
+        },
+        {
+            "trigger": "hasMany\t[Model]",
+            "contents": "hasMany"
+        },
+        {
+            "trigger": "hasAndBelongsToMany\t[Model]",
+            "contents": "hasAndBelongsToMany"
+        },
+        {
+            "trigger": "hasAndBelongsToMany\t[Model]",
+            "contents": "hasAndBelongsToMany"
+        },
+        {
+            "trigger": "hasAndBelongsToMany\t[Model]",
+            "contents": "hasAndBelongsToMany"
+        },
+        {
+            "trigger": "actsAs\t[Model]",
+            "contents": "actsAs"
+        },
+        {
+            "trigger": "actsAs\t[Model]",
+            "contents": "actsAs"
+        },
+        {
+            "trigger": "Behaviors\t[Model]",
+            "contents": "Behaviors"
+        },
+        {
+            "trigger": "whitelist\t[Model]",
+            "contents": "whitelist"
+        },
+        {
+            "trigger": "cacheSources\t[Model]",
+            "contents": "cacheSources"
+        },
+        {
+            "trigger": "findQueryType\t[Model]",
+            "contents": "findQueryType"
+        },
+        {
+            "trigger": "recursive\t[Model]",
+            "contents": "recursive"
+        },
+        {
+            "trigger": "order\t[Model]",
+            "contents": "order"
+        },
+        {
+            "trigger": "order\t[Model]",
+            "contents": "order"
+        },
+        {
+            "trigger": "order\t[Model]",
+            "contents": "order"
+        },
+        {
+            "trigger": "virtualFields\t[Model]",
+            "contents": "virtualFields"
+        },
+        {
+            "trigger": "virtualFields\t[Model]",
+            "contents": "virtualFields"
+        },
+        {
+            "trigger": "__backAssociation\t[Model]",
+            "contents": "__backAssociation"
+        },
+        {
+            "trigger": "__backInnerAssociation\t[Model]",
+            "contents": "__backInnerAssociation"
+        },
+        {
+            "trigger": "__backOriginalAssociation\t[Model]",
+            "contents": "__backOriginalAssociation"
+        },
+        {
+            "trigger": "__backContainableAssociation\t[Model]",
+            "contents": "__backContainableAssociation"
+        },
+        {
+            "trigger": "findMethods\t[Model]",
+            "contents": "findMethods"
+        },
+        {
+            "trigger": "hasMany\t[Model]",
+            "contents": "hasMany"
+        },
+        {
+            "trigger": "hasMany\t[Model]",
+            "contents": "hasMany"
+        },
+        {
+            "trigger": "mapMethods\t[ModelBehavior]",
+            "contents": "mapMethods"
+        },
+        {
+            "trigger": "settings\t[ModelBehavior]",
+            "contents": "settings"
+        },
+        {
+            "trigger": "mapMethods\t[ModelBehavior]",
+            "contents": "mapMethods"
+        },
+        {
+            "trigger": "name\t[Permission]",
+            "contents": "name"
+        },
+        {
+            "trigger": "cacheQueries\t[Permission]",
+            "contents": "cacheQueries"
+        },
+        {
+            "trigger": "useTable\t[Permission]",
+            "contents": "useTable"
+        },
+        {
+            "trigger": "belongsTo\t[Permission]",
+            "contents": "belongsTo"
+        },
+        {
+            "trigger": "actsAs\t[Permission]",
+            "contents": "actsAs"
+        },
+        {
+            "trigger": "types\t[ContainableBehavior]",
+            "contents": "types"
+        },
+        {
+            "trigger": "runtime\t[ContainableBehavior]",
+            "contents": "runtime"
+        },
+        {
+            "trigger": "runtime\t[TranslateBehavior]",
+            "contents": "runtime"
+        },
+        {
+            "trigger": "errors\t[TreeBehavior]",
+            "contents": "errors"
+        },
+        {
+            "trigger": "connected\t[DataSource]",
+            "contents": "connected"
+        },
+        {
+            "trigger": "config\t[DataSource]",
+            "contents": "config"
+        },
+        {
+            "trigger": "cacheSources\t[DataSource]",
+            "contents": "cacheSources"
+        },
+        {
+            "trigger": "description\t[DboSource]",
+            "contents": "description"
+        },
+        {
+            "trigger": "index\t[DboSource]",
+            "contents": "index"
+        },
+        {
+            "trigger": "alias\t[DboSource]",
+            "contents": "alias"
+        },
+        {
+            "trigger": "cacheMethods\t[DboSource]",
+            "contents": "cacheMethods"
+        },
+        {
+            "trigger": "useNestedTransactions\t[DboSource]",
+            "contents": "useNestedTransactions"
+        },
+        {
+            "trigger": "fullDebug\t[DboSource]",
+            "contents": "fullDebug"
+        },
+        {
+            "trigger": "affected\t[DboSource]",
+            "contents": "affected"
+        },
+        {
+            "trigger": "numRows\t[DboSource]",
+            "contents": "numRows"
+        },
+        {
+            "trigger": "took\t[DboSource]",
+            "contents": "took"
+        },
+        {
+            "trigger": "configKeyName\t[DboSource]",
+            "contents": "configKeyName"
+        },
+        {
+            "trigger": "startQuote\t[DboSource]",
+            "contents": "startQuote"
+        },
+        {
+            "trigger": "endQuote\t[DboSource]",
+            "contents": "endQuote"
+        },
+        {
+            "trigger": "virtualFieldSeparator\t[DboSource]",
+            "contents": "virtualFieldSeparator"
+        },
+        {
+            "trigger": "tableParameters\t[DboSource]",
+            "contents": "tableParameters"
+        },
+        {
+            "trigger": "fieldParameters\t[DboSource]",
+            "contents": "fieldParameters"
+        },
+        {
+            "trigger": "description\t[Mysql]",
+            "contents": "description"
+        },
+        {
+            "trigger": "startQuote\t[Mysql]",
+            "contents": "startQuote"
+        },
+        {
+            "trigger": "endQuote\t[Mysql]",
+            "contents": "endQuote"
+        },
+        {
+            "trigger": "fieldParameters\t[Mysql]",
+            "contents": "fieldParameters"
+        },
+        {
+            "trigger": "tableParameters\t[Mysql]",
+            "contents": "tableParameters"
+        },
+        {
+            "trigger": "columns\t[Mysql]",
+            "contents": "columns"
+        },
+        {
+            "trigger": "description\t[Postgres]",
+            "contents": "description"
+        },
+        {
+            "trigger": "columns\t[Postgres]",
+            "contents": "columns"
+        },
+        {
+            "trigger": "startQuote\t[Postgres]",
+            "contents": "startQuote"
+        },
+        {
+            "trigger": "endQuote\t[Postgres]",
+            "contents": "endQuote"
+        },
+        {
+            "trigger": "description\t[Sqlite]",
+            "contents": "description"
+        },
+        {
+            "trigger": "startQuote\t[Sqlite]",
+            "contents": "startQuote"
+        },
+        {
+            "trigger": "endQuote\t[Sqlite]",
+            "contents": "endQuote"
+        },
+        {
+            "trigger": "columns\t[Sqlite]",
+            "contents": "columns"
+        },
+        {
+            "trigger": "fieldParameters\t[Sqlite]",
+            "contents": "fieldParameters"
+        },
+        {
+            "trigger": "description\t[Sqlserver]",
+            "contents": "description"
+        },
+        {
+            "trigger": "startQuote\t[Sqlserver]",
+            "contents": "startQuote"
+        },
+        {
+            "trigger": "endQuote\t[Sqlserver]",
+            "contents": "endQuote"
+        },
+        {
+            "trigger": "columns\t[Sqlserver]",
+            "contents": "columns"
+        },
+        {
+            "trigger": "rule\t[CakeValidationRule]",
+            "contents": "rule"
+        },
+        {
+            "trigger": "required\t[CakeValidationRule]",
+            "contents": "required"
+        },
+        {
+            "trigger": "allowEmpty\t[CakeValidationRule]",
+            "contents": "allowEmpty"
+        },
+        {
+            "trigger": "on\t[CakeValidationRule]",
+            "contents": "on"
+        },
+        {
+            "trigger": "last\t[CakeValidationRule]",
+            "contents": "last"
+        },
+        {
+            "trigger": "message\t[CakeValidationRule]",
+            "contents": "message"
+        },
+        {
+            "trigger": "isStopped\t[CakeValidationSet]",
+            "contents": "isStopped"
+        },
+        {
+            "trigger": "field\t[CakeValidationSet]",
+            "contents": "field"
+        },
+        {
+            "trigger": "ruleSet\t[CakeValidationSet]",
+            "contents": "ruleSet"
+        },
+        {
+            "trigger": "params\t[CakeRequest]",
+            "contents": "params"
+        },
+        {
+            "trigger": "data\t[CakeRequest]",
+            "contents": "data"
+        },
+        {
+            "trigger": "query\t[CakeRequest]",
+            "contents": "query"
+        },
+        {
+            "trigger": "url\t[CakeRequest]",
+            "contents": "url"
+        },
+        {
+            "trigger": "base\t[CakeRequest]",
+            "contents": "base"
+        },
+        {
+            "trigger": "webroot\t[CakeRequest]",
+            "contents": "webroot"
+        },
+        {
+            "trigger": "here\t[CakeRequest]",
+            "contents": "here"
+        },
+        {
+            "trigger": "description\t[CakeSocket]",
+            "contents": "description"
+        },
+        {
+            "trigger": "config\t[CakeSocket]",
+            "contents": "config"
+        },
+        {
+            "trigger": "connection\t[CakeSocket]",
+            "contents": "connection"
+        },
+        {
+            "trigger": "connected\t[CakeSocket]",
+            "contents": "connected"
+        },
+        {
+            "trigger": "lastError\t[CakeSocket]",
+            "contents": "lastError"
+        },
+        {
+            "trigger": "charset\t[CakeEmail]",
+            "contents": "charset"
+        },
+        {
+            "trigger": "headerCharset\t[CakeEmail]",
+            "contents": "headerCharset"
+        },
+        {
+            "trigger": "body\t[HttpResponse]",
+            "contents": "body"
+        },
+        {
+            "trigger": "headers\t[HttpResponse]",
+            "contents": "headers"
+        },
+        {
+            "trigger": "cookies\t[HttpResponse]",
+            "contents": "cookies"
+        },
+        {
+            "trigger": "httpVersion\t[HttpResponse]",
+            "contents": "httpVersion"
+        },
+        {
+            "trigger": "code\t[HttpResponse]",
+            "contents": "code"
+        },
+        {
+            "trigger": "reasonPhrase\t[HttpResponse]",
+            "contents": "reasonPhrase"
+        },
+        {
+            "trigger": "raw\t[HttpResponse]",
+            "contents": "raw"
+        },
+        {
+            "trigger": "quirksMode\t[HttpSocket]",
+            "contents": "quirksMode"
+        },
+        {
+            "trigger": "request\t[HttpSocket]",
+            "contents": "request"
+        },
+        {
+            "trigger": "response\t[HttpSocket]",
+            "contents": "response"
+        },
+        {
+            "trigger": "responseClass\t[HttpSocket]",
+            "contents": "responseClass"
+        },
+        {
+            "trigger": "config\t[HttpSocket]",
+            "contents": "config"
+        },
+        {
+            "trigger": "priority\t[DispatcherFilter]",
+            "contents": "priority"
+        },
+        {
+            "trigger": "priority\t[AssetDispatcher]",
+            "contents": "priority"
+        },
+        {
+            "trigger": "priority\t[CacheDispatcher]",
+            "contents": "priority"
+        },
+        {
+            "trigger": "keys\t[CakeRoute]",
+            "contents": "keys"
+        },
+        {
+            "trigger": "options\t[CakeRoute]",
+            "contents": "options"
+        },
+        {
+            "trigger": "defaults\t[CakeRoute]",
+            "contents": "defaults"
+        },
+        {
+            "trigger": "template\t[CakeRoute]",
+            "contents": "template"
+        },
+        {
+            "trigger": "response\t[RedirectRoute]",
+            "contents": "response"
+        },
+        {
+            "trigger": "redirect\t[RedirectRoute]",
+            "contents": "redirect"
+        },
+        {
+            "trigger": "stop\t[RedirectRoute]",
+            "contents": "stop"
+        },
+        {
+            "trigger": "errors\t[Debugger]",
+            "contents": "errors"
+        },
+        {
+            "trigger": "Folder\t[File]",
+            "contents": "Folder"
+        },
+        {
+            "trigger": "name\t[File]",
+            "contents": "name"
+        },
+        {
+            "trigger": "info\t[File]",
+            "contents": "info"
+        },
+        {
+            "trigger": "handle\t[File]",
+            "contents": "handle"
+        },
+        {
+            "trigger": "lock\t[File]",
+            "contents": "lock"
+        },
+        {
+            "trigger": "path\t[File]",
+            "contents": "path"
+        },
+        {
+            "trigger": "path\t[Folder]",
+            "contents": "path"
+        },
+        {
+            "trigger": "sort\t[Folder]",
+            "contents": "sort"
+        },
+        {
+            "trigger": "mode\t[Folder]",
+            "contents": "mode"
+        },
+        {
+            "trigger": "defaultPriority\t[ObjectCollection]",
+            "contents": "defaultPriority"
+        },
+        {
+            "trigger": "helpers\t[Helper]",
+            "contents": "helpers"
+        },
+        {
+            "trigger": "theme\t[Helper]",
+            "contents": "theme"
+        },
+        {
+            "trigger": "request\t[Helper]",
+            "contents": "request"
+        },
+        {
+            "trigger": "plugin\t[Helper]",
+            "contents": "plugin"
+        },
+        {
+            "trigger": "fieldset\t[Helper]",
+            "contents": "fieldset"
+        },
+        {
+            "trigger": "tags\t[Helper]",
+            "contents": "tags"
+        },
+        {
+            "trigger": "helpers\t[HelperCollection]",
+            "contents": "helpers"
+        },
+        {
+            "trigger": "subDir\t[JsonView]",
+            "contents": "subDir"
+        },
+        {
+            "trigger": "Helpers\t[View]",
+            "contents": "Helpers"
+        },
+        {
+            "trigger": "Blocks\t[View]",
+            "contents": "Blocks"
+        },
+        {
+            "trigger": "plugin\t[View]",
+            "contents": "plugin"
+        },
+        {
+            "trigger": "name\t[View]",
+            "contents": "name"
+        },
+        {
+            "trigger": "passedArgs\t[View]",
+            "contents": "passedArgs"
+        },
+        {
+            "trigger": "helpers\t[View]",
+            "contents": "helpers"
+        },
+        {
+            "trigger": "viewPath\t[View]",
+            "contents": "viewPath"
+        },
+        {
+            "trigger": "viewVars\t[View]",
+            "contents": "viewVars"
+        },
+        {
+            "trigger": "view\t[View]",
+            "contents": "view"
+        },
+        {
+            "trigger": "layout\t[View]",
+            "contents": "layout"
+        },
+        {
+            "trigger": "layoutPath\t[View]",
+            "contents": "layoutPath"
+        },
+        {
+            "trigger": "autoLayout\t[View]",
+            "contents": "autoLayout"
+        },
+        {
+            "trigger": "ext\t[View]",
+            "contents": "ext"
+        },
+        {
+            "trigger": "subDir\t[View]",
+            "contents": "subDir"
+        },
+        {
+            "trigger": "theme\t[View]",
+            "contents": "theme"
+        },
+        {
+            "trigger": "cacheAction\t[View]",
+            "contents": "cacheAction"
+        },
+        {
+            "trigger": "validationErrors\t[View]",
+            "contents": "validationErrors"
+        },
+        {
+            "trigger": "hasRendered\t[View]",
+            "contents": "hasRendered"
+        },
+        {
+            "trigger": "uuids\t[View]",
+            "contents": "uuids"
+        },
+        {
+            "trigger": "request\t[View]",
+            "contents": "request"
+        },
+        {
+            "trigger": "response\t[View]",
+            "contents": "response"
+        },
+        {
+            "trigger": "elementCache\t[View]",
+            "contents": "elementCache"
+        },
+        {
+            "trigger": "subDir\t[XmlView]",
+            "contents": "subDir"
+        },
+        {
+            "trigger": "helpers\t[FormHelper]",
+            "contents": "helpers"
+        },
+        {
+            "trigger": "fields\t[FormHelper]",
+            "contents": "fields"
+        },
+        {
+            "trigger": "requestType\t[FormHelper]",
+            "contents": "requestType"
+        },
+        {
+            "trigger": "defaultModel\t[FormHelper]",
+            "contents": "defaultModel"
+        },
+        {
+            "trigger": "validationErrors\t[FormHelper]",
+            "contents": "validationErrors"
+        },
+        {
+            "trigger": "response\t[HtmlHelper]",
+            "contents": "response"
+        },
+        {
+            "trigger": "jQueryObject\t[JqueryEngineHelper]",
+            "contents": "jQueryObject"
+        },
+        {
+            "trigger": "selection\t[JsBaseEngineHelper]",
+            "contents": "selection"
+        },
+        {
+            "trigger": "bufferedMethods\t[JsBaseEngineHelper]",
+            "contents": "bufferedMethods"
+        },
+        {
+            "trigger": "bufferScripts\t[JsHelper]",
+            "contents": "bufferScripts"
+        },
+        {
+            "trigger": "helpers\t[JsHelper]",
+            "contents": "helpers"
+        },
+        {
+            "trigger": "setVariable\t[JsHelper]",
+            "contents": "setVariable"
+        },
+        {
+            "trigger": "helpers\t[PaginatorHelper]",
+            "contents": "helpers"
+        },
+        {
+            "trigger": "options\t[PaginatorHelper]",
+            "contents": "options"
+        },
+        {
+            "trigger": "helpers\t[PaginatorHelper]",
+            "contents": "helpers"
+        },
+        {
+            "trigger": "helpers\t[RssHelper]",
+            "contents": "helpers"
+        },
+        {
+            "trigger": "base\t[RssHelper]",
+            "contents": "base"
+        },
+        {
+            "trigger": "here\t[RssHelper]",
+            "contents": "here"
+        },
+        {
+            "trigger": "params\t[RssHelper]",
+            "contents": "params"
+        },
+        {
+            "trigger": "action\t[RssHelper]",
+            "contents": "action"
+        },
+        {
+            "trigger": "data\t[RssHelper]",
+            "contents": "data"
+        },
+        {
+            "trigger": "model\t[RssHelper]",
+            "contents": "model"
+        },
+        {
+            "trigger": "field\t[RssHelper]",
+            "contents": "field"
+        },
+        {
+            "trigger": "version\t[RssHelper]",
+            "contents": "version"
+        },
+        {
+            "trigger": "helpers\t[TextHelper]",
+            "contents": "helpers"
+        }
+    ]
+}

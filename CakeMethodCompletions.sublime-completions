@@ -1,0 +1,5229 @@
+{
+    "scope": "source.php - variable.other.php",
+    "completions": [
+        {
+            "trigger": "init\t[CacheEngine]",
+            "contents": "init(\\$settings = array())"
+        },
+        {
+            "trigger": "gc\t[CacheEngine]",
+            "contents": "gc(\\$expires = null)"
+        },
+        {
+            "trigger": "write\t[CacheEngine]",
+            "contents": "write(\\$key, \\$value, \\$duration)"
+        },
+        {
+            "trigger": "read\t[CacheEngine]",
+            "contents": "read(\\$key)"
+        },
+        {
+            "trigger": "increment\t[CacheEngine]",
+            "contents": "increment(\\$key, \\$offset = 1)"
+        },
+        {
+            "trigger": "decrement\t[CacheEngine]",
+            "contents": "decrement(\\$key, \\$offset = 1)"
+        },
+        {
+            "trigger": "delete\t[CacheEngine]",
+            "contents": "delete(\\$key)"
+        },
+        {
+            "trigger": "clear\t[CacheEngine]",
+            "contents": "clear(\\$check)"
+        },
+        {
+            "trigger": "clearGroup\t[CacheEngine]",
+            "contents": "clearGroup(\\$group)"
+        },
+        {
+            "trigger": "groups\t[CacheEngine]",
+            "contents": "groups()"
+        },
+        {
+            "trigger": "settings\t[CacheEngine]",
+            "contents": "settings()"
+        },
+        {
+            "trigger": "key\t[CacheEngine]",
+            "contents": "key(\\$key)"
+        },
+        {
+            "trigger": "init\t[ApcEngine]",
+            "contents": "init(\\$settings = array())"
+        },
+        {
+            "trigger": "write\t[ApcEngine]",
+            "contents": "write(\\$key, \\$value, \\$duration)"
+        },
+        {
+            "trigger": "read\t[ApcEngine]",
+            "contents": "read(\\$key)"
+        },
+        {
+            "trigger": "increment\t[ApcEngine]",
+            "contents": "increment(\\$key, \\$offset = 1)"
+        },
+        {
+            "trigger": "decrement\t[ApcEngine]",
+            "contents": "decrement(\\$key, \\$offset = 1)"
+        },
+        {
+            "trigger": "delete\t[ApcEngine]",
+            "contents": "delete(\\$key)"
+        },
+        {
+            "trigger": "clear\t[ApcEngine]",
+            "contents": "clear(\\$check)"
+        },
+        {
+            "trigger": "groups\t[ApcEngine]",
+            "contents": "groups()"
+        },
+        {
+            "trigger": "clearGroup\t[ApcEngine]",
+            "contents": "clearGroup(\\$group)"
+        },
+        {
+            "trigger": "init\t[FileEngine]",
+            "contents": "init(\\$settings = array())"
+        },
+        {
+            "trigger": "gc\t[FileEngine]",
+            "contents": "gc(\\$expires = null)"
+        },
+        {
+            "trigger": "write\t[FileEngine]",
+            "contents": "write(\\$key, \\$data, \\$duration)"
+        },
+        {
+            "trigger": "read\t[FileEngine]",
+            "contents": "read(\\$key)"
+        },
+        {
+            "trigger": "delete\t[FileEngine]",
+            "contents": "delete(\\$key)"
+        },
+        {
+            "trigger": "clear\t[FileEngine]",
+            "contents": "clear(\\$check)"
+        },
+        {
+            "trigger": "decrement\t[FileEngine]",
+            "contents": "decrement(\\$key, \\$offset = 1)"
+        },
+        {
+            "trigger": "increment\t[FileEngine]",
+            "contents": "increment(\\$key, \\$offset = 1)"
+        },
+        {
+            "trigger": "key\t[FileEngine]",
+            "contents": "key(\\$key)"
+        },
+        {
+            "trigger": "clearGroup\t[FileEngine]",
+            "contents": "clearGroup(\\$group)"
+        },
+        {
+            "trigger": "init\t[MemcacheEngine]",
+            "contents": "init(\\$settings = array())"
+        },
+        {
+            "trigger": "write\t[MemcacheEngine]",
+            "contents": "write(\\$key, \\$value, \\$duration)"
+        },
+        {
+            "trigger": "read\t[MemcacheEngine]",
+            "contents": "read(\\$key)"
+        },
+        {
+            "trigger": "increment\t[MemcacheEngine]",
+            "contents": "increment(\\$key, \\$offset = 1)"
+        },
+        {
+            "trigger": "decrement\t[MemcacheEngine]",
+            "contents": "decrement(\\$key, \\$offset = 1)"
+        },
+        {
+            "trigger": "delete\t[MemcacheEngine]",
+            "contents": "delete(\\$key)"
+        },
+        {
+            "trigger": "clear\t[MemcacheEngine]",
+            "contents": "clear(\\$check)"
+        },
+        {
+            "trigger": "connect\t[MemcacheEngine]",
+            "contents": "connect(\\$host, \\$port = 11211)"
+        },
+        {
+            "trigger": "groups\t[MemcacheEngine]",
+            "contents": "groups()"
+        },
+        {
+            "trigger": "clearGroup\t[MemcacheEngine]",
+            "contents": "clearGroup(\\$group)"
+        },
+        {
+            "trigger": "init\t[RedisEngine]",
+            "contents": "init(\\$settings = array())"
+        },
+        {
+            "trigger": "write\t[RedisEngine]",
+            "contents": "write(\\$key, \\$value, \\$duration)"
+        },
+        {
+            "trigger": "read\t[RedisEngine]",
+            "contents": "read(\\$key)"
+        },
+        {
+            "trigger": "increment\t[RedisEngine]",
+            "contents": "increment(\\$key, \\$offset = 1)"
+        },
+        {
+            "trigger": "decrement\t[RedisEngine]",
+            "contents": "decrement(\\$key, \\$offset = 1)"
+        },
+        {
+            "trigger": "delete\t[RedisEngine]",
+            "contents": "delete(\\$key)"
+        },
+        {
+            "trigger": "clear\t[RedisEngine]",
+            "contents": "clear(\\$check)"
+        },
+        {
+            "trigger": "groups\t[RedisEngine]",
+            "contents": "groups()"
+        },
+        {
+            "trigger": "clearGroup\t[RedisEngine]",
+            "contents": "clearGroup(\\$group)"
+        },
+        {
+            "trigger": "init\t[WincacheEngine]",
+            "contents": "init(\\$settings = array())"
+        },
+        {
+            "trigger": "write\t[WincacheEngine]",
+            "contents": "write(\\$key, \\$value, \\$duration)"
+        },
+        {
+            "trigger": "read\t[WincacheEngine]",
+            "contents": "read(\\$key)"
+        },
+        {
+            "trigger": "increment\t[WincacheEngine]",
+            "contents": "increment(\\$key, \\$offset = 1)"
+        },
+        {
+            "trigger": "decrement\t[WincacheEngine]",
+            "contents": "decrement(\\$key, \\$offset = 1)"
+        },
+        {
+            "trigger": "delete\t[WincacheEngine]",
+            "contents": "delete(\\$key)"
+        },
+        {
+            "trigger": "clear\t[WincacheEngine]",
+            "contents": "clear(\\$check)"
+        },
+        {
+            "trigger": "groups\t[WincacheEngine]",
+            "contents": "groups()"
+        },
+        {
+            "trigger": "clearGroup\t[WincacheEngine]",
+            "contents": "clearGroup(\\$group)"
+        },
+        {
+            "trigger": "init\t[XcacheEngine]",
+            "contents": "init(\\$settings = array())"
+        },
+        {
+            "trigger": "write\t[XcacheEngine]",
+            "contents": "write(\\$key, \\$value, \\$duration)"
+        },
+        {
+            "trigger": "read\t[XcacheEngine]",
+            "contents": "read(\\$key)"
+        },
+        {
+            "trigger": "increment\t[XcacheEngine]",
+            "contents": "increment(\\$key, \\$offset = 1)"
+        },
+        {
+            "trigger": "decrement\t[XcacheEngine]",
+            "contents": "decrement(\\$key, \\$offset = 1)"
+        },
+        {
+            "trigger": "delete\t[XcacheEngine]",
+            "contents": "delete(\\$key)"
+        },
+        {
+            "trigger": "clear\t[XcacheEngine]",
+            "contents": "clear(\\$check)"
+        },
+        {
+            "trigger": "groups\t[XcacheEngine]",
+            "contents": "groups()"
+        },
+        {
+            "trigger": "clearGroup\t[XcacheEngine]",
+            "contents": "clearGroup(\\$group)"
+        },
+        {
+            "trigger": "read\t[ConfigReaderInterface]",
+            "contents": "read(\\$key)"
+        },
+        {
+            "trigger": "read\t[IniReader]",
+            "contents": "read(\\$key)"
+        },
+        {
+            "trigger": "dump\t[IniReader]",
+            "contents": "dump(\\$filename, \\$data)"
+        },
+        {
+            "trigger": "read\t[PhpReader]",
+            "contents": "read(\\$key)"
+        },
+        {
+            "trigger": "dump\t[PhpReader]",
+            "contents": "dump(\\$filename, \\$data)"
+        },
+        {
+            "trigger": "handleException\t[ConsoleErrorHandler]",
+            "contents": "handleException(Exception \\$exception)"
+        },
+        {
+            "trigger": "handleError\t[ConsoleErrorHandler]",
+            "contents": "handleError(\\$code, \\$description, \\$file = null, \\$line = null, \\$context = null)"
+        },
+        {
+            "trigger": "read\t[ConsoleInput]",
+            "contents": "read()"
+        },
+        {
+            "trigger": "name\t[ConsoleInputArgument]",
+            "contents": "name()"
+        },
+        {
+            "trigger": "help\t[ConsoleInputArgument]",
+            "contents": "help(\\$width = 0)"
+        },
+        {
+            "trigger": "usage\t[ConsoleInputArgument]",
+            "contents": "usage()"
+        },
+        {
+            "trigger": "isRequired\t[ConsoleInputArgument]",
+            "contents": "isRequired()"
+        },
+        {
+            "trigger": "validChoice\t[ConsoleInputArgument]",
+            "contents": "validChoice(\\$value)"
+        },
+        {
+            "trigger": "xml\t[ConsoleInputArgument]",
+            "contents": "xml(SimpleXmlElement \\$parent)"
+        },
+        {
+            "trigger": "name\t[ConsoleInputOption]",
+            "contents": "name()"
+        },
+        {
+            "trigger": "short\t[ConsoleInputOption]",
+            "contents": "short()"
+        },
+        {
+            "trigger": "help\t[ConsoleInputOption]",
+            "contents": "help(\\$width = 0)"
+        },
+        {
+            "trigger": "usage\t[ConsoleInputOption]",
+            "contents": "usage()"
+        },
+        {
+            "trigger": "defaultValue\t[ConsoleInputOption]",
+            "contents": "defaultValue()"
+        },
+        {
+            "trigger": "isBoolean\t[ConsoleInputOption]",
+            "contents": "isBoolean()"
+        },
+        {
+            "trigger": "validChoice\t[ConsoleInputOption]",
+            "contents": "validChoice(\\$value)"
+        },
+        {
+            "trigger": "xml\t[ConsoleInputOption]",
+            "contents": "xml(SimpleXmlElement \\$parent)"
+        },
+        {
+            "trigger": "name\t[ConsoleInputSubcommand]",
+            "contents": "name()"
+        },
+        {
+            "trigger": "help\t[ConsoleInputSubcommand]",
+            "contents": "help(\\$width = 0)"
+        },
+        {
+            "trigger": "parser\t[ConsoleInputSubcommand]",
+            "contents": "parser()"
+        },
+        {
+            "trigger": "xml\t[ConsoleInputSubcommand]",
+            "contents": "xml(SimpleXmlElement \\$parent)"
+        },
+        {
+            "trigger": "command\t[ConsoleOptionParser]",
+            "contents": "command(\\$text = null)"
+        },
+        {
+            "trigger": "description\t[ConsoleOptionParser]",
+            "contents": "description(\\$text = null)"
+        },
+        {
+            "trigger": "epilog\t[ConsoleOptionParser]",
+            "contents": "epilog(\\$text = null)"
+        },
+        {
+            "trigger": "addOption\t[ConsoleOptionParser]",
+            "contents": "addOption(\\$name, \\$options = array())"
+        },
+        {
+            "trigger": "addArgument\t[ConsoleOptionParser]",
+            "contents": "addArgument(\\$name, \\$params = array())"
+        },
+        {
+            "trigger": "addArguments\t[ConsoleOptionParser]",
+            "contents": "addArguments(array \\$args)"
+        },
+        {
+            "trigger": "addOptions\t[ConsoleOptionParser]",
+            "contents": "addOptions(array \\$options)"
+        },
+        {
+            "trigger": "addSubcommand\t[ConsoleOptionParser]",
+            "contents": "addSubcommand(\\$name, \\$options = array())"
+        },
+        {
+            "trigger": "addSubcommands\t[ConsoleOptionParser]",
+            "contents": "addSubcommands(array \\$commands)"
+        },
+        {
+            "trigger": "arguments\t[ConsoleOptionParser]",
+            "contents": "arguments()"
+        },
+        {
+            "trigger": "options\t[ConsoleOptionParser]",
+            "contents": "options()"
+        },
+        {
+            "trigger": "subcommands\t[ConsoleOptionParser]",
+            "contents": "subcommands()"
+        },
+        {
+            "trigger": "parse\t[ConsoleOptionParser]",
+            "contents": "parse(\\$argv, \\$command = null)"
+        },
+        {
+            "trigger": "help\t[ConsoleOptionParser]",
+            "contents": "help(\\$subcommand = null, \\$format = 'text', \\$width = 72)"
+        },
+        {
+            "trigger": "write\t[ConsoleOutput]",
+            "contents": "write(\\$message, \\$newlines = 1)"
+        },
+        {
+            "trigger": "styleText\t[ConsoleOutput]",
+            "contents": "styleText(\\$text)"
+        },
+        {
+            "trigger": "styles\t[ConsoleOutput]",
+            "contents": "styles(\\$style = null, \\$definition = null)"
+        },
+        {
+            "trigger": "outputAs\t[ConsoleOutput]",
+            "contents": "outputAs(\\$type = null)"
+        },
+        {
+            "trigger": "text\t[HelpFormatter]",
+            "contents": "text(\\$width = 72)"
+        },
+        {
+            "trigger": "xml\t[HelpFormatter]",
+            "contents": "xml(\\$string = true)"
+        },
+        {
+            "trigger": "initialize\t[Shell]",
+            "contents": "initialize()"
+        },
+        {
+            "trigger": "startup\t[Shell]",
+            "contents": "startup()"
+        },
+        {
+            "trigger": "loadTasks\t[Shell]",
+            "contents": "loadTasks()"
+        },
+        {
+            "trigger": "hasTask\t[Shell]",
+            "contents": "hasTask(\\$task)"
+        },
+        {
+            "trigger": "hasMethod\t[Shell]",
+            "contents": "hasMethod(\\$name)"
+        },
+        {
+            "trigger": "dispatchShell\t[Shell]",
+            "contents": "dispatchShell()"
+        },
+        {
+            "trigger": "runCommand\t[Shell]",
+            "contents": "runCommand(\\$command, \\$argv)"
+        },
+        {
+            "trigger": "getOptionParser\t[Shell]",
+            "contents": "getOptionParser()"
+        },
+        {
+            "trigger": "in\t[Shell]",
+            "contents": "in(\\$prompt, \\$options = null, \\$default = null)"
+        },
+        {
+            "trigger": "wrapText\t[Shell]",
+            "contents": "wrapText(\\$text, \\$options = array())"
+        },
+        {
+            "trigger": "out\t[Shell]",
+            "contents": "out(\\$message = null, \\$newlines = 1, \\$level = Shell::NORMAL)"
+        },
+        {
+            "trigger": "err\t[Shell]",
+            "contents": "err(\\$message = null, \\$newlines = 1)"
+        },
+        {
+            "trigger": "nl\t[Shell]",
+            "contents": "nl(\\$multiplier = 1)"
+        },
+        {
+            "trigger": "hr\t[Shell]",
+            "contents": "hr(\\$newlines = 0, \\$width = 63)"
+        },
+        {
+            "trigger": "error\t[Shell]",
+            "contents": "error(\\$title, \\$message = null)"
+        },
+        {
+            "trigger": "clear\t[Shell]",
+            "contents": "clear()"
+        },
+        {
+            "trigger": "createFile\t[Shell]",
+            "contents": "createFile(\\$path, \\$contents)"
+        },
+        {
+            "trigger": "shortPath\t[Shell]",
+            "contents": "shortPath(\\$file)"
+        },
+        {
+            "trigger": "setErrorHandlers\t[ShellDispatcher]",
+            "contents": "setErrorHandlers()"
+        },
+        {
+            "trigger": "dispatch\t[ShellDispatcher]",
+            "contents": "dispatch()"
+        },
+        {
+            "trigger": "parseParams\t[ShellDispatcher]",
+            "contents": "parseParams(\\$args)"
+        },
+        {
+            "trigger": "shiftArgs\t[ShellDispatcher]",
+            "contents": "shiftArgs()"
+        },
+        {
+            "trigger": "help\t[ShellDispatcher]",
+            "contents": "help()"
+        },
+        {
+            "trigger": "load\t[TaskCollection]",
+            "contents": "load(\\$task, \\$settings = array())"
+        },
+        {
+            "trigger": "startup\t[AclShell]",
+            "contents": "startup()"
+        },
+        {
+            "trigger": "main\t[AclShell]",
+            "contents": "main()"
+        },
+        {
+            "trigger": "create\t[AclShell]",
+            "contents": "create()"
+        },
+        {
+            "trigger": "delete\t[AclShell]",
+            "contents": "delete()"
+        },
+        {
+            "trigger": "setParent\t[AclShell]",
+            "contents": "setParent()"
+        },
+        {
+            "trigger": "getPath\t[AclShell]",
+            "contents": "getPath()"
+        },
+        {
+            "trigger": "check\t[AclShell]",
+            "contents": "check()"
+        },
+        {
+            "trigger": "grant\t[AclShell]",
+            "contents": "grant()"
+        },
+        {
+            "trigger": "deny\t[AclShell]",
+            "contents": "deny()"
+        },
+        {
+            "trigger": "inherit\t[AclShell]",
+            "contents": "inherit()"
+        },
+        {
+            "trigger": "view\t[AclShell]",
+            "contents": "view()"
+        },
+        {
+            "trigger": "initdb\t[AclShell]",
+            "contents": "initdb()"
+        },
+        {
+            "trigger": "getOptionParser\t[AclShell]",
+            "contents": "getOptionParser()"
+        },
+        {
+            "trigger": "nodeExists\t[AclShell]",
+            "contents": "nodeExists()"
+        },
+        {
+            "trigger": "parseIdentifier\t[AclShell]",
+            "contents": "parseIdentifier(\\$identifier)"
+        },
+        {
+            "trigger": "initialize\t[ApiShell]",
+            "contents": "initialize()"
+        },
+        {
+            "trigger": "main\t[ApiShell]",
+            "contents": "main()"
+        },
+        {
+            "trigger": "getOptionParser\t[ApiShell]",
+            "contents": "getOptionParser()"
+        },
+        {
+            "trigger": "help\t[ApiShell]",
+            "contents": "help()"
+        },
+        {
+            "trigger": "startup\t[BakeShell]",
+            "contents": "startup()"
+        },
+        {
+            "trigger": "main\t[BakeShell]",
+            "contents": "main()"
+        },
+        {
+            "trigger": "all\t[BakeShell]",
+            "contents": "all()"
+        },
+        {
+            "trigger": "getOptionParser\t[BakeShell]",
+            "contents": "getOptionParser()"
+        },
+        {
+            "trigger": "startup\t[CommandListShell]",
+            "contents": "startup()"
+        },
+        {
+            "trigger": "main\t[CommandListShell]",
+            "contents": "main()"
+        },
+        {
+            "trigger": "getOptionParser\t[CommandListShell]",
+            "contents": "getOptionParser()"
+        },
+        {
+            "trigger": "startup\t[ConsoleShell]",
+            "contents": "startup()"
+        },
+        {
+            "trigger": "getOptionParser\t[ConsoleShell]",
+            "contents": "getOptionParser()"
+        },
+        {
+            "trigger": "help\t[ConsoleShell]",
+            "contents": "help()"
+        },
+        {
+            "trigger": "main\t[ConsoleShell]",
+            "contents": "main(\\$command = null)"
+        },
+        {
+            "trigger": "startup\t[I18nShell]",
+            "contents": "startup()"
+        },
+        {
+            "trigger": "main\t[I18nShell]",
+            "contents": "main()"
+        },
+        {
+            "trigger": "initdb\t[I18nShell]",
+            "contents": "initdb()"
+        },
+        {
+            "trigger": "getOptionParser\t[I18nShell]",
+            "contents": "getOptionParser()"
+        },
+        {
+            "trigger": "startup\t[SchemaShell]",
+            "contents": "startup()"
+        },
+        {
+            "trigger": "view\t[SchemaShell]",
+            "contents": "view()"
+        },
+        {
+            "trigger": "generate\t[SchemaShell]",
+            "contents": "generate()"
+        },
+        {
+            "trigger": "dump\t[SchemaShell]",
+            "contents": "dump()"
+        },
+        {
+            "trigger": "create\t[SchemaShell]",
+            "contents": "create()"
+        },
+        {
+            "trigger": "update\t[SchemaShell]",
+            "contents": "update()"
+        },
+        {
+            "trigger": "getOptionParser\t[SchemaShell]",
+            "contents": "getOptionParser()"
+        },
+        {
+            "trigger": "getOptionParser\t[TestShell]",
+            "contents": "getOptionParser()"
+        },
+        {
+            "trigger": "initialize\t[TestShell]",
+            "contents": "initialize()"
+        },
+        {
+            "trigger": "main\t[TestShell]",
+            "contents": "main()"
+        },
+        {
+            "trigger": "available\t[TestShell]",
+            "contents": "available()"
+        },
+        {
+            "trigger": "getOptionParser\t[TestsuiteShell]",
+            "contents": "getOptionParser()"
+        },
+        {
+            "trigger": "main\t[TestsuiteShell]",
+            "contents": "main()"
+        },
+        {
+            "trigger": "startup\t[UpgradeShell]",
+            "contents": "startup()"
+        },
+        {
+            "trigger": "all\t[UpgradeShell]",
+            "contents": "all()"
+        },
+        {
+            "trigger": "tests\t[UpgradeShell]",
+            "contents": "tests()"
+        },
+        {
+            "trigger": "locations\t[UpgradeShell]",
+            "contents": "locations()"
+        },
+        {
+            "trigger": "helpers\t[UpgradeShell]",
+            "contents": "helpers()"
+        },
+        {
+            "trigger": "i18n\t[UpgradeShell]",
+            "contents": "i18n()"
+        },
+        {
+            "trigger": "basics\t[UpgradeShell]",
+            "contents": "basics()"
+        },
+        {
+            "trigger": "request\t[UpgradeShell]",
+            "contents": "request()"
+        },
+        {
+            "trigger": "configure\t[UpgradeShell]",
+            "contents": "configure()"
+        },
+        {
+            "trigger": "constants\t[UpgradeShell]",
+            "contents": "constants()"
+        },
+        {
+            "trigger": "components\t[UpgradeShell]",
+            "contents": "components()"
+        },
+        {
+            "trigger": "exceptions\t[UpgradeShell]",
+            "contents": "exceptions()"
+        },
+        {
+            "trigger": "getOptionParser\t[UpgradeShell]",
+            "contents": "getOptionParser()"
+        },
+        {
+            "trigger": "startup\t[BakeTask]",
+            "contents": "startup()"
+        },
+        {
+            "trigger": "getPath\t[BakeTask]",
+            "contents": "getPath()"
+        },
+        {
+            "trigger": "execute\t[BakeTask]",
+            "contents": "execute()"
+        },
+        {
+            "trigger": "initialize\t[ControllerTask]",
+            "contents": "initialize()"
+        },
+        {
+            "trigger": "execute\t[ControllerTask]",
+            "contents": "execute()"
+        },
+        {
+            "trigger": "all\t[ControllerTask]",
+            "contents": "all()"
+        },
+        {
+            "trigger": "confirmController\t[ControllerTask]",
+            "contents": "confirmController(\\$controllerName, \\$useDynamicScaffold, \\$helpers, \\$components)"
+        },
+        {
+            "trigger": "bakeActions\t[ControllerTask]",
+            "contents": "bakeActions(\\$controllerName, \\$admin = null, \\$wannaUseSession = true)"
+        },
+        {
+            "trigger": "bake\t[ControllerTask]",
+            "contents": "bake(\\$controllerName, \\$actions = '', \\$helpers = null, \\$components = null)"
+        },
+        {
+            "trigger": "bakeTest\t[ControllerTask]",
+            "contents": "bakeTest(\\$className)"
+        },
+        {
+            "trigger": "doHelpers\t[ControllerTask]",
+            "contents": "doHelpers()"
+        },
+        {
+            "trigger": "doComponents\t[ControllerTask]",
+            "contents": "doComponents()"
+        },
+        {
+            "trigger": "listAll\t[ControllerTask]",
+            "contents": "listAll(\\$useDbConfig = null)"
+        },
+        {
+            "trigger": "getName\t[ControllerTask]",
+            "contents": "getName(\\$useDbConfig = null)"
+        },
+        {
+            "trigger": "getOptionParser\t[ControllerTask]",
+            "contents": "getOptionParser()"
+        },
+        {
+            "trigger": "initialize\t[DbConfigTask]",
+            "contents": "initialize()"
+        },
+        {
+            "trigger": "execute\t[DbConfigTask]",
+            "contents": "execute()"
+        },
+        {
+            "trigger": "bake\t[DbConfigTask]",
+            "contents": "bake(\\$configs)"
+        },
+        {
+            "trigger": "getConfig\t[DbConfigTask]",
+            "contents": "getConfig()"
+        },
+        {
+            "trigger": "getOptionParser\t[DbConfigTask]",
+            "contents": "getOptionParser()"
+        },
+        {
+            "trigger": "execute\t[ExtractTask]",
+            "contents": "execute()"
+        },
+        {
+            "trigger": "getOptionParser\t[ExtractTask]",
+            "contents": "getOptionParser()"
+        },
+        {
+            "trigger": "getOptionParser\t[FixtureTask]",
+            "contents": "getOptionParser()"
+        },
+        {
+            "trigger": "execute\t[FixtureTask]",
+            "contents": "execute()"
+        },
+        {
+            "trigger": "all\t[FixtureTask]",
+            "contents": "all()"
+        },
+        {
+            "trigger": "importOptions\t[FixtureTask]",
+            "contents": "importOptions(\\$modelName)"
+        },
+        {
+            "trigger": "bake\t[FixtureTask]",
+            "contents": "bake(\\$model, \\$useTable = false, \\$importOptions = array())"
+        },
+        {
+            "trigger": "generateFixtureFile\t[FixtureTask]",
+            "contents": "generateFixtureFile(\\$model, \\$otherVars)"
+        },
+        {
+            "trigger": "getPath\t[FixtureTask]",
+            "contents": "getPath()"
+        },
+        {
+            "trigger": "initialize\t[ModelTask]",
+            "contents": "initialize()"
+        },
+        {
+            "trigger": "execute\t[ModelTask]",
+            "contents": "execute()"
+        },
+        {
+            "trigger": "all\t[ModelTask]",
+            "contents": "all()"
+        },
+        {
+            "trigger": "inOptions\t[ModelTask]",
+            "contents": "inOptions(\\$options, \\$prompt = null, \\$default = null)"
+        },
+        {
+            "trigger": "findPrimaryKey\t[ModelTask]",
+            "contents": "findPrimaryKey(\\$fields)"
+        },
+        {
+            "trigger": "findDisplayField\t[ModelTask]",
+            "contents": "findDisplayField(\\$fields)"
+        },
+        {
+            "trigger": "doValidation\t[ModelTask]",
+            "contents": "doValidation(\\$model)"
+        },
+        {
+            "trigger": "initValidations\t[ModelTask]",
+            "contents": "initValidations()"
+        },
+        {
+            "trigger": "fieldValidation\t[ModelTask]",
+            "contents": "fieldValidation(\\$fieldName, \\$metaData, \\$primaryKey = 'id')"
+        },
+        {
+            "trigger": "doAssociations\t[ModelTask]",
+            "contents": "doAssociations(\\$model)"
+        },
+        {
+            "trigger": "findBelongsTo\t[ModelTask]",
+            "contents": "findBelongsTo(Model \\$model, \\$associations)"
+        },
+        {
+            "trigger": "findHasOneAndMany\t[ModelTask]",
+            "contents": "findHasOneAndMany(Model \\$model, \\$associations)"
+        },
+        {
+            "trigger": "findHasAndBelongsToMany\t[ModelTask]",
+            "contents": "findHasAndBelongsToMany(Model \\$model, \\$associations)"
+        },
+        {
+            "trigger": "confirmAssociations\t[ModelTask]",
+            "contents": "confirmAssociations(Model \\$model, \\$associations)"
+        },
+        {
+            "trigger": "doMoreAssociations\t[ModelTask]",
+            "contents": "doMoreAssociations(Model \\$model, \\$associations)"
+        },
+        {
+            "trigger": "bake\t[ModelTask]",
+            "contents": "bake(\\$name, \\$data = array())"
+        },
+        {
+            "trigger": "bakeTest\t[ModelTask]",
+            "contents": "bakeTest(\\$className)"
+        },
+        {
+            "trigger": "listAll\t[ModelTask]",
+            "contents": "listAll(\\$useDbConfig = null)"
+        },
+        {
+            "trigger": "getTable\t[ModelTask]",
+            "contents": "getTable(\\$modelName, \\$useDbConfig = null)"
+        },
+        {
+            "trigger": "getAllTables\t[ModelTask]",
+            "contents": "getAllTables(\\$useDbConfig = null)"
+        },
+        {
+            "trigger": "getName\t[ModelTask]",
+            "contents": "getName(\\$useDbConfig = null)"
+        },
+        {
+            "trigger": "getOptionParser\t[ModelTask]",
+            "contents": "getOptionParser()"
+        },
+        {
+            "trigger": "bakeFixture\t[ModelTask]",
+            "contents": "bakeFixture(\\$className, \\$useTable = null)"
+        },
+        {
+            "trigger": "initialize\t[PluginTask]",
+            "contents": "initialize()"
+        },
+        {
+            "trigger": "execute\t[PluginTask]",
+            "contents": "execute()"
+        },
+        {
+            "trigger": "bake\t[PluginTask]",
+            "contents": "bake(\\$plugin)"
+        },
+        {
+            "trigger": "findPath\t[PluginTask]",
+            "contents": "findPath(\\$pathOptions)"
+        },
+        {
+            "trigger": "getOptionParser\t[PluginTask]",
+            "contents": "getOptionParser()"
+        },
+        {
+            "trigger": "execute\t[ProjectTask]",
+            "contents": "execute()"
+        },
+        {
+            "trigger": "cakeOnIncludePath\t[ProjectTask]",
+            "contents": "cakeOnIncludePath()"
+        },
+        {
+            "trigger": "bake\t[ProjectTask]",
+            "contents": "bake(\\$path, \\$skel = null, \\$skip = array('empty'))"
+        },
+        {
+            "trigger": "consolePath\t[ProjectTask]",
+            "contents": "consolePath(\\$path)"
+        },
+        {
+            "trigger": "securitySalt\t[ProjectTask]",
+            "contents": "securitySalt(\\$path)"
+        },
+        {
+            "trigger": "securityCipherSeed\t[ProjectTask]",
+            "contents": "securityCipherSeed(\\$path)"
+        },
+        {
+            "trigger": "corePath\t[ProjectTask]",
+            "contents": "corePath(\\$path, \\$hardCode = true)"
+        },
+        {
+            "trigger": "cakeAdmin\t[ProjectTask]",
+            "contents": "cakeAdmin(\\$name)"
+        },
+        {
+            "trigger": "getPrefix\t[ProjectTask]",
+            "contents": "getPrefix()"
+        },
+        {
+            "trigger": "getOptionParser\t[ProjectTask]",
+            "contents": "getOptionParser()"
+        },
+        {
+            "trigger": "initialize\t[TemplateTask]",
+            "contents": "initialize()"
+        },
+        {
+            "trigger": "set\t[TemplateTask]",
+            "contents": "set(\\$one, \\$two = null)"
+        },
+        {
+            "trigger": "generate\t[TemplateTask]",
+            "contents": "generate(\\$directory, \\$filename, \\$vars = null)"
+        },
+        {
+            "trigger": "getThemePath\t[TemplateTask]",
+            "contents": "getThemePath()"
+        },
+        {
+            "trigger": "execute\t[TestTask]",
+            "contents": "execute()"
+        },
+        {
+            "trigger": "bake\t[TestTask]",
+            "contents": "bake(\\$type, \\$className)"
+        },
+        {
+            "trigger": "getObjectType\t[TestTask]",
+            "contents": "getObjectType()"
+        },
+        {
+            "trigger": "getClassName\t[TestTask]",
+            "contents": "getClassName(\\$objectType)"
+        },
+        {
+            "trigger": "typeCanDetectFixtures\t[TestTask]",
+            "contents": "typeCanDetectFixtures(\\$type)"
+        },
+        {
+            "trigger": "isLoadableClass\t[TestTask]",
+            "contents": "isLoadableClass(\\$package, \\$class)"
+        },
+        {
+            "trigger": "&buildTestSubject\t[TestTask]",
+            "contents": "&buildTestSubject(\\$type, \\$class)"
+        },
+        {
+            "trigger": "getRealClassName\t[TestTask]",
+            "contents": "getRealClassName(\\$type, \\$class)"
+        },
+        {
+            "trigger": "mapType\t[TestTask]",
+            "contents": "mapType(\\$type, \\$plugin)"
+        },
+        {
+            "trigger": "getBaseType\t[TestTask]",
+            "contents": "getBaseType(\\$type)"
+        },
+        {
+            "trigger": "getTestableMethods\t[TestTask]",
+            "contents": "getTestableMethods(\\$className)"
+        },
+        {
+            "trigger": "generateFixtureList\t[TestTask]",
+            "contents": "generateFixtureList(\\$subject)"
+        },
+        {
+            "trigger": "getUserFixtures\t[TestTask]",
+            "contents": "getUserFixtures()"
+        },
+        {
+            "trigger": "hasMockClass\t[TestTask]",
+            "contents": "hasMockClass(\\$type)"
+        },
+        {
+            "trigger": "generateConstructor\t[TestTask]",
+            "contents": "generateConstructor(\\$type, \\$fullClassName, \\$plugin)"
+        },
+        {
+            "trigger": "generateUses\t[TestTask]",
+            "contents": "generateUses(\\$type, \\$realType, \\$className)"
+        },
+        {
+            "trigger": "testCaseFileName\t[TestTask]",
+            "contents": "testCaseFileName(\\$type, \\$className)"
+        },
+        {
+            "trigger": "getOptionParser\t[TestTask]",
+            "contents": "getOptionParser()"
+        },
+        {
+            "trigger": "initialize\t[ViewTask]",
+            "contents": "initialize()"
+        },
+        {
+            "trigger": "execute\t[ViewTask]",
+            "contents": "execute()"
+        },
+        {
+            "trigger": "all\t[ViewTask]",
+            "contents": "all()"
+        },
+        {
+            "trigger": "bakeActions\t[ViewTask]",
+            "contents": "bakeActions(\\$actions, \\$vars)"
+        },
+        {
+            "trigger": "customAction\t[ViewTask]",
+            "contents": "customAction()"
+        },
+        {
+            "trigger": "bake\t[ViewTask]",
+            "contents": "bake(\\$action, \\$content = '')"
+        },
+        {
+            "trigger": "getContent\t[ViewTask]",
+            "contents": "getContent(\\$action, \\$vars = null)"
+        },
+        {
+            "trigger": "getTemplate\t[ViewTask]",
+            "contents": "getTemplate(\\$action)"
+        },
+        {
+            "trigger": "getOptionParser\t[ViewTask]",
+            "contents": "getOptionParser()"
+        },
+        {
+            "trigger": "before\t[db_acl]",
+            "contents": "before(\\$event = array())"
+        },
+        {
+            "trigger": "after\t[db_acl]",
+            "contents": "after(\\$event = array())"
+        },
+        {
+            "trigger": "before\t[i18n]",
+            "contents": "before(\\$event = array())"
+        },
+        {
+            "trigger": "after\t[i18n]",
+            "contents": "after(\\$event = array())"
+        },
+        {
+            "trigger": "before\t[sessions]",
+            "contents": "before(\\$event = array())"
+        },
+        {
+            "trigger": "after\t[sessions]",
+            "contents": "after(\\$event = array())"
+        },
+        {
+            "trigger": "display\t[PagesController]",
+            "contents": "display()"
+        },
+        {
+            "trigger": "beforeRender\t[CakeErrorController]",
+            "contents": "beforeRender()"
+        },
+        {
+            "trigger": "initialize\t[Component]",
+            "contents": "initialize(Controller \\$controller)"
+        },
+        {
+            "trigger": "startup\t[Component]",
+            "contents": "startup(Controller \\$controller)"
+        },
+        {
+            "trigger": "beforeRender\t[Component]",
+            "contents": "beforeRender(Controller \\$controller)"
+        },
+        {
+            "trigger": "shutdown\t[Component]",
+            "contents": "shutdown(Controller \\$controller)"
+        },
+        {
+            "trigger": "beforeRedirect\t[Component]",
+            "contents": "beforeRedirect(Controller \\$controller, \\$url, \\$status = null, \\$exit = true)"
+        },
+        {
+            "trigger": "init\t[ComponentCollection]",
+            "contents": "init(Controller \\$Controller)"
+        },
+        {
+            "trigger": "getController\t[ComponentCollection]",
+            "contents": "getController()"
+        },
+        {
+            "trigger": "load\t[ComponentCollection]",
+            "contents": "load(\\$component, \\$settings = array())"
+        },
+        {
+            "trigger": "implementedEvents\t[ComponentCollection]",
+            "contents": "implementedEvents()"
+        },
+        {
+            "trigger": "setRequest\t[Controller]",
+            "contents": "setRequest(CakeRequest \\$request)"
+        },
+        {
+            "trigger": "invokeAction\t[Controller]",
+            "contents": "invokeAction(CakeRequest \\$request)"
+        },
+        {
+            "trigger": "implementedEvents\t[Controller]",
+            "contents": "implementedEvents()"
+        },
+        {
+            "trigger": "constructClasses\t[Controller]",
+            "contents": "constructClasses()"
+        },
+        {
+            "trigger": "getEventManager\t[Controller]",
+            "contents": "getEventManager()"
+        },
+        {
+            "trigger": "startupProcess\t[Controller]",
+            "contents": "startupProcess()"
+        },
+        {
+            "trigger": "shutdownProcess\t[Controller]",
+            "contents": "shutdownProcess()"
+        },
+        {
+            "trigger": "httpCodes\t[Controller]",
+            "contents": "httpCodes(\\$code = null)"
+        },
+        {
+            "trigger": "loadModel\t[Controller]",
+            "contents": "loadModel(\\$modelClass = null, \\$id = null)"
+        },
+        {
+            "trigger": "redirect\t[Controller]",
+            "contents": "redirect(\\$url, \\$status = null, \\$exit = true)"
+        },
+        {
+            "trigger": "header\t[Controller]",
+            "contents": "header(\\$status)"
+        },
+        {
+            "trigger": "set\t[Controller]",
+            "contents": "set(\\$one, \\$two = null)"
+        },
+        {
+            "trigger": "setAction\t[Controller]",
+            "contents": "setAction(\\$action)"
+        },
+        {
+            "trigger": "validate\t[Controller]",
+            "contents": "validate()"
+        },
+        {
+            "trigger": "validateErrors\t[Controller]",
+            "contents": "validateErrors()"
+        },
+        {
+            "trigger": "render\t[Controller]",
+            "contents": "render(\\$view = null, \\$layout = null)"
+        },
+        {
+            "trigger": "referer\t[Controller]",
+            "contents": "referer(\\$default = null, \\$local = false)"
+        },
+        {
+            "trigger": "disableCache\t[Controller]",
+            "contents": "disableCache()"
+        },
+        {
+            "trigger": "flash\t[Controller]",
+            "contents": "flash(\\$message, \\$url, \\$pause = 1, \\$layout = 'flash')"
+        },
+        {
+            "trigger": "postConditions\t[Controller]",
+            "contents": "postConditions(\\$data = array(), \\$op = null, \\$bool = 'AND', \\$exclusive = false)"
+        },
+        {
+            "trigger": "paginate\t[Controller]",
+            "contents": "paginate(\\$object = null, \\$scope = array(), \\$whitelist = array())"
+        },
+        {
+            "trigger": "beforeFilter\t[Controller]",
+            "contents": "beforeFilter()"
+        },
+        {
+            "trigger": "beforeRender\t[Controller]",
+            "contents": "beforeRender()"
+        },
+        {
+            "trigger": "beforeRedirect\t[Controller]",
+            "contents": "beforeRedirect(\\$url, \\$status = null, \\$exit = true)"
+        },
+        {
+            "trigger": "afterFilter\t[Controller]",
+            "contents": "afterFilter()"
+        },
+        {
+            "trigger": "beforeScaffold\t[Controller]",
+            "contents": "beforeScaffold(\\$method)"
+        },
+        {
+            "trigger": "afterScaffoldSave\t[Controller]",
+            "contents": "afterScaffoldSave(\\$method)"
+        },
+        {
+            "trigger": "afterScaffoldSaveError\t[Controller]",
+            "contents": "afterScaffoldSaveError(\\$method)"
+        },
+        {
+            "trigger": "scaffoldError\t[Controller]",
+            "contents": "scaffoldError(\\$method)"
+        },
+        {
+            "trigger": "adapter\t[AclComponent]",
+            "contents": "adapter(\\$adapter = null)"
+        },
+        {
+            "trigger": "check\t[AclComponent]",
+            "contents": "check(\\$aro, \\$aco, \\$action = \"*\")"
+        },
+        {
+            "trigger": "allow\t[AclComponent]",
+            "contents": "allow(\\$aro, \\$aco, \\$action = \"*\")"
+        },
+        {
+            "trigger": "deny\t[AclComponent]",
+            "contents": "deny(\\$aro, \\$aco, \\$action = \"*\")"
+        },
+        {
+            "trigger": "inherit\t[AclComponent]",
+            "contents": "inherit(\\$aro, \\$aco, \\$action = \"*\")"
+        },
+        {
+            "trigger": "grant\t[AclComponent]",
+            "contents": "grant(\\$aro, \\$aco, \\$action = \"*\")"
+        },
+        {
+            "trigger": "revoke\t[AclComponent]",
+            "contents": "revoke(\\$aro, \\$aco, \\$action = \"*\")"
+        },
+        {
+            "trigger": "initialize\t[AuthComponent]",
+            "contents": "initialize(Controller \\$controller)"
+        },
+        {
+            "trigger": "startup\t[AuthComponent]",
+            "contents": "startup(Controller \\$controller)"
+        },
+        {
+            "trigger": "isAuthorized\t[AuthComponent]",
+            "contents": "isAuthorized(\\$user = null, \\$request = null)"
+        },
+        {
+            "trigger": "constructAuthorize\t[AuthComponent]",
+            "contents": "constructAuthorize()"
+        },
+        {
+            "trigger": "allow\t[AuthComponent]",
+            "contents": "allow(\\$action = null)"
+        },
+        {
+            "trigger": "deny\t[AuthComponent]",
+            "contents": "deny(\\$action = null)"
+        },
+        {
+            "trigger": "mapActions\t[AuthComponent]",
+            "contents": "mapActions(\\$map = array())"
+        },
+        {
+            "trigger": "login\t[AuthComponent]",
+            "contents": "login(\\$user = null)"
+        },
+        {
+            "trigger": "logout\t[AuthComponent]",
+            "contents": "logout()"
+        },
+        {
+            "trigger": "redirect\t[AuthComponent]",
+            "contents": "redirect(\\$url = null)"
+        },
+        {
+            "trigger": "identify\t[AuthComponent]",
+            "contents": "identify(CakeRequest \\$request, CakeResponse \\$response)"
+        },
+        {
+            "trigger": "constructAuthenticate\t[AuthComponent]",
+            "contents": "constructAuthenticate()"
+        },
+        {
+            "trigger": "shutdown\t[AuthComponent]",
+            "contents": "shutdown(Controller \\$controller)"
+        },
+        {
+            "trigger": "loggedIn\t[AuthComponent]",
+            "contents": "loggedIn()"
+        },
+        {
+            "trigger": "flash\t[AuthComponent]",
+            "contents": "flash(\\$message)"
+        },
+        {
+            "trigger": "startup\t[CookieComponent]",
+            "contents": "startup(Controller \\$controller)"
+        },
+        {
+            "trigger": "write\t[CookieComponent]",
+            "contents": "write(\\$key, \\$value = null, \\$encrypt = true, \\$expires = null)"
+        },
+        {
+            "trigger": "read\t[CookieComponent]",
+            "contents": "read(\\$key = null)"
+        },
+        {
+            "trigger": "delete\t[CookieComponent]",
+            "contents": "delete(\\$key)"
+        },
+        {
+            "trigger": "destroy\t[CookieComponent]",
+            "contents": "destroy()"
+        },
+        {
+            "trigger": "type\t[CookieComponent]",
+            "contents": "type(\\$type = 'cipher')"
+        },
+        {
+            "trigger": "initialize\t[EmailComponent]",
+            "contents": "initialize(Controller \\$controller)"
+        },
+        {
+            "trigger": "send\t[EmailComponent]",
+            "contents": "send(\\$content = null, \\$template = null, \\$layout = null)"
+        },
+        {
+            "trigger": "reset\t[EmailComponent]",
+            "contents": "reset()"
+        },
+        {
+            "trigger": "paginate\t[PaginatorComponent]",
+            "contents": "paginate(\\$object = null, \\$scope = array(), \\$whitelist = array())"
+        },
+        {
+            "trigger": "mergeOptions\t[PaginatorComponent]",
+            "contents": "mergeOptions(\\$alias)"
+        },
+        {
+            "trigger": "getDefaults\t[PaginatorComponent]",
+            "contents": "getDefaults(\\$alias)"
+        },
+        {
+            "trigger": "validateSort\t[PaginatorComponent]",
+            "contents": "validateSort(\\$object, \\$options, \\$whitelist = array())"
+        },
+        {
+            "trigger": "checkLimit\t[PaginatorComponent]",
+            "contents": "checkLimit(\\$options)"
+        },
+        {
+            "trigger": "initialize\t[RequestHandlerComponent]",
+            "contents": "initialize(Controller \\$controller, \\$settings = array())"
+        },
+        {
+            "trigger": "startup\t[RequestHandlerComponent]",
+            "contents": "startup(Controller \\$controller)"
+        },
+        {
+            "trigger": "convertXml\t[RequestHandlerComponent]",
+            "contents": "convertXml(\\$xml)"
+        },
+        {
+            "trigger": "beforeRedirect\t[RequestHandlerComponent]",
+            "contents": "beforeRedirect(Controller \\$controller, \\$url, \\$status = null, \\$exit = true)"
+        },
+        {
+            "trigger": "beforeRender\t[RequestHandlerComponent]",
+            "contents": "beforeRender(Controller \\$controller)"
+        },
+        {
+            "trigger": "isAjax\t[RequestHandlerComponent]",
+            "contents": "isAjax()"
+        },
+        {
+            "trigger": "isFlash\t[RequestHandlerComponent]",
+            "contents": "isFlash()"
+        },
+        {
+            "trigger": "isSSL\t[RequestHandlerComponent]",
+            "contents": "isSSL()"
+        },
+        {
+            "trigger": "isXml\t[RequestHandlerComponent]",
+            "contents": "isXml()"
+        },
+        {
+            "trigger": "isRss\t[RequestHandlerComponent]",
+            "contents": "isRss()"
+        },
+        {
+            "trigger": "isAtom\t[RequestHandlerComponent]",
+            "contents": "isAtom()"
+        },
+        {
+            "trigger": "isMobile\t[RequestHandlerComponent]",
+            "contents": "isMobile()"
+        },
+        {
+            "trigger": "isWap\t[RequestHandlerComponent]",
+            "contents": "isWap()"
+        },
+        {
+            "trigger": "isPost\t[RequestHandlerComponent]",
+            "contents": "isPost()"
+        },
+        {
+            "trigger": "isPut\t[RequestHandlerComponent]",
+            "contents": "isPut()"
+        },
+        {
+            "trigger": "isGet\t[RequestHandlerComponent]",
+            "contents": "isGet()"
+        },
+        {
+            "trigger": "isDelete\t[RequestHandlerComponent]",
+            "contents": "isDelete()"
+        },
+        {
+            "trigger": "getAjaxVersion\t[RequestHandlerComponent]",
+            "contents": "getAjaxVersion()"
+        },
+        {
+            "trigger": "setContent\t[RequestHandlerComponent]",
+            "contents": "setContent(\\$name, \\$type = null)"
+        },
+        {
+            "trigger": "getReferer\t[RequestHandlerComponent]",
+            "contents": "getReferer()"
+        },
+        {
+            "trigger": "getClientIP\t[RequestHandlerComponent]",
+            "contents": "getClientIP(\\$safe = true)"
+        },
+        {
+            "trigger": "accepts\t[RequestHandlerComponent]",
+            "contents": "accepts(\\$type = null)"
+        },
+        {
+            "trigger": "requestedWith\t[RequestHandlerComponent]",
+            "contents": "requestedWith(\\$type = null)"
+        },
+        {
+            "trigger": "prefers\t[RequestHandlerComponent]",
+            "contents": "prefers(\\$type = null)"
+        },
+        {
+            "trigger": "renderAs\t[RequestHandlerComponent]",
+            "contents": "renderAs(Controller \\$controller, \\$type, \\$options = array())"
+        },
+        {
+            "trigger": "respondAs\t[RequestHandlerComponent]",
+            "contents": "respondAs(\\$type, \\$options = array())"
+        },
+        {
+            "trigger": "responseType\t[RequestHandlerComponent]",
+            "contents": "responseType()"
+        },
+        {
+            "trigger": "mapType\t[RequestHandlerComponent]",
+            "contents": "mapType(\\$cType)"
+        },
+        {
+            "trigger": "mapAlias\t[RequestHandlerComponent]",
+            "contents": "mapAlias(\\$alias)"
+        },
+        {
+            "trigger": "addInputType\t[RequestHandlerComponent]",
+            "contents": "addInputType(\\$type, \\$handler)"
+        },
+        {
+            "trigger": "startup\t[SecurityComponent]",
+            "contents": "startup(Controller \\$controller)"
+        },
+        {
+            "trigger": "requirePost\t[SecurityComponent]",
+            "contents": "requirePost()"
+        },
+        {
+            "trigger": "requireGet\t[SecurityComponent]",
+            "contents": "requireGet()"
+        },
+        {
+            "trigger": "requirePut\t[SecurityComponent]",
+            "contents": "requirePut()"
+        },
+        {
+            "trigger": "requireDelete\t[SecurityComponent]",
+            "contents": "requireDelete()"
+        },
+        {
+            "trigger": "requireSecure\t[SecurityComponent]",
+            "contents": "requireSecure()"
+        },
+        {
+            "trigger": "requireAuth\t[SecurityComponent]",
+            "contents": "requireAuth()"
+        },
+        {
+            "trigger": "blackHole\t[SecurityComponent]",
+            "contents": "blackHole(Controller \\$controller, \\$error = '')"
+        },
+        {
+            "trigger": "generateToken\t[SecurityComponent]",
+            "contents": "generateToken(CakeRequest \\$request)"
+        },
+        {
+            "trigger": "userAgent\t[SessionComponent]",
+            "contents": "userAgent(\\$userAgent = null)"
+        },
+        {
+            "trigger": "write\t[SessionComponent]",
+            "contents": "write(\\$name, \\$value = null)"
+        },
+        {
+            "trigger": "read\t[SessionComponent]",
+            "contents": "read(\\$name = null)"
+        },
+        {
+            "trigger": "delete\t[SessionComponent]",
+            "contents": "delete(\\$name)"
+        },
+        {
+            "trigger": "check\t[SessionComponent]",
+            "contents": "check(\\$name)"
+        },
+        {
+            "trigger": "error\t[SessionComponent]",
+            "contents": "error()"
+        },
+        {
+            "trigger": "setFlash\t[SessionComponent]",
+            "contents": "setFlash(\\$message, \\$element = 'default', \\$params = array(), \\$key = 'flash')"
+        },
+        {
+            "trigger": "renew\t[SessionComponent]",
+            "contents": "renew()"
+        },
+        {
+            "trigger": "valid\t[SessionComponent]",
+            "contents": "valid()"
+        },
+        {
+            "trigger": "destroy\t[SessionComponent]",
+            "contents": "destroy()"
+        },
+        {
+            "trigger": "id\t[SessionComponent]",
+            "contents": "id(\\$id = null)"
+        },
+        {
+            "trigger": "started\t[SessionComponent]",
+            "contents": "started()"
+        },
+        {
+            "trigger": "check\t[AclInterface]",
+            "contents": "check(\\$aro, \\$aco, \\$action = \"*\")"
+        },
+        {
+            "trigger": "allow\t[AclInterface]",
+            "contents": "allow(\\$aro, \\$aco, \\$action = \"*\")"
+        },
+        {
+            "trigger": "deny\t[AclInterface]",
+            "contents": "deny(\\$aro, \\$aco, \\$action = \"*\")"
+        },
+        {
+            "trigger": "inherit\t[AclInterface]",
+            "contents": "inherit(\\$aro, \\$aco, \\$action = \"*\")"
+        },
+        {
+            "trigger": "initialize\t[AclInterface]",
+            "contents": "initialize(Component \\$component)"
+        },
+        {
+            "trigger": "initialize\t[DbAcl]",
+            "contents": "initialize(Component \\$component)"
+        },
+        {
+            "trigger": "check\t[DbAcl]",
+            "contents": "check(\\$aro, \\$aco, \\$action = \"*\")"
+        },
+        {
+            "trigger": "allow\t[DbAcl]",
+            "contents": "allow(\\$aro, \\$aco, \\$actions = \"*\", \\$value = 1)"
+        },
+        {
+            "trigger": "deny\t[DbAcl]",
+            "contents": "deny(\\$aro, \\$aco, \\$action = \"*\")"
+        },
+        {
+            "trigger": "inherit\t[DbAcl]",
+            "contents": "inherit(\\$aro, \\$aco, \\$action = \"*\")"
+        },
+        {
+            "trigger": "grant\t[DbAcl]",
+            "contents": "grant(\\$aro, \\$aco, \\$action = \"*\")"
+        },
+        {
+            "trigger": "revoke\t[DbAcl]",
+            "contents": "revoke(\\$aro, \\$aco, \\$action = \"*\")"
+        },
+        {
+            "trigger": "getAclLink\t[DbAcl]",
+            "contents": "getAclLink(\\$aro, \\$aco)"
+        },
+        {
+            "trigger": "initialize\t[IniAcl]",
+            "contents": "initialize(Component \\$component)"
+        },
+        {
+            "trigger": "allow\t[IniAcl]",
+            "contents": "allow(\\$aro, \\$aco, \\$action = \"*\")"
+        },
+        {
+            "trigger": "deny\t[IniAcl]",
+            "contents": "deny(\\$aro, \\$aco, \\$action = \"*\")"
+        },
+        {
+            "trigger": "inherit\t[IniAcl]",
+            "contents": "inherit(\\$aro, \\$aco, \\$action = \"*\")"
+        },
+        {
+            "trigger": "check\t[IniAcl]",
+            "contents": "check(\\$aro, \\$aco, \\$action = null)"
+        },
+        {
+            "trigger": "readConfigFile\t[IniAcl]",
+            "contents": "readConfigFile(\\$filename)"
+        },
+        {
+            "trigger": "arrayTrim\t[IniAcl]",
+            "contents": "arrayTrim(\\$array)"
+        },
+        {
+            "trigger": "initialize\t[PhpAcl]",
+            "contents": "initialize(Component \\$Component)"
+        },
+        {
+            "trigger": "build\t[PhpAcl]",
+            "contents": "build(array \\$config)"
+        },
+        {
+            "trigger": "allow\t[PhpAcl]",
+            "contents": "allow(\\$aro, \\$aco, \\$action = \"*\")"
+        },
+        {
+            "trigger": "deny\t[PhpAcl]",
+            "contents": "deny(\\$aro, \\$aco, \\$action = \"*\")"
+        },
+        {
+            "trigger": "inherit\t[PhpAcl]",
+            "contents": "inherit(\\$aro, \\$aco, \\$action = \"*\")"
+        },
+        {
+            "trigger": "check\t[PhpAcl]",
+            "contents": "check(\\$aro, \\$aco, \\$action = \"*\")"
+        },
+        {
+            "trigger": "path\t[PhpAcl]",
+            "contents": "path(\\$aco)"
+        },
+        {
+            "trigger": "access\t[PhpAcl]",
+            "contents": "access(\\$aro, \\$aco, \\$action, \\$type = 'deny')"
+        },
+        {
+            "trigger": "resolve\t[PhpAcl]",
+            "contents": "resolve(\\$aco)"
+        },
+        {
+            "trigger": "build\t[PhpAcl]",
+            "contents": "build(array \\$allow, array \\$deny = array())"
+        },
+        {
+            "trigger": "roles\t[PhpAcl]",
+            "contents": "roles(\\$aro)"
+        },
+        {
+            "trigger": "resolve\t[PhpAcl]",
+            "contents": "resolve(\\$aro)"
+        },
+        {
+            "trigger": "addRole\t[PhpAcl]",
+            "contents": "addRole(array \\$aro)"
+        },
+        {
+            "trigger": "build\t[PhpAcl]",
+            "contents": "build(array \\$aros)"
+        },
+        {
+            "trigger": "authorize\t[ActionsAuthorize]",
+            "contents": "authorize(\\$user, CakeRequest \\$request)"
+        },
+        {
+            "trigger": "authenticate\t[BaseAuthenticate]",
+            "contents": "authenticate(CakeRequest \\$request, CakeResponse \\$response)"
+        },
+        {
+            "trigger": "logout\t[BaseAuthenticate]",
+            "contents": "logout(\\$user)"
+        },
+        {
+            "trigger": "getUser\t[BaseAuthenticate]",
+            "contents": "getUser(\\$request)"
+        },
+        {
+            "trigger": "authorize\t[BaseAuthorize]",
+            "contents": "authorize(\\$user, CakeRequest \\$request)"
+        },
+        {
+            "trigger": "controller\t[BaseAuthorize]",
+            "contents": "controller(Controller \\$controller = null)"
+        },
+        {
+            "trigger": "action\t[BaseAuthorize]",
+            "contents": "action(\\$request, \\$path = '/:plugin/:controller/:action')"
+        },
+        {
+            "trigger": "mapActions\t[BaseAuthorize]",
+            "contents": "mapActions(\\$map = array())"
+        },
+        {
+            "trigger": "authenticate\t[BasicAuthenticate]",
+            "contents": "authenticate(CakeRequest \\$request, CakeResponse \\$response)"
+        },
+        {
+            "trigger": "getUser\t[BasicAuthenticate]",
+            "contents": "getUser(\\$request)"
+        },
+        {
+            "trigger": "loginHeaders\t[BasicAuthenticate]",
+            "contents": "loginHeaders()"
+        },
+        {
+            "trigger": "isAuthorized\t[ControllerAuthorize]",
+            "contents": "isAuthorized(\\$user)"
+        },
+        {
+            "trigger": "controller\t[ControllerAuthorize]",
+            "contents": "controller(Controller \\$controller = null)"
+        },
+        {
+            "trigger": "authorize\t[ControllerAuthorize]",
+            "contents": "authorize(\\$user, CakeRequest \\$request)"
+        },
+        {
+            "trigger": "authorize\t[CrudAuthorize]",
+            "contents": "authorize(\\$user, CakeRequest \\$request)"
+        },
+        {
+            "trigger": "authenticate\t[DigestAuthenticate]",
+            "contents": "authenticate(CakeRequest \\$request, CakeResponse \\$response)"
+        },
+        {
+            "trigger": "getUser\t[DigestAuthenticate]",
+            "contents": "getUser(\\$request)"
+        },
+        {
+            "trigger": "parseAuthData\t[DigestAuthenticate]",
+            "contents": "parseAuthData(\\$digest)"
+        },
+        {
+            "trigger": "generateResponseHash\t[DigestAuthenticate]",
+            "contents": "generateResponseHash(\\$digest, \\$password)"
+        },
+        {
+            "trigger": "loginHeaders\t[DigestAuthenticate]",
+            "contents": "loginHeaders()"
+        },
+        {
+            "trigger": "authenticate\t[FormAuthenticate]",
+            "contents": "authenticate(CakeRequest \\$request, CakeResponse \\$response)"
+        },
+        {
+            "trigger": "toString\t[Object]",
+            "contents": "toString()"
+        },
+        {
+            "trigger": "requestAction\t[Object]",
+            "contents": "requestAction(\\$url, \\$extra = array())"
+        },
+        {
+            "trigger": "dispatchMethod\t[Object]",
+            "contents": "dispatchMethod(\\$method, \\$params = array())"
+        },
+        {
+            "trigger": "log\t[Object]",
+            "contents": "log(\\$msg, \\$type = LOG_ERR)"
+        },
+        {
+            "trigger": "render\t[ExceptionRenderer]",
+            "contents": "render()"
+        },
+        {
+            "trigger": "error400\t[ExceptionRenderer]",
+            "contents": "error400(\\$error)"
+        },
+        {
+            "trigger": "error500\t[ExceptionRenderer]",
+            "contents": "error500(\\$error)"
+        },
+        {
+            "trigger": "pdoError\t[ExceptionRenderer]",
+            "contents": "pdoError(PDOException \\$error)"
+        },
+        {
+            "trigger": "getAttributes\t[exceptions]",
+            "contents": "getAttributes()"
+        },
+        {
+            "trigger": "name\t[CakeEvent]",
+            "contents": "name()"
+        },
+        {
+            "trigger": "subject\t[CakeEvent]",
+            "contents": "subject()"
+        },
+        {
+            "trigger": "stopPropagation\t[CakeEvent]",
+            "contents": "stopPropagation()"
+        },
+        {
+            "trigger": "isStopped\t[CakeEvent]",
+            "contents": "isStopped()"
+        },
+        {
+            "trigger": "implementedEvents\t[CakeEventListener]",
+            "contents": "implementedEvents()"
+        },
+        {
+            "trigger": "implementedEvents\t[CakeEventListener]",
+            "contents": "implementedEvents()"
+        },
+        {
+            "trigger": "attach\t[CakeEventManager]",
+            "contents": "attach(\\$callable, \\$eventKey = null, \\$options = array())"
+        },
+        {
+            "trigger": "detach\t[CakeEventManager]",
+            "contents": "detach(\\$callable, \\$eventKey = null)"
+        },
+        {
+            "trigger": "dispatch\t[CakeEventManager]",
+            "contents": "dispatch(\\$event)"
+        },
+        {
+            "trigger": "listeners\t[CakeEventManager]",
+            "contents": "listeners(\\$eventKey)"
+        },
+        {
+            "trigger": "get\t[L10n]",
+            "contents": "get(\\$language = null)"
+        },
+        {
+            "trigger": "map\t[L10n]",
+            "contents": "map(\\$mixed = null)"
+        },
+        {
+            "trigger": "catalog\t[L10n]",
+            "contents": "catalog(\\$language = null)"
+        },
+        {
+            "trigger": "write\t[CakeLogInterface]",
+            "contents": "write(\\$type, \\$message)"
+        },
+        {
+            "trigger": "load\t[LogEngineCollection]",
+            "contents": "load(\\$name, \\$options = array())"
+        },
+        {
+            "trigger": "config\t[BaseLog]",
+            "contents": "config(\\$config = array())"
+        },
+        {
+            "trigger": "write\t[ConsoleLog]",
+            "contents": "write(\\$type, \\$message)"
+        },
+        {
+            "trigger": "write\t[FileLog]",
+            "contents": "write(\\$type, \\$message)"
+        },
+        {
+            "trigger": "node\t[AclNode]",
+            "contents": "node(\\$ref = null)"
+        },
+        {
+            "trigger": "init\t[BehaviorCollection]",
+            "contents": "init(\\$modelName, \\$behaviors = array())"
+        },
+        {
+            "trigger": "attach\t[BehaviorCollection]",
+            "contents": "attach(\\$behavior, \\$config = array())"
+        },
+        {
+            "trigger": "load\t[BehaviorCollection]",
+            "contents": "load(\\$behavior, \\$config = array())"
+        },
+        {
+            "trigger": "unload\t[BehaviorCollection]",
+            "contents": "unload(\\$name)"
+        },
+        {
+            "trigger": "detach\t[BehaviorCollection]",
+            "contents": "detach(\\$name)"
+        },
+        {
+            "trigger": "dispatchMethod\t[BehaviorCollection]",
+            "contents": "dispatchMethod(\\$model, \\$method, \\$params = array(), \\$strict = false)"
+        },
+        {
+            "trigger": "methods\t[BehaviorCollection]",
+            "contents": "methods()"
+        },
+        {
+            "trigger": "hasMethod\t[BehaviorCollection]",
+            "contents": "hasMethod(\\$method, \\$callback = false)"
+        },
+        {
+            "trigger": "implementedEvents\t[BehaviorCollection]",
+            "contents": "implementedEvents()"
+        },
+        {
+            "trigger": "build\t[CakeSchema]",
+            "contents": "build(\\$data)"
+        },
+        {
+            "trigger": "before\t[CakeSchema]",
+            "contents": "before(\\$event = array())"
+        },
+        {
+            "trigger": "after\t[CakeSchema]",
+            "contents": "after(\\$event = array())"
+        },
+        {
+            "trigger": "load\t[CakeSchema]",
+            "contents": "load(\\$options = array())"
+        },
+        {
+            "trigger": "read\t[CakeSchema]",
+            "contents": "read(\\$options = array())"
+        },
+        {
+            "trigger": "write\t[CakeSchema]",
+            "contents": "write(\\$object, \\$options = array())"
+        },
+        {
+            "trigger": "before\t[CakeSchema]",
+            "contents": "before(\\\\$event = array()) {\\n\\t\\treturn true;\\n\\t}\\n\\n\\tpublic function after(\\\\$event = array())"
+        },
+        {
+            "trigger": "generateTable\t[CakeSchema]",
+            "contents": "generateTable(\\$table, \\$fields)"
+        },
+        {
+            "trigger": "compare\t[CakeSchema]",
+            "contents": "compare(\\$old, \\$new = null)"
+        },
+        {
+            "trigger": "customValidation\t[Model]",
+            "contents": "customValidation(\\$data)"
+        },
+        {
+            "trigger": "implementedEvents\t[Model]",
+            "contents": "implementedEvents()"
+        },
+        {
+            "trigger": "getEventManager\t[Model]",
+            "contents": "getEventManager()"
+        },
+        {
+            "trigger": "bindModel\t[Model]",
+            "contents": "bindModel(\\$params, \\$reset = true)"
+        },
+        {
+            "trigger": "unbindModel\t[Model]",
+            "contents": "unbindModel(\\$params, \\$reset = true)"
+        },
+        {
+            "trigger": "setSource\t[Model]",
+            "contents": "setSource(\\$tableName)"
+        },
+        {
+            "trigger": "set\t[Model]",
+            "contents": "set(\\$one, \\$two = null)"
+        },
+        {
+            "trigger": "deconstruct\t[Model]",
+            "contents": "deconstruct(\\$field, \\$data)"
+        },
+        {
+            "trigger": "schema\t[Model]",
+            "contents": "schema(\\$field = false)"
+        },
+        {
+            "trigger": "getColumnTypes\t[Model]",
+            "contents": "getColumnTypes()"
+        },
+        {
+            "trigger": "getColumnType\t[Model]",
+            "contents": "getColumnType(\\$column)"
+        },
+        {
+            "trigger": "hasField\t[Model]",
+            "contents": "hasField(\\$name, \\$checkVirtual = false)"
+        },
+        {
+            "trigger": "hasMethod\t[Model]",
+            "contents": "hasMethod(\\$method)"
+        },
+        {
+            "trigger": "isVirtualField\t[Model]",
+            "contents": "isVirtualField(\\$field)"
+        },
+        {
+            "trigger": "getVirtualField\t[Model]",
+            "contents": "getVirtualField(\\$field = null)"
+        },
+        {
+            "trigger": "create\t[Model]",
+            "contents": "create(\\$data = array(), \\$filterKey = false)"
+        },
+        {
+            "trigger": "read\t[Model]",
+            "contents": "read(\\$fields = null, \\$id = null)"
+        },
+        {
+            "trigger": "field\t[Model]",
+            "contents": "field(\\$name, \\$conditions = null, \\$order = null)"
+        },
+        {
+            "trigger": "saveField\t[Model]",
+            "contents": "saveField(\\$name, \\$value, \\$validate = false)"
+        },
+        {
+            "trigger": "save\t[Model]",
+            "contents": "save(\\$data = null, \\$validate = true, \\$fieldList = array())"
+        },
+        {
+            "trigger": "updateCounterCache\t[Model]",
+            "contents": "updateCounterCache(\\$keys = array(), \\$created = false)"
+        },
+        {
+            "trigger": "saveAll\t[Model]",
+            "contents": "saveAll(\\$data = array(), \\$options = array())"
+        },
+        {
+            "trigger": "saveMany\t[Model]",
+            "contents": "saveMany(\\$data = null, \\$options = array())"
+        },
+        {
+            "trigger": "validateMany\t[Model]",
+            "contents": "validateMany(&\\$data, \\$options = array())"
+        },
+        {
+            "trigger": "saveAssociated\t[Model]",
+            "contents": "saveAssociated(\\$data = null, \\$options = array())"
+        },
+        {
+            "trigger": "validateAssociated\t[Model]",
+            "contents": "validateAssociated(&\\$data, \\$options = array())"
+        },
+        {
+            "trigger": "updateAll\t[Model]",
+            "contents": "updateAll(\\$fields, \\$conditions = true)"
+        },
+        {
+            "trigger": "delete\t[Model]",
+            "contents": "delete(\\$id = null, \\$cascade = true)"
+        },
+        {
+            "trigger": "deleteAll\t[Model]",
+            "contents": "deleteAll(\\$conditions, \\$cascade = true, \\$callbacks = false)"
+        },
+        {
+            "trigger": "exists\t[Model]",
+            "contents": "exists(\\$id = null)"
+        },
+        {
+            "trigger": "hasAny\t[Model]",
+            "contents": "hasAny(\\$conditions = null)"
+        },
+        {
+            "trigger": "find\t[Model]",
+            "contents": "find(\\$type = 'first', \\$query = array())"
+        },
+        {
+            "trigger": "buildQuery\t[Model]",
+            "contents": "buildQuery(\\$type = 'first', \\$query = array())"
+        },
+        {
+            "trigger": "resetAssociations\t[Model]",
+            "contents": "resetAssociations()"
+        },
+        {
+            "trigger": "isUnique\t[Model]",
+            "contents": "isUnique(\\$fields, \\$or = true)"
+        },
+        {
+            "trigger": "query\t[Model]",
+            "contents": "query(\\$sql)"
+        },
+        {
+            "trigger": "validates\t[Model]",
+            "contents": "validates(\\$options = array())"
+        },
+        {
+            "trigger": "invalidFields\t[Model]",
+            "contents": "invalidFields(\\$options = array())"
+        },
+        {
+            "trigger": "invalidate\t[Model]",
+            "contents": "invalidate(\\$field, \\$value = true)"
+        },
+        {
+            "trigger": "isForeignKey\t[Model]",
+            "contents": "isForeignKey(\\$field)"
+        },
+        {
+            "trigger": "escapeField\t[Model]",
+            "contents": "escapeField(\\$field = null, \\$alias = null)"
+        },
+        {
+            "trigger": "getID\t[Model]",
+            "contents": "getID(\\$list = 0)"
+        },
+        {
+            "trigger": "getLastInsertID\t[Model]",
+            "contents": "getLastInsertID()"
+        },
+        {
+            "trigger": "getInsertID\t[Model]",
+            "contents": "getInsertID()"
+        },
+        {
+            "trigger": "setInsertID\t[Model]",
+            "contents": "setInsertID(\\$id)"
+        },
+        {
+            "trigger": "getNumRows\t[Model]",
+            "contents": "getNumRows()"
+        },
+        {
+            "trigger": "getAffectedRows\t[Model]",
+            "contents": "getAffectedRows()"
+        },
+        {
+            "trigger": "setDataSource\t[Model]",
+            "contents": "setDataSource(\\$dataSource = null)"
+        },
+        {
+            "trigger": "getDataSource\t[Model]",
+            "contents": "getDataSource()"
+        },
+        {
+            "trigger": "associations\t[Model]",
+            "contents": "associations()"
+        },
+        {
+            "trigger": "getAssociated\t[Model]",
+            "contents": "getAssociated(\\$type = null)"
+        },
+        {
+            "trigger": "joinModel\t[Model]",
+            "contents": "joinModel(\\$assoc, \\$keys = array())"
+        },
+        {
+            "trigger": "beforeFind\t[Model]",
+            "contents": "beforeFind(\\$queryData)"
+        },
+        {
+            "trigger": "afterFind\t[Model]",
+            "contents": "afterFind(\\$results, \\$primary = false)"
+        },
+        {
+            "trigger": "beforeSave\t[Model]",
+            "contents": "beforeSave(\\$options = array())"
+        },
+        {
+            "trigger": "afterSave\t[Model]",
+            "contents": "afterSave(\\$created)"
+        },
+        {
+            "trigger": "beforeDelete\t[Model]",
+            "contents": "beforeDelete(\\$cascade = true)"
+        },
+        {
+            "trigger": "afterDelete\t[Model]",
+            "contents": "afterDelete()"
+        },
+        {
+            "trigger": "beforeValidate\t[Model]",
+            "contents": "beforeValidate(\\$options = array())"
+        },
+        {
+            "trigger": "afterValidate\t[Model]",
+            "contents": "afterValidate()"
+        },
+        {
+            "trigger": "onError\t[Model]",
+            "contents": "onError()"
+        },
+        {
+            "trigger": "validator\t[Model]",
+            "contents": "validator(\\$instance = null)"
+        },
+        {
+            "trigger": "setup\t[ModelBehavior]",
+            "contents": "setup(Model \\$model, \\$config = array())"
+        },
+        {
+            "trigger": "cleanup\t[ModelBehavior]",
+            "contents": "cleanup(Model \\$model)"
+        },
+        {
+            "trigger": "beforeFind\t[ModelBehavior]",
+            "contents": "beforeFind(Model \\$model, \\$query)"
+        },
+        {
+            "trigger": "afterFind\t[ModelBehavior]",
+            "contents": "afterFind(Model \\$model, \\$results, \\$primary)"
+        },
+        {
+            "trigger": "beforeValidate\t[ModelBehavior]",
+            "contents": "beforeValidate(Model \\$model)"
+        },
+        {
+            "trigger": "afterValidate\t[ModelBehavior]",
+            "contents": "afterValidate(Model \\$model)"
+        },
+        {
+            "trigger": "beforeSave\t[ModelBehavior]",
+            "contents": "beforeSave(Model \\$model)"
+        },
+        {
+            "trigger": "afterSave\t[ModelBehavior]",
+            "contents": "afterSave(Model \\$model, \\$created)"
+        },
+        {
+            "trigger": "beforeDelete\t[ModelBehavior]",
+            "contents": "beforeDelete(Model \\$model, \\$cascade = true)"
+        },
+        {
+            "trigger": "afterDelete\t[ModelBehavior]",
+            "contents": "afterDelete(Model \\$model)"
+        },
+        {
+            "trigger": "onError\t[ModelBehavior]",
+            "contents": "onError(Model \\$model, \\$error)"
+        },
+        {
+            "trigger": "validates\t[ModelValidator]",
+            "contents": "validates(\\$options = array())"
+        },
+        {
+            "trigger": "validateAssociated\t[ModelValidator]",
+            "contents": "validateAssociated(&\\$data, \\$options = array())"
+        },
+        {
+            "trigger": "validateMany\t[ModelValidator]",
+            "contents": "validateMany(&\\$data, \\$options = array())"
+        },
+        {
+            "trigger": "errors\t[ModelValidator]",
+            "contents": "errors(\\$options = array())"
+        },
+        {
+            "trigger": "invalidate\t[ModelValidator]",
+            "contents": "invalidate(\\$field, \\$message = true)"
+        },
+        {
+            "trigger": "getMethods\t[ModelValidator]",
+            "contents": "getMethods()"
+        },
+        {
+            "trigger": "getField\t[ModelValidator]",
+            "contents": "getField(\\$name = null)"
+        },
+        {
+            "trigger": "setValidationDomain\t[ModelValidator]",
+            "contents": "setValidationDomain(\\$validationDomain = null)"
+        },
+        {
+            "trigger": "getModel\t[ModelValidator]",
+            "contents": "getModel()"
+        },
+        {
+            "trigger": "offsetExists\t[ModelValidator]",
+            "contents": "offsetExists(\\$field)"
+        },
+        {
+            "trigger": "offsetGet\t[ModelValidator]",
+            "contents": "offsetGet(\\$field)"
+        },
+        {
+            "trigger": "offsetSet\t[ModelValidator]",
+            "contents": "offsetSet(\\$field, \\$rules)"
+        },
+        {
+            "trigger": "offsetUnset\t[ModelValidator]",
+            "contents": "offsetUnset(\\$field)"
+        },
+        {
+            "trigger": "getIterator\t[ModelValidator]",
+            "contents": "getIterator()"
+        },
+        {
+            "trigger": "count\t[ModelValidator]",
+            "contents": "count()"
+        },
+        {
+            "trigger": "add\t[ModelValidator]",
+            "contents": "add(\\$field, \\$name, \\$rule = null)"
+        },
+        {
+            "trigger": "remove\t[ModelValidator]",
+            "contents": "remove(\\$field, \\$rule = null)"
+        },
+        {
+            "trigger": "check\t[Permission]",
+            "contents": "check(\\$aro, \\$aco, \\$action = \"*\")"
+        },
+        {
+            "trigger": "allow\t[Permission]",
+            "contents": "allow(\\$aro, \\$aco, \\$actions = \"*\", \\$value = 1)"
+        },
+        {
+            "trigger": "getAclLink\t[Permission]",
+            "contents": "getAclLink(\\$aro, \\$aco)"
+        },
+        {
+            "trigger": "getAcoKeys\t[Permission]",
+            "contents": "getAcoKeys(\\$keys)"
+        },
+        {
+            "trigger": "setup\t[AclBehavior]",
+            "contents": "setup(Model \\$model, \\$config = array())"
+        },
+        {
+            "trigger": "node\t[AclBehavior]",
+            "contents": "node(Model \\$model, \\$ref = null, \\$type = null)"
+        },
+        {
+            "trigger": "afterSave\t[AclBehavior]",
+            "contents": "afterSave(Model \\$model, \\$created)"
+        },
+        {
+            "trigger": "afterDelete\t[AclBehavior]",
+            "contents": "afterDelete(Model \\$model)"
+        },
+        {
+            "trigger": "setup\t[ContainableBehavior]",
+            "contents": "setup(Model \\$Model, \\$settings = array())"
+        },
+        {
+            "trigger": "beforeFind\t[ContainableBehavior]",
+            "contents": "beforeFind(Model \\$Model, \\$query)"
+        },
+        {
+            "trigger": "contain\t[ContainableBehavior]",
+            "contents": "contain(Model \\$Model)"
+        },
+        {
+            "trigger": "resetBindings\t[ContainableBehavior]",
+            "contents": "resetBindings(Model \\$Model)"
+        },
+        {
+            "trigger": "containments\t[ContainableBehavior]",
+            "contents": "containments(Model \\$Model, \\$contain, \\$containments = array(), \\$throwErrors = null)"
+        },
+        {
+            "trigger": "fieldDependencies\t[ContainableBehavior]",
+            "contents": "fieldDependencies(Model \\$Model, \\$map, \\$fields = array())"
+        },
+        {
+            "trigger": "containmentsMap\t[ContainableBehavior]",
+            "contents": "containmentsMap(\\$containments)"
+        },
+        {
+            "trigger": "setup\t[TranslateBehavior]",
+            "contents": "setup(Model \\$Model, \\$config = array())"
+        },
+        {
+            "trigger": "cleanup\t[TranslateBehavior]",
+            "contents": "cleanup(Model \\$Model)"
+        },
+        {
+            "trigger": "beforeFind\t[TranslateBehavior]",
+            "contents": "beforeFind(Model \\$Model, \\$query)"
+        },
+        {
+            "trigger": "afterFind\t[TranslateBehavior]",
+            "contents": "afterFind(Model \\$Model, \\$results, \\$primary)"
+        },
+        {
+            "trigger": "beforeValidate\t[TranslateBehavior]",
+            "contents": "beforeValidate(Model \\$Model)"
+        },
+        {
+            "trigger": "beforeSave\t[TranslateBehavior]",
+            "contents": "beforeSave(Model \\$Model, \\$options = array())"
+        },
+        {
+            "trigger": "afterValidate\t[TranslateBehavior]",
+            "contents": "afterValidate(Model \\$Model)"
+        },
+        {
+            "trigger": "afterSave\t[TranslateBehavior]",
+            "contents": "afterSave(Model \\$Model, \\$created)"
+        },
+        {
+            "trigger": "afterDelete\t[TranslateBehavior]",
+            "contents": "afterDelete(Model \\$Model)"
+        },
+        {
+            "trigger": "translateModel\t[TranslateBehavior]",
+            "contents": "translateModel(Model \\$Model)"
+        },
+        {
+            "trigger": "bindTranslation\t[TranslateBehavior]",
+            "contents": "bindTranslation(Model \\$Model, \\$fields, \\$reset = true)"
+        },
+        {
+            "trigger": "unbindTranslation\t[TranslateBehavior]",
+            "contents": "unbindTranslation(Model \\$Model, \\$fields = null)"
+        },
+        {
+            "trigger": "setup\t[TreeBehavior]",
+            "contents": "setup(Model \\$Model, \\$config = array())"
+        },
+        {
+            "trigger": "afterSave\t[TreeBehavior]",
+            "contents": "afterSave(Model \\$Model, \\$created)"
+        },
+        {
+            "trigger": "beforeFind\t[TreeBehavior]",
+            "contents": "beforeFind(Model \\$Model, \\$query)"
+        },
+        {
+            "trigger": "beforeDelete\t[TreeBehavior]",
+            "contents": "beforeDelete(Model \\$Model, \\$cascade = true)"
+        },
+        {
+            "trigger": "afterDelete\t[TreeBehavior]",
+            "contents": "afterDelete(Model \\$Model)"
+        },
+        {
+            "trigger": "beforeSave\t[TreeBehavior]",
+            "contents": "beforeSave(Model \\$Model)"
+        },
+        {
+            "trigger": "childCount\t[TreeBehavior]",
+            "contents": "childCount(Model \\$Model, \\$id = null, \\$direct = false)"
+        },
+        {
+            "trigger": "children\t[TreeBehavior]",
+            "contents": "children(Model \\$Model, \\$id = null, \\$direct = false, \\$fields = null, \\$order = null, \\$limit = null, \\$page = 1, \\$recursive = null)"
+        },
+        {
+            "trigger": "generateTreeList\t[TreeBehavior]",
+            "contents": "generateTreeList(Model \\$Model, \\$conditions = null, \\$keyPath = null, \\$valuePath = null, \\$spacer = '_', \\$recursive = null)"
+        },
+        {
+            "trigger": "getParentNode\t[TreeBehavior]",
+            "contents": "getParentNode(Model \\$Model, \\$id = null, \\$fields = null, \\$recursive = null)"
+        },
+        {
+            "trigger": "getPath\t[TreeBehavior]",
+            "contents": "getPath(Model \\$Model, \\$id = null, \\$fields = null, \\$recursive = null)"
+        },
+        {
+            "trigger": "moveDown\t[TreeBehavior]",
+            "contents": "moveDown(Model \\$Model, \\$id = null, \\$number = 1)"
+        },
+        {
+            "trigger": "moveUp\t[TreeBehavior]",
+            "contents": "moveUp(Model \\$Model, \\$id = null, \\$number = 1)"
+        },
+        {
+            "trigger": "recover\t[TreeBehavior]",
+            "contents": "recover(Model \\$Model, \\$mode = 'parent', \\$missingParentAction = null)"
+        },
+        {
+            "trigger": "reorder\t[TreeBehavior]",
+            "contents": "reorder(Model \\$Model, \\$options = array())"
+        },
+        {
+            "trigger": "removeFromTree\t[TreeBehavior]",
+            "contents": "removeFromTree(Model \\$Model, \\$id = null, \\$delete = false)"
+        },
+        {
+            "trigger": "verify\t[TreeBehavior]",
+            "contents": "verify(Model \\$Model)"
+        },
+        {
+            "trigger": "listSources\t[DataSource]",
+            "contents": "listSources(\\$data = null)"
+        },
+        {
+            "trigger": "describe\t[DataSource]",
+            "contents": "describe(\\$model)"
+        },
+        {
+            "trigger": "begin\t[DataSource]",
+            "contents": "begin()"
+        },
+        {
+            "trigger": "commit\t[DataSource]",
+            "contents": "commit()"
+        },
+        {
+            "trigger": "rollback\t[DataSource]",
+            "contents": "rollback()"
+        },
+        {
+            "trigger": "column\t[DataSource]",
+            "contents": "column(\\$real)"
+        },
+        {
+            "trigger": "create\t[DataSource]",
+            "contents": "create(Model \\$model, \\$fields = null, \\$values = null)"
+        },
+        {
+            "trigger": "read\t[DataSource]",
+            "contents": "read(Model \\$model, \\$queryData = array(), \\$recursive = null)"
+        },
+        {
+            "trigger": "update\t[DataSource]",
+            "contents": "update(Model \\$model, \\$fields = null, \\$values = null, \\$conditions = null)"
+        },
+        {
+            "trigger": "delete\t[DataSource]",
+            "contents": "delete(Model \\$model, \\$id = null)"
+        },
+        {
+            "trigger": "lastInsertId\t[DataSource]",
+            "contents": "lastInsertId(\\$source = null)"
+        },
+        {
+            "trigger": "lastNumRows\t[DataSource]",
+            "contents": "lastNumRows(\\$source = null)"
+        },
+        {
+            "trigger": "lastAffected\t[DataSource]",
+            "contents": "lastAffected(\\$source = null)"
+        },
+        {
+            "trigger": "enabled\t[DataSource]",
+            "contents": "enabled()"
+        },
+        {
+            "trigger": "setConfig\t[DataSource]",
+            "contents": "setConfig(\\$config = array())"
+        },
+        {
+            "trigger": "insertQueryData\t[DataSource]",
+            "contents": "insertQueryData(\\$query, \\$data, \\$association, \\$assocData, Model \\$model, Model \\$linkModel, \\$stack)"
+        },
+        {
+            "trigger": "resolveKey\t[DataSource]",
+            "contents": "resolveKey(Model \\$model, \\$key)"
+        },
+        {
+            "trigger": "getSchemaName\t[DataSource]",
+            "contents": "getSchemaName()"
+        },
+        {
+            "trigger": "close\t[DataSource]",
+            "contents": "close()"
+        },
+        {
+            "trigger": "reconnect\t[DboSource]",
+            "contents": "reconnect(\\$config = array())"
+        },
+        {
+            "trigger": "disconnect\t[DboSource]",
+            "contents": "disconnect()"
+        },
+        {
+            "trigger": "getConnection\t[DboSource]",
+            "contents": "getConnection()"
+        },
+        {
+            "trigger": "getVersion\t[DboSource]",
+            "contents": "getVersion()"
+        },
+        {
+            "trigger": "value\t[DboSource]",
+            "contents": "value(\\$data, \\$column = null)"
+        },
+        {
+            "trigger": "identifier\t[DboSource]",
+            "contents": "identifier(\\$identifier)"
+        },
+        {
+            "trigger": "expression\t[DboSource]",
+            "contents": "expression(\\$expression)"
+        },
+        {
+            "trigger": "rawQuery\t[DboSource]",
+            "contents": "rawQuery(\\$sql, \\$params = array())"
+        },
+        {
+            "trigger": "execute\t[DboSource]",
+            "contents": "execute(\\$sql, \\$options = array(), \\$params = array())"
+        },
+        {
+            "trigger": "lastError\t[DboSource]",
+            "contents": "lastError(PDOStatement \\$query = null)"
+        },
+        {
+            "trigger": "lastAffected\t[DboSource]",
+            "contents": "lastAffected(\\$source = null)"
+        },
+        {
+            "trigger": "lastNumRows\t[DboSource]",
+            "contents": "lastNumRows(\\$source = null)"
+        },
+        {
+            "trigger": "query\t[DboSource]",
+            "contents": "query()"
+        },
+        {
+            "trigger": "fetchRow\t[DboSource]",
+            "contents": "fetchRow(\\$sql = null)"
+        },
+        {
+            "trigger": "fetchAll\t[DboSource]",
+            "contents": "fetchAll(\\$sql, \\$params = array(), \\$options = array())"
+        },
+        {
+            "trigger": "fetchResult\t[DboSource]",
+            "contents": "fetchResult()"
+        },
+        {
+            "trigger": "fetchVirtualField\t[DboSource]",
+            "contents": "fetchVirtualField(&\\$result)"
+        },
+        {
+            "trigger": "field\t[DboSource]",
+            "contents": "field(\\$name, \\$sql)"
+        },
+        {
+            "trigger": "flushMethodCache\t[DboSource]",
+            "contents": "flushMethodCache()"
+        },
+        {
+            "trigger": "cacheMethod\t[DboSource]",
+            "contents": "cacheMethod(\\$method, \\$key, \\$value = null)"
+        },
+        {
+            "trigger": "name\t[DboSource]",
+            "contents": "name(\\$data)"
+        },
+        {
+            "trigger": "isConnected\t[DboSource]",
+            "contents": "isConnected()"
+        },
+        {
+            "trigger": "hasResult\t[DboSource]",
+            "contents": "hasResult()"
+        },
+        {
+            "trigger": "getLog\t[DboSource]",
+            "contents": "getLog(\\$sorted = false, \\$clear = true)"
+        },
+        {
+            "trigger": "showLog\t[DboSource]",
+            "contents": "showLog(\\$sorted = false)"
+        },
+        {
+            "trigger": "logQuery\t[DboSource]",
+            "contents": "logQuery(\\$sql, \\$params = array())"
+        },
+        {
+            "trigger": "fullTableName\t[DboSource]",
+            "contents": "fullTableName(\\$model, \\$quote = true, \\$schema = true)"
+        },
+        {
+            "trigger": "create\t[DboSource]",
+            "contents": "create(Model \\$model, \\$fields = null, \\$values = null)"
+        },
+        {
+            "trigger": "read\t[DboSource]",
+            "contents": "read(Model \\$model, \\$queryData = array(), \\$recursive = null)"
+        },
+        {
+            "trigger": "queryAssociation\t[DboSource]",
+            "contents": "queryAssociation(Model \\$model, &\\$linkModel, \\$type, \\$association, \\$assocData, &\\$queryData, \\$external, &\\$resultSet, \\$recursive, \\$stack)"
+        },
+        {
+            "trigger": "fetchAssociated\t[DboSource]",
+            "contents": "fetchAssociated(Model \\$model, \\$query, \\$ids)"
+        },
+        {
+            "trigger": "generateAssociationQuery\t[DboSource]",
+            "contents": "generateAssociationQuery(Model \\$model, \\$linkModel, \\$type, \\$association, \\$assocData, &\\$queryData, \\$external, &\\$resultSet)"
+        },
+        {
+            "trigger": "getConstraint\t[DboSource]",
+            "contents": "getConstraint(\\$type, \\$model, \\$linkModel, \\$alias, \\$assoc, \\$alias2 = null)"
+        },
+        {
+            "trigger": "buildJoinStatement\t[DboSource]",
+            "contents": "buildJoinStatement(\\$join)"
+        },
+        {
+            "trigger": "buildStatement\t[DboSource]",
+            "contents": "buildStatement(\\$query, \\$model)"
+        },
+        {
+            "trigger": "renderJoinStatement\t[DboSource]",
+            "contents": "renderJoinStatement(\\$data)"
+        },
+        {
+            "trigger": "renderStatement\t[DboSource]",
+            "contents": "renderStatement(\\$type, \\$data)"
+        },
+        {
+            "trigger": "update\t[DboSource]",
+            "contents": "update(Model \\$model, \\$fields = array(), \\$values = null, \\$conditions = null)"
+        },
+        {
+            "trigger": "delete\t[DboSource]",
+            "contents": "delete(Model \\$model, \\$conditions = null)"
+        },
+        {
+            "trigger": "calculate\t[DboSource]",
+            "contents": "calculate(Model \\$model, \\$func, \\$params = array())"
+        },
+        {
+            "trigger": "truncate\t[DboSource]",
+            "contents": "truncate(\\$table)"
+        },
+        {
+            "trigger": "nestedTransactionSupported\t[DboSource]",
+            "contents": "nestedTransactionSupported()"
+        },
+        {
+            "trigger": "begin\t[DboSource]",
+            "contents": "begin()"
+        },
+        {
+            "trigger": "commit\t[DboSource]",
+            "contents": "commit()"
+        },
+        {
+            "trigger": "rollback\t[DboSource]",
+            "contents": "rollback()"
+        },
+        {
+            "trigger": "lastInsertId\t[DboSource]",
+            "contents": "lastInsertId(\\$source = null)"
+        },
+        {
+            "trigger": "defaultConditions\t[DboSource]",
+            "contents": "defaultConditions(Model \\$model, \\$conditions, \\$useAlias = true)"
+        },
+        {
+            "trigger": "resolveKey\t[DboSource]",
+            "contents": "resolveKey(Model \\$model, \\$key, \\$assoc = null)"
+        },
+        {
+            "trigger": "fields\t[DboSource]",
+            "contents": "fields(Model \\$model, \\$alias = null, \\$fields = array(), \\$quote = true)"
+        },
+        {
+            "trigger": "conditions\t[DboSource]",
+            "contents": "conditions(\\$conditions, \\$quoteValues = true, \\$where = true, \\$model = null)"
+        },
+        {
+            "trigger": "conditionKeysToString\t[DboSource]",
+            "contents": "conditionKeysToString(\\$conditions, \\$quoteValues = true, \\$model = null)"
+        },
+        {
+            "trigger": "limit\t[DboSource]",
+            "contents": "limit(\\$limit, \\$offset = null)"
+        },
+        {
+            "trigger": "order\t[DboSource]",
+            "contents": "order(\\$keys, \\$direction = 'ASC', \\$model = null)"
+        },
+        {
+            "trigger": "group\t[DboSource]",
+            "contents": "group(\\$group, \\$model = null)"
+        },
+        {
+            "trigger": "close\t[DboSource]",
+            "contents": "close()"
+        },
+        {
+            "trigger": "hasAny\t[DboSource]",
+            "contents": "hasAny(Model \\$Model, \\$sql)"
+        },
+        {
+            "trigger": "length\t[DboSource]",
+            "contents": "length(\\$real)"
+        },
+        {
+            "trigger": "boolean\t[DboSource]",
+            "contents": "boolean(\\$data, \\$quote = false)"
+        },
+        {
+            "trigger": "insertMulti\t[DboSource]",
+            "contents": "insertMulti(\\$table, \\$fields, \\$values)"
+        },
+        {
+            "trigger": "index\t[DboSource]",
+            "contents": "index(\\$model)"
+        },
+        {
+            "trigger": "createSchema\t[DboSource]",
+            "contents": "createSchema(\\$schema, \\$tableName = null)"
+        },
+        {
+            "trigger": "alterSchema\t[DboSource]",
+            "contents": "alterSchema(\\$compare, \\$table = null)"
+        },
+        {
+            "trigger": "dropSchema\t[DboSource]",
+            "contents": "dropSchema(CakeSchema \\$schema, \\$table = null)"
+        },
+        {
+            "trigger": "buildColumn\t[DboSource]",
+            "contents": "buildColumn(\\$column)"
+        },
+        {
+            "trigger": "buildIndex\t[DboSource]",
+            "contents": "buildIndex(\\$indexes, \\$table = null)"
+        },
+        {
+            "trigger": "readTableParameters\t[DboSource]",
+            "contents": "readTableParameters(\\$name)"
+        },
+        {
+            "trigger": "buildTableParameters\t[DboSource]",
+            "contents": "buildTableParameters(\\$parameters, \\$table = null)"
+        },
+        {
+            "trigger": "introspectType\t[DboSource]",
+            "contents": "introspectType(\\$value)"
+        },
+        {
+            "trigger": "getQueryCache\t[DboSource]",
+            "contents": "getQueryCache(\\$sql, \\$params = array())"
+        },
+        {
+            "trigger": "connect\t[Mysql]",
+            "contents": "connect()"
+        },
+        {
+            "trigger": "enabled\t[Mysql]",
+            "contents": "enabled()"
+        },
+        {
+            "trigger": "listSources\t[Mysql]",
+            "contents": "listSources(\\$data = null)"
+        },
+        {
+            "trigger": "resultSet\t[Mysql]",
+            "contents": "resultSet(\\$results)"
+        },
+        {
+            "trigger": "fetchResult\t[Mysql]",
+            "contents": "fetchResult()"
+        },
+        {
+            "trigger": "getEncoding\t[Mysql]",
+            "contents": "getEncoding()"
+        },
+        {
+            "trigger": "getCharsetName\t[Mysql]",
+            "contents": "getCharsetName(\\$name)"
+        },
+        {
+            "trigger": "describe\t[Mysql]",
+            "contents": "describe(\\$model)"
+        },
+        {
+            "trigger": "update\t[Mysql]",
+            "contents": "update(Model \\$model, \\$fields = array(), \\$values = null, \\$conditions = null)"
+        },
+        {
+            "trigger": "delete\t[Mysql]",
+            "contents": "delete(Model \\$model, \\$conditions = null)"
+        },
+        {
+            "trigger": "setEncoding\t[Mysql]",
+            "contents": "setEncoding(\\$enc)"
+        },
+        {
+            "trigger": "index\t[Mysql]",
+            "contents": "index(\\$model)"
+        },
+        {
+            "trigger": "alterSchema\t[Mysql]",
+            "contents": "alterSchema(\\$compare, \\$table = null)"
+        },
+        {
+            "trigger": "dropSchema\t[Mysql]",
+            "contents": "dropSchema(CakeSchema \\$schema, \\$table = null)"
+        },
+        {
+            "trigger": "listDetailedSources\t[Mysql]",
+            "contents": "listDetailedSources(\\$name = null)"
+        },
+        {
+            "trigger": "column\t[Mysql]",
+            "contents": "column(\\$real)"
+        },
+        {
+            "trigger": "getSchemaName\t[Mysql]",
+            "contents": "getSchemaName()"
+        },
+        {
+            "trigger": "nestedTransactionSupported\t[Mysql]",
+            "contents": "nestedTransactionSupported()"
+        },
+        {
+            "trigger": "connect\t[Postgres]",
+            "contents": "connect()"
+        },
+        {
+            "trigger": "enabled\t[Postgres]",
+            "contents": "enabled()"
+        },
+        {
+            "trigger": "listSources\t[Postgres]",
+            "contents": "listSources(\\$data = null)"
+        },
+        {
+            "trigger": "describe\t[Postgres]",
+            "contents": "describe(\\$model)"
+        },
+        {
+            "trigger": "lastInsertId\t[Postgres]",
+            "contents": "lastInsertId(\\$source = null, \\$field = 'id')"
+        },
+        {
+            "trigger": "getSequence\t[Postgres]",
+            "contents": "getSequence(\\$table, \\$field = 'id')"
+        },
+        {
+            "trigger": "truncate\t[Postgres]",
+            "contents": "truncate(\\$table, \\$reset = false)"
+        },
+        {
+            "trigger": "name\t[Postgres]",
+            "contents": "name(\\$data)"
+        },
+        {
+            "trigger": "fields\t[Postgres]",
+            "contents": "fields(Model \\$model, \\$alias = null, \\$fields = array(), \\$quote = true)"
+        },
+        {
+            "trigger": "index\t[Postgres]",
+            "contents": "index(\\$model)"
+        },
+        {
+            "trigger": "alterSchema\t[Postgres]",
+            "contents": "alterSchema(\\$compare, \\$table = null)"
+        },
+        {
+            "trigger": "limit\t[Postgres]",
+            "contents": "limit(\\$limit, \\$offset = null)"
+        },
+        {
+            "trigger": "column\t[Postgres]",
+            "contents": "column(\\$real)"
+        },
+        {
+            "trigger": "length\t[Postgres]",
+            "contents": "length(\\$real)"
+        },
+        {
+            "trigger": "resultSet\t[Postgres]",
+            "contents": "resultSet(&\\$results)"
+        },
+        {
+            "trigger": "fetchResult\t[Postgres]",
+            "contents": "fetchResult()"
+        },
+        {
+            "trigger": "boolean\t[Postgres]",
+            "contents": "boolean(\\$data, \\$quote = false)"
+        },
+        {
+            "trigger": "setEncoding\t[Postgres]",
+            "contents": "setEncoding(\\$enc)"
+        },
+        {
+            "trigger": "getEncoding\t[Postgres]",
+            "contents": "getEncoding()"
+        },
+        {
+            "trigger": "buildColumn\t[Postgres]",
+            "contents": "buildColumn(\\$column)"
+        },
+        {
+            "trigger": "buildIndex\t[Postgres]",
+            "contents": "buildIndex(\\$indexes, \\$table = null)"
+        },
+        {
+            "trigger": "renderStatement\t[Postgres]",
+            "contents": "renderStatement(\\$type, \\$data)"
+        },
+        {
+            "trigger": "getSchemaName\t[Postgres]",
+            "contents": "getSchemaName()"
+        },
+        {
+            "trigger": "nestedTransactionSupported\t[Postgres]",
+            "contents": "nestedTransactionSupported()"
+        },
+        {
+            "trigger": "connect\t[Sqlite]",
+            "contents": "connect()"
+        },
+        {
+            "trigger": "enabled\t[Sqlite]",
+            "contents": "enabled()"
+        },
+        {
+            "trigger": "listSources\t[Sqlite]",
+            "contents": "listSources(\\$data = null)"
+        },
+        {
+            "trigger": "describe\t[Sqlite]",
+            "contents": "describe(\\$model)"
+        },
+        {
+            "trigger": "update\t[Sqlite]",
+            "contents": "update(Model \\$model, \\$fields = array(), \\$values = null, \\$conditions = null)"
+        },
+        {
+            "trigger": "truncate\t[Sqlite]",
+            "contents": "truncate(\\$table)"
+        },
+        {
+            "trigger": "column\t[Sqlite]",
+            "contents": "column(\\$real)"
+        },
+        {
+            "trigger": "resultSet\t[Sqlite]",
+            "contents": "resultSet(\\$results)"
+        },
+        {
+            "trigger": "fetchResult\t[Sqlite]",
+            "contents": "fetchResult()"
+        },
+        {
+            "trigger": "limit\t[Sqlite]",
+            "contents": "limit(\\$limit, \\$offset = null)"
+        },
+        {
+            "trigger": "buildColumn\t[Sqlite]",
+            "contents": "buildColumn(\\$column)"
+        },
+        {
+            "trigger": "setEncoding\t[Sqlite]",
+            "contents": "setEncoding(\\$enc)"
+        },
+        {
+            "trigger": "getEncoding\t[Sqlite]",
+            "contents": "getEncoding()"
+        },
+        {
+            "trigger": "buildIndex\t[Sqlite]",
+            "contents": "buildIndex(\\$indexes, \\$table = null)"
+        },
+        {
+            "trigger": "index\t[Sqlite]",
+            "contents": "index(\\$model)"
+        },
+        {
+            "trigger": "renderStatement\t[Sqlite]",
+            "contents": "renderStatement(\\$type, \\$data)"
+        },
+        {
+            "trigger": "hasResult\t[Sqlite]",
+            "contents": "hasResult()"
+        },
+        {
+            "trigger": "dropSchema\t[Sqlite]",
+            "contents": "dropSchema(CakeSchema \\$schema, \\$table = null)"
+        },
+        {
+            "trigger": "getSchemaName\t[Sqlite]",
+            "contents": "getSchemaName()"
+        },
+        {
+            "trigger": "nestedTransactionSupported\t[Sqlite]",
+            "contents": "nestedTransactionSupported()"
+        },
+        {
+            "trigger": "connect\t[Sqlserver]",
+            "contents": "connect()"
+        },
+        {
+            "trigger": "enabled\t[Sqlserver]",
+            "contents": "enabled()"
+        },
+        {
+            "trigger": "listSources\t[Sqlserver]",
+            "contents": "listSources(\\$data = null)"
+        },
+        {
+            "trigger": "describe\t[Sqlserver]",
+            "contents": "describe(\\$model)"
+        },
+        {
+            "trigger": "fields\t[Sqlserver]",
+            "contents": "fields(Model \\$model, \\$alias = null, \\$fields = array(), \\$quote = true)"
+        },
+        {
+            "trigger": "create\t[Sqlserver]",
+            "contents": "create(Model \\$model, \\$fields = null, \\$values = null)"
+        },
+        {
+            "trigger": "update\t[Sqlserver]",
+            "contents": "update(Model \\$model, \\$fields = array(), \\$values = null, \\$conditions = null)"
+        },
+        {
+            "trigger": "limit\t[Sqlserver]",
+            "contents": "limit(\\$limit, \\$offset = null)"
+        },
+        {
+            "trigger": "column\t[Sqlserver]",
+            "contents": "column(\\$real)"
+        },
+        {
+            "trigger": "length\t[Sqlserver]",
+            "contents": "length(\\$length)"
+        },
+        {
+            "trigger": "resultSet\t[Sqlserver]",
+            "contents": "resultSet(\\$results)"
+        },
+        {
+            "trigger": "renderStatement\t[Sqlserver]",
+            "contents": "renderStatement(\\$type, \\$data)"
+        },
+        {
+            "trigger": "value\t[Sqlserver]",
+            "contents": "value(\\$data, \\$column = null)"
+        },
+        {
+            "trigger": "read\t[Sqlserver]",
+            "contents": "read(Model \\$model, \\$queryData = array(), \\$recursive = null)"
+        },
+        {
+            "trigger": "fetchResult\t[Sqlserver]",
+            "contents": "fetchResult()"
+        },
+        {
+            "trigger": "insertMulti\t[Sqlserver]",
+            "contents": "insertMulti(\\$table, \\$fields, \\$values)"
+        },
+        {
+            "trigger": "buildColumn\t[Sqlserver]",
+            "contents": "buildColumn(\\$column)"
+        },
+        {
+            "trigger": "buildIndex\t[Sqlserver]",
+            "contents": "buildIndex(\\$indexes, \\$table = null)"
+        },
+        {
+            "trigger": "lastAffected\t[Sqlserver]",
+            "contents": "lastAffected(\\$source = null)"
+        },
+        {
+            "trigger": "dropSchema\t[Sqlserver]",
+            "contents": "dropSchema(CakeSchema \\$schema, \\$table = null)"
+        },
+        {
+            "trigger": "getSchemaName\t[Sqlserver]",
+            "contents": "getSchemaName()"
+        },
+        {
+            "trigger": "open\t[CacheSession]",
+            "contents": "open()"
+        },
+        {
+            "trigger": "close\t[CacheSession]",
+            "contents": "close()"
+        },
+        {
+            "trigger": "read\t[CacheSession]",
+            "contents": "read(\\$id)"
+        },
+        {
+            "trigger": "write\t[CacheSession]",
+            "contents": "write(\\$id, \\$data)"
+        },
+        {
+            "trigger": "destroy\t[CacheSession]",
+            "contents": "destroy(\\$id)"
+        },
+        {
+            "trigger": "gc\t[CacheSession]",
+            "contents": "gc(\\$expires = null)"
+        },
+        {
+            "trigger": "open\t[CakeSessionHandlerInterface]",
+            "contents": "open()"
+        },
+        {
+            "trigger": "close\t[CakeSessionHandlerInterface]",
+            "contents": "close()"
+        },
+        {
+            "trigger": "read\t[CakeSessionHandlerInterface]",
+            "contents": "read(\\$id)"
+        },
+        {
+            "trigger": "write\t[CakeSessionHandlerInterface]",
+            "contents": "write(\\$id, \\$data)"
+        },
+        {
+            "trigger": "destroy\t[CakeSessionHandlerInterface]",
+            "contents": "destroy(\\$id)"
+        },
+        {
+            "trigger": "gc\t[CakeSessionHandlerInterface]",
+            "contents": "gc(\\$expires = null)"
+        },
+        {
+            "trigger": "open\t[DatabaseSession]",
+            "contents": "open()"
+        },
+        {
+            "trigger": "close\t[DatabaseSession]",
+            "contents": "close()"
+        },
+        {
+            "trigger": "read\t[DatabaseSession]",
+            "contents": "read(\\$id)"
+        },
+        {
+            "trigger": "write\t[DatabaseSession]",
+            "contents": "write(\\$id, \\$data)"
+        },
+        {
+            "trigger": "destroy\t[DatabaseSession]",
+            "contents": "destroy(\\$id)"
+        },
+        {
+            "trigger": "gc\t[DatabaseSession]",
+            "contents": "gc(\\$expires = null)"
+        },
+        {
+            "trigger": "isValid\t[CakeValidationRule]",
+            "contents": "isValid()"
+        },
+        {
+            "trigger": "isEmptyAllowed\t[CakeValidationRule]",
+            "contents": "isEmptyAllowed()"
+        },
+        {
+            "trigger": "isRequired\t[CakeValidationRule]",
+            "contents": "isRequired()"
+        },
+        {
+            "trigger": "checkRequired\t[CakeValidationRule]",
+            "contents": "checkRequired(\\$field, &\\$data)"
+        },
+        {
+            "trigger": "checkEmpty\t[CakeValidationRule]",
+            "contents": "checkEmpty(\\$field, &\\$data)"
+        },
+        {
+            "trigger": "skip\t[CakeValidationRule]",
+            "contents": "skip()"
+        },
+        {
+            "trigger": "isLast\t[CakeValidationRule]",
+            "contents": "isLast()"
+        },
+        {
+            "trigger": "getValidationResult\t[CakeValidationRule]",
+            "contents": "getValidationResult()"
+        },
+        {
+            "trigger": "isUpdate\t[CakeValidationRule]",
+            "contents": "isUpdate(\\$exists = null)"
+        },
+        {
+            "trigger": "process\t[CakeValidationRule]",
+            "contents": "process(\\$field, &\\$data, &\\$methods)"
+        },
+        {
+            "trigger": "reset\t[CakeValidationRule]",
+            "contents": "reset()"
+        },
+        {
+            "trigger": "getOptions\t[CakeValidationRule]",
+            "contents": "getOptions(\\$key)"
+        },
+        {
+            "trigger": "setMethods\t[CakeValidationSet]",
+            "contents": "setMethods(&\\$methods)"
+        },
+        {
+            "trigger": "setValidationDomain\t[CakeValidationSet]",
+            "contents": "setValidationDomain(\\$validationDomain)"
+        },
+        {
+            "trigger": "validate\t[CakeValidationSet]",
+            "contents": "validate(\\$data, \\$isUpdate = false)"
+        },
+        {
+            "trigger": "reset\t[CakeValidationSet]",
+            "contents": "reset()"
+        },
+        {
+            "trigger": "getRule\t[CakeValidationSet]",
+            "contents": "getRule(\\$name)"
+        },
+        {
+            "trigger": "getRules\t[CakeValidationSet]",
+            "contents": "getRules()"
+        },
+        {
+            "trigger": "setRule\t[CakeValidationSet]",
+            "contents": "setRule(\\$name, \\$rule)"
+        },
+        {
+            "trigger": "removeRule\t[CakeValidationSet]",
+            "contents": "removeRule(\\$name)"
+        },
+        {
+            "trigger": "setRules\t[CakeValidationSet]",
+            "contents": "setRules(\\$rules = array(), \\$mergeVars = true)"
+        },
+        {
+            "trigger": "offsetExists\t[CakeValidationSet]",
+            "contents": "offsetExists(\\$index)"
+        },
+        {
+            "trigger": "offsetGet\t[CakeValidationSet]",
+            "contents": "offsetGet(\\$index)"
+        },
+        {
+            "trigger": "offsetSet\t[CakeValidationSet]",
+            "contents": "offsetSet(\\$index, \\$rule)"
+        },
+        {
+            "trigger": "offsetUnset\t[CakeValidationSet]",
+            "contents": "offsetUnset(\\$index)"
+        },
+        {
+            "trigger": "getIterator\t[CakeValidationSet]",
+            "contents": "getIterator()"
+        },
+        {
+            "trigger": "count\t[CakeValidationSet]",
+            "contents": "count()"
+        },
+        {
+            "trigger": "clientIp\t[CakeRequest]",
+            "contents": "clientIp(\\$safe = true)"
+        },
+        {
+            "trigger": "referer\t[CakeRequest]",
+            "contents": "referer(\\$local = false)"
+        },
+        {
+            "trigger": "is\t[CakeRequest]",
+            "contents": "is(\\$type)"
+        },
+        {
+            "trigger": "addDetector\t[CakeRequest]",
+            "contents": "addDetector(\\$name, \\$options)"
+        },
+        {
+            "trigger": "addParams\t[CakeRequest]",
+            "contents": "addParams(\\$params)"
+        },
+        {
+            "trigger": "addPaths\t[CakeRequest]",
+            "contents": "addPaths(\\$paths)"
+        },
+        {
+            "trigger": "here\t[CakeRequest]",
+            "contents": "here(\\$base = true)"
+        },
+        {
+            "trigger": "method\t[CakeRequest]",
+            "contents": "method()"
+        },
+        {
+            "trigger": "host\t[CakeRequest]",
+            "contents": "host()"
+        },
+        {
+            "trigger": "domain\t[CakeRequest]",
+            "contents": "domain(\\$tldLength = 1)"
+        },
+        {
+            "trigger": "subdomains\t[CakeRequest]",
+            "contents": "subdomains(\\$tldLength = 1)"
+        },
+        {
+            "trigger": "accepts\t[CakeRequest]",
+            "contents": "accepts(\\$type = null)"
+        },
+        {
+            "trigger": "parseAccept\t[CakeRequest]",
+            "contents": "parseAccept()"
+        },
+        {
+            "trigger": "data\t[CakeRequest]",
+            "contents": "data(\\$name)"
+        },
+        {
+            "trigger": "input\t[CakeRequest]",
+            "contents": "input(\\$callback = null)"
+        },
+        {
+            "trigger": "offsetGet\t[CakeRequest]",
+            "contents": "offsetGet(\\$name)"
+        },
+        {
+            "trigger": "offsetSet\t[CakeRequest]",
+            "contents": "offsetSet(\\$name, \\$value)"
+        },
+        {
+            "trigger": "offsetExists\t[CakeRequest]",
+            "contents": "offsetExists(\\$name)"
+        },
+        {
+            "trigger": "offsetUnset\t[CakeRequest]",
+            "contents": "offsetUnset(\\$name)"
+        },
+        {
+            "trigger": "send\t[CakeResponse]",
+            "contents": "send()"
+        },
+        {
+            "trigger": "header\t[CakeResponse]",
+            "contents": "header(\\$header = null, \\$value = null)"
+        },
+        {
+            "trigger": "body\t[CakeResponse]",
+            "contents": "body(\\$content = null)"
+        },
+        {
+            "trigger": "statusCode\t[CakeResponse]",
+            "contents": "statusCode(\\$code = null)"
+        },
+        {
+            "trigger": "httpCodes\t[CakeResponse]",
+            "contents": "httpCodes(\\$code = null)"
+        },
+        {
+            "trigger": "type\t[CakeResponse]",
+            "contents": "type(\\$contentType = null)"
+        },
+        {
+            "trigger": "getMimeType\t[CakeResponse]",
+            "contents": "getMimeType(\\$alias)"
+        },
+        {
+            "trigger": "mapType\t[CakeResponse]",
+            "contents": "mapType(\\$ctype)"
+        },
+        {
+            "trigger": "charset\t[CakeResponse]",
+            "contents": "charset(\\$charset = null)"
+        },
+        {
+            "trigger": "disableCache\t[CakeResponse]",
+            "contents": "disableCache()"
+        },
+        {
+            "trigger": "cache\t[CakeResponse]",
+            "contents": "cache(\\$since, \\$time = '+1 day')"
+        },
+        {
+            "trigger": "sharable\t[CakeResponse]",
+            "contents": "sharable(\\$public = null, \\$time = null)"
+        },
+        {
+            "trigger": "sharedMaxAge\t[CakeResponse]",
+            "contents": "sharedMaxAge(\\$seconds = null)"
+        },
+        {
+            "trigger": "maxAge\t[CakeResponse]",
+            "contents": "maxAge(\\$seconds = null)"
+        },
+        {
+            "trigger": "mustRevalidate\t[CakeResponse]",
+            "contents": "mustRevalidate(\\$enable = null)"
+        },
+        {
+            "trigger": "expires\t[CakeResponse]",
+            "contents": "expires(\\$time = null)"
+        },
+        {
+            "trigger": "modified\t[CakeResponse]",
+            "contents": "modified(\\$time = null)"
+        },
+        {
+            "trigger": "notModified\t[CakeResponse]",
+            "contents": "notModified()"
+        },
+        {
+            "trigger": "vary\t[CakeResponse]",
+            "contents": "vary(\\$cacheVariances = null)"
+        },
+        {
+            "trigger": "etag\t[CakeResponse]",
+            "contents": "etag(\\$tag = null, \\$weak = false)"
+        },
+        {
+            "trigger": "compress\t[CakeResponse]",
+            "contents": "compress()"
+        },
+        {
+            "trigger": "outputCompressed\t[CakeResponse]",
+            "contents": "outputCompressed()"
+        },
+        {
+            "trigger": "download\t[CakeResponse]",
+            "contents": "download(\\$filename)"
+        },
+        {
+            "trigger": "protocol\t[CakeResponse]",
+            "contents": "protocol(\\$protocol = null)"
+        },
+        {
+            "trigger": "length\t[CakeResponse]",
+            "contents": "length(\\$bytes = null)"
+        },
+        {
+            "trigger": "checkNotModified\t[CakeResponse]",
+            "contents": "checkNotModified(CakeRequest \\$request)"
+        },
+        {
+            "trigger": "cookie\t[CakeResponse]",
+            "contents": "cookie(\\$options = null)"
+        },
+        {
+            "trigger": "connect\t[CakeSocket]",
+            "contents": "connect()"
+        },
+        {
+            "trigger": "host\t[CakeSocket]",
+            "contents": "host()"
+        },
+        {
+            "trigger": "address\t[CakeSocket]",
+            "contents": "address()"
+        },
+        {
+            "trigger": "addresses\t[CakeSocket]",
+            "contents": "addresses()"
+        },
+        {
+            "trigger": "lastError\t[CakeSocket]",
+            "contents": "lastError()"
+        },
+        {
+            "trigger": "setLastError\t[CakeSocket]",
+            "contents": "setLastError(\\$errNum, \\$errStr)"
+        },
+        {
+            "trigger": "write\t[CakeSocket]",
+            "contents": "write(\\$data)"
+        },
+        {
+            "trigger": "read\t[CakeSocket]",
+            "contents": "read(\\$length = 1024)"
+        },
+        {
+            "trigger": "disconnect\t[CakeSocket]",
+            "contents": "disconnect()"
+        },
+        {
+            "trigger": "reset\t[CakeSocket]",
+            "contents": "reset(\\$state = null)"
+        },
+        {
+            "trigger": "send\t[AbstractTransport]",
+            "contents": "send(CakeEmail \\$email)"
+        },
+        {
+            "trigger": "config\t[AbstractTransport]",
+            "contents": "config(\\$config = null)"
+        },
+        {
+            "trigger": "from\t[CakeEmail]",
+            "contents": "from(\\$email = null, \\$name = null)"
+        },
+        {
+            "trigger": "sender\t[CakeEmail]",
+            "contents": "sender(\\$email = null, \\$name = null)"
+        },
+        {
+            "trigger": "replyTo\t[CakeEmail]",
+            "contents": "replyTo(\\$email = null, \\$name = null)"
+        },
+        {
+            "trigger": "readReceipt\t[CakeEmail]",
+            "contents": "readReceipt(\\$email = null, \\$name = null)"
+        },
+        {
+            "trigger": "returnPath\t[CakeEmail]",
+            "contents": "returnPath(\\$email = null, \\$name = null)"
+        },
+        {
+            "trigger": "to\t[CakeEmail]",
+            "contents": "to(\\$email = null, \\$name = null)"
+        },
+        {
+            "trigger": "addTo\t[CakeEmail]",
+            "contents": "addTo(\\$email, \\$name = null)"
+        },
+        {
+            "trigger": "cc\t[CakeEmail]",
+            "contents": "cc(\\$email = null, \\$name = null)"
+        },
+        {
+            "trigger": "addCc\t[CakeEmail]",
+            "contents": "addCc(\\$email, \\$name = null)"
+        },
+        {
+            "trigger": "bcc\t[CakeEmail]",
+            "contents": "bcc(\\$email = null, \\$name = null)"
+        },
+        {
+            "trigger": "addBcc\t[CakeEmail]",
+            "contents": "addBcc(\\$email, \\$name = null)"
+        },
+        {
+            "trigger": "charset\t[CakeEmail]",
+            "contents": "charset(\\$charset = null)"
+        },
+        {
+            "trigger": "headerCharset\t[CakeEmail]",
+            "contents": "headerCharset(\\$charset = null)"
+        },
+        {
+            "trigger": "subject\t[CakeEmail]",
+            "contents": "subject(\\$subject = null)"
+        },
+        {
+            "trigger": "setHeaders\t[CakeEmail]",
+            "contents": "setHeaders(\\$headers)"
+        },
+        {
+            "trigger": "addHeaders\t[CakeEmail]",
+            "contents": "addHeaders(\\$headers)"
+        },
+        {
+            "trigger": "getHeaders\t[CakeEmail]",
+            "contents": "getHeaders(\\$include = array())"
+        },
+        {
+            "trigger": "template\t[CakeEmail]",
+            "contents": "template(\\$template = false, \\$layout = false)"
+        },
+        {
+            "trigger": "viewRender\t[CakeEmail]",
+            "contents": "viewRender(\\$viewClass = null)"
+        },
+        {
+            "trigger": "viewVars\t[CakeEmail]",
+            "contents": "viewVars(\\$viewVars = null)"
+        },
+        {
+            "trigger": "theme\t[CakeEmail]",
+            "contents": "theme(\\$theme = null)"
+        },
+        {
+            "trigger": "helpers\t[CakeEmail]",
+            "contents": "helpers(\\$helpers = null)"
+        },
+        {
+            "trigger": "emailFormat\t[CakeEmail]",
+            "contents": "emailFormat(\\$format = null)"
+        },
+        {
+            "trigger": "transport\t[CakeEmail]",
+            "contents": "transport(\\$name = null)"
+        },
+        {
+            "trigger": "transportClass\t[CakeEmail]",
+            "contents": "transportClass()"
+        },
+        {
+            "trigger": "messageId\t[CakeEmail]",
+            "contents": "messageId(\\$message = null)"
+        },
+        {
+            "trigger": "domain\t[CakeEmail]",
+            "contents": "domain(\\$domain = null)"
+        },
+        {
+            "trigger": "attachments\t[CakeEmail]",
+            "contents": "attachments(\\$attachments = null)"
+        },
+        {
+            "trigger": "addAttachments\t[CakeEmail]",
+            "contents": "addAttachments(\\$attachments)"
+        },
+        {
+            "trigger": "message\t[CakeEmail]",
+            "contents": "message(\\$type = null)"
+        },
+        {
+            "trigger": "config\t[CakeEmail]",
+            "contents": "config(\\$config = null)"
+        },
+        {
+            "trigger": "send\t[CakeEmail]",
+            "contents": "send(\\$content = null)"
+        },
+        {
+            "trigger": "reset\t[CakeEmail]",
+            "contents": "reset()"
+        },
+        {
+            "trigger": "send\t[DebugTransport]",
+            "contents": "send(CakeEmail \\$email)"
+        },
+        {
+            "trigger": "send\t[MailTransport]",
+            "contents": "send(CakeEmail \\$email)"
+        },
+        {
+            "trigger": "send\t[SmtpTransport]",
+            "contents": "send(CakeEmail \\$email)"
+        },
+        {
+            "trigger": "config\t[SmtpTransport]",
+            "contents": "config(\\$config = array())"
+        },
+        {
+            "trigger": "body\t[HttpResponse]",
+            "contents": "body()"
+        },
+        {
+            "trigger": "getHeader\t[HttpResponse]",
+            "contents": "getHeader(\\$name, \\$headers = null)"
+        },
+        {
+            "trigger": "isOk\t[HttpResponse]",
+            "contents": "isOk()"
+        },
+        {
+            "trigger": "isRedirect\t[HttpResponse]",
+            "contents": "isRedirect()"
+        },
+        {
+            "trigger": "parseResponse\t[HttpResponse]",
+            "contents": "parseResponse(\\$message)"
+        },
+        {
+            "trigger": "parseCookies\t[HttpResponse]",
+            "contents": "parseCookies(\\$header)"
+        },
+        {
+            "trigger": "offsetExists\t[HttpResponse]",
+            "contents": "offsetExists(\\$offset)"
+        },
+        {
+            "trigger": "offsetGet\t[HttpResponse]",
+            "contents": "offsetGet(\\$offset)"
+        },
+        {
+            "trigger": "offsetSet\t[HttpResponse]",
+            "contents": "offsetSet(\\$offset, \\$value)"
+        },
+        {
+            "trigger": "offsetUnset\t[HttpResponse]",
+            "contents": "offsetUnset(\\$offset)"
+        },
+        {
+            "trigger": "configAuth\t[HttpSocket]",
+            "contents": "configAuth(\\$method, \\$user = null, \\$pass = null)"
+        },
+        {
+            "trigger": "configProxy\t[HttpSocket]",
+            "contents": "configProxy(\\$host, \\$port = 3128, \\$method = null, \\$user = null, \\$pass = null)"
+        },
+        {
+            "trigger": "setContentResource\t[HttpSocket]",
+            "contents": "setContentResource(\\$resource)"
+        },
+        {
+            "trigger": "request\t[HttpSocket]",
+            "contents": "request(\\$request = array())"
+        },
+        {
+            "trigger": "get\t[HttpSocket]",
+            "contents": "get(\\$uri = null, \\$query = array(), \\$request = array())"
+        },
+        {
+            "trigger": "post\t[HttpSocket]",
+            "contents": "post(\\$uri = null, \\$data = array(), \\$request = array())"
+        },
+        {
+            "trigger": "put\t[HttpSocket]",
+            "contents": "put(\\$uri = null, \\$data = array(), \\$request = array())"
+        },
+        {
+            "trigger": "delete\t[HttpSocket]",
+            "contents": "delete(\\$uri = null, \\$data = array(), \\$request = array())"
+        },
+        {
+            "trigger": "url\t[HttpSocket]",
+            "contents": "url(\\$url = null, \\$uriTemplate = null)"
+        },
+        {
+            "trigger": "buildCookies\t[HttpSocket]",
+            "contents": "buildCookies(\\$cookies)"
+        },
+        {
+            "trigger": "reset\t[HttpSocket]",
+            "contents": "reset(\\$full = true)"
+        },
+        {
+            "trigger": "getEventManager\t[Dispatcher]",
+            "contents": "getEventManager()"
+        },
+        {
+            "trigger": "implementedEvents\t[Dispatcher]",
+            "contents": "implementedEvents()"
+        },
+        {
+            "trigger": "dispatch\t[Dispatcher]",
+            "contents": "dispatch(CakeRequest \\$request, CakeResponse \\$response, \\$additionalParams = array())"
+        },
+        {
+            "trigger": "parseParams\t[Dispatcher]",
+            "contents": "parseParams(\\$event)"
+        },
+        {
+            "trigger": "implementedEvents\t[DispatcherFilter]",
+            "contents": "implementedEvents()"
+        },
+        {
+            "trigger": "beforeDispatch\t[DispatcherFilter]",
+            "contents": "beforeDispatch(\\$event)"
+        },
+        {
+            "trigger": "afterDispatch\t[DispatcherFilter]",
+            "contents": "afterDispatch(\\$event)"
+        },
+        {
+            "trigger": "beforeDispatch\t[AssetDispatcher]",
+            "contents": "beforeDispatch(\\$event)"
+        },
+        {
+            "trigger": "beforeDispatch\t[CacheDispatcher]",
+            "contents": "beforeDispatch(\\$event)"
+        },
+        {
+            "trigger": "compiled\t[CakeRoute]",
+            "contents": "compiled()"
+        },
+        {
+            "trigger": "compile\t[CakeRoute]",
+            "contents": "compile()"
+        },
+        {
+            "trigger": "parse\t[CakeRoute]",
+            "contents": "parse(\\$url)"
+        },
+        {
+            "trigger": "persistParams\t[CakeRoute]",
+            "contents": "persistParams(\\$url, \\$params)"
+        },
+        {
+            "trigger": "match\t[CakeRoute]",
+            "contents": "match(\\$url)"
+        },
+        {
+            "trigger": "parse\t[PluginShortRoute]",
+            "contents": "parse(\\$url)"
+        },
+        {
+            "trigger": "match\t[PluginShortRoute]",
+            "contents": "match(\\$url)"
+        },
+        {
+            "trigger": "parse\t[RedirectRoute]",
+            "contents": "parse(\\$url)"
+        },
+        {
+            "trigger": "match\t[RedirectRoute]",
+            "contents": "match(\\$url)"
+        },
+        {
+            "trigger": "output\t[Debugger]",
+            "contents": "output(\\$format = null, \\$strings = array())"
+        },
+        {
+            "trigger": "outputError\t[Debugger]",
+            "contents": "outputError(\\$data)"
+        },
+        {
+            "trigger": "create\t[File]",
+            "contents": "create()"
+        },
+        {
+            "trigger": "open\t[File]",
+            "contents": "open(\\$mode = 'r', \\$force = false)"
+        },
+        {
+            "trigger": "read\t[File]",
+            "contents": "read(\\$bytes = false, \\$mode = 'rb', \\$force = false)"
+        },
+        {
+            "trigger": "offset\t[File]",
+            "contents": "offset(\\$offset = false, \\$seek = SEEK_SET)"
+        },
+        {
+            "trigger": "write\t[File]",
+            "contents": "write(\\$data, \\$mode = 'w', \\$force = false)"
+        },
+        {
+            "trigger": "append\t[File]",
+            "contents": "append(\\$data, \\$force = false)"
+        },
+        {
+            "trigger": "close\t[File]",
+            "contents": "close()"
+        },
+        {
+            "trigger": "delete\t[File]",
+            "contents": "delete()"
+        },
+        {
+            "trigger": "info\t[File]",
+            "contents": "info()"
+        },
+        {
+            "trigger": "ext\t[File]",
+            "contents": "ext()"
+        },
+        {
+            "trigger": "name\t[File]",
+            "contents": "name()"
+        },
+        {
+            "trigger": "safe\t[File]",
+            "contents": "safe(\\$name = null, \\$ext = null)"
+        },
+        {
+            "trigger": "md5\t[File]",
+            "contents": "md5(\\$maxsize = 5)"
+        },
+        {
+            "trigger": "pwd\t[File]",
+            "contents": "pwd()"
+        },
+        {
+            "trigger": "exists\t[File]",
+            "contents": "exists()"
+        },
+        {
+            "trigger": "perms\t[File]",
+            "contents": "perms()"
+        },
+        {
+            "trigger": "size\t[File]",
+            "contents": "size()"
+        },
+        {
+            "trigger": "writable\t[File]",
+            "contents": "writable()"
+        },
+        {
+            "trigger": "executable\t[File]",
+            "contents": "executable()"
+        },
+        {
+            "trigger": "readable\t[File]",
+            "contents": "readable()"
+        },
+        {
+            "trigger": "owner\t[File]",
+            "contents": "owner()"
+        },
+        {
+            "trigger": "group\t[File]",
+            "contents": "group()"
+        },
+        {
+            "trigger": "lastAccess\t[File]",
+            "contents": "lastAccess()"
+        },
+        {
+            "trigger": "lastChange\t[File]",
+            "contents": "lastChange()"
+        },
+        {
+            "trigger": "&folder\t[File]",
+            "contents": "&folder()"
+        },
+        {
+            "trigger": "copy\t[File]",
+            "contents": "copy(\\$dest, \\$overwrite = true)"
+        },
+        {
+            "trigger": "mime\t[File]",
+            "contents": "mime()"
+        },
+        {
+            "trigger": "pwd\t[Folder]",
+            "contents": "pwd()"
+        },
+        {
+            "trigger": "cd\t[Folder]",
+            "contents": "cd(\\$path)"
+        },
+        {
+            "trigger": "read\t[Folder]",
+            "contents": "read(\\$sort = true, \\$exceptions = false, \\$fullPath = false)"
+        },
+        {
+            "trigger": "find\t[Folder]",
+            "contents": "find(\\$regexpPattern = '.*', \\$sort = false)"
+        },
+        {
+            "trigger": "findRecursive\t[Folder]",
+            "contents": "findRecursive(\\$pattern = '.*', \\$sort = false)"
+        },
+        {
+            "trigger": "inCakePath\t[Folder]",
+            "contents": "inCakePath(\\$path = '')"
+        },
+        {
+            "trigger": "inPath\t[Folder]",
+            "contents": "inPath(\\$path = '', \\$reverse = false)"
+        },
+        {
+            "trigger": "chmod\t[Folder]",
+            "contents": "chmod(\\$path, \\$mode = false, \\$recursive = true, \\$exceptions = array())"
+        },
+        {
+            "trigger": "tree\t[Folder]",
+            "contents": "tree(\\$path = null, \\$exceptions = false, \\$type = null)"
+        },
+        {
+            "trigger": "create\t[Folder]",
+            "contents": "create(\\$pathname, \\$mode = false)"
+        },
+        {
+            "trigger": "dirsize\t[Folder]",
+            "contents": "dirsize()"
+        },
+        {
+            "trigger": "delete\t[Folder]",
+            "contents": "delete(\\$path = null)"
+        },
+        {
+            "trigger": "copy\t[Folder]",
+            "contents": "copy(\\$options = array())"
+        },
+        {
+            "trigger": "move\t[Folder]",
+            "contents": "move(\\$options)"
+        },
+        {
+            "trigger": "messages\t[Folder]",
+            "contents": "messages()"
+        },
+        {
+            "trigger": "errors\t[Folder]",
+            "contents": "errors()"
+        },
+        {
+            "trigger": "realpath\t[Folder]",
+            "contents": "realpath(\\$path)"
+        },
+        {
+            "trigger": "load\t[ObjectCollection]",
+            "contents": "load(\\$name, \\$options = array())"
+        },
+        {
+            "trigger": "trigger\t[ObjectCollection]",
+            "contents": "trigger(\\$callback, \\$params = array(), \\$options = array())"
+        },
+        {
+            "trigger": "enable\t[ObjectCollection]",
+            "contents": "enable(\\$name, \\$prioritize = true)"
+        },
+        {
+            "trigger": "prioritize\t[ObjectCollection]",
+            "contents": "prioritize()"
+        },
+        {
+            "trigger": "setPriority\t[ObjectCollection]",
+            "contents": "setPriority(\\$name, \\$priority = null)"
+        },
+        {
+            "trigger": "disable\t[ObjectCollection]",
+            "contents": "disable(\\$name)"
+        },
+        {
+            "trigger": "enabled\t[ObjectCollection]",
+            "contents": "enabled(\\$name = null)"
+        },
+        {
+            "trigger": "attached\t[ObjectCollection]",
+            "contents": "attached(\\$name = null)"
+        },
+        {
+            "trigger": "unload\t[ObjectCollection]",
+            "contents": "unload(\\$name)"
+        },
+        {
+            "trigger": "set\t[ObjectCollection]",
+            "contents": "set(\\$name = null, \\$object = null)"
+        },
+        {
+            "trigger": "url\t[Helper]",
+            "contents": "url(\\$url = null, \\$full = false)"
+        },
+        {
+            "trigger": "webroot\t[Helper]",
+            "contents": "webroot(\\$file)"
+        },
+        {
+            "trigger": "assetUrl\t[Helper]",
+            "contents": "assetUrl(\\$path, \\$options = array())"
+        },
+        {
+            "trigger": "assetTimestamp\t[Helper]",
+            "contents": "assetTimestamp(\\$path)"
+        },
+        {
+            "trigger": "clean\t[Helper]",
+            "contents": "clean(\\$output)"
+        },
+        {
+            "trigger": "setEntity\t[Helper]",
+            "contents": "setEntity(\\$entity, \\$setScope = false)"
+        },
+        {
+            "trigger": "entity\t[Helper]",
+            "contents": "entity()"
+        },
+        {
+            "trigger": "model\t[Helper]",
+            "contents": "model()"
+        },
+        {
+            "trigger": "field\t[Helper]",
+            "contents": "field()"
+        },
+        {
+            "trigger": "domId\t[Helper]",
+            "contents": "domId(\\$options = null, \\$id = 'id')"
+        },
+        {
+            "trigger": "value\t[Helper]",
+            "contents": "value(\\$options = array(), \\$field = null, \\$key = 'value')"
+        },
+        {
+            "trigger": "addClass\t[Helper]",
+            "contents": "addClass(\\$options = array(), \\$class = null, \\$key = 'class')"
+        },
+        {
+            "trigger": "output\t[Helper]",
+            "contents": "output(\\$str)"
+        },
+        {
+            "trigger": "beforeRender\t[Helper]",
+            "contents": "beforeRender(\\$viewFile)"
+        },
+        {
+            "trigger": "afterRender\t[Helper]",
+            "contents": "afterRender(\\$viewFile)"
+        },
+        {
+            "trigger": "beforeLayout\t[Helper]",
+            "contents": "beforeLayout(\\$layoutFile)"
+        },
+        {
+            "trigger": "afterLayout\t[Helper]",
+            "contents": "afterLayout(\\$layoutFile)"
+        },
+        {
+            "trigger": "beforeRenderFile\t[Helper]",
+            "contents": "beforeRenderFile(\\$viewfile)"
+        },
+        {
+            "trigger": "afterRenderFile\t[Helper]",
+            "contents": "afterRenderFile(\\$viewfile, \\$content)"
+        },
+        {
+            "trigger": "load\t[HelperCollection]",
+            "contents": "load(\\$helper, \\$settings = array())"
+        },
+        {
+            "trigger": "implementedEvents\t[HelperCollection]",
+            "contents": "implementedEvents()"
+        },
+        {
+            "trigger": "trigger\t[HelperCollection]",
+            "contents": "trigger(\\$callback, \\$params = array(), \\$options = array())"
+        },
+        {
+            "trigger": "render\t[JsonView]",
+            "contents": "render(\\$view = null, \\$layout = null)"
+        },
+        {
+            "trigger": "download\t[MediaView]",
+            "contents": "download()"
+        },
+        {
+            "trigger": "render\t[MediaView]",
+            "contents": "render(\\$view = null, \\$layout = null)"
+        },
+        {
+            "trigger": "getEventManager\t[View]",
+            "contents": "getEventManager()"
+        },
+        {
+            "trigger": "element\t[View]",
+            "contents": "element(\\$name, \\$data = array(), \\$options = array())"
+        },
+        {
+            "trigger": "render\t[View]",
+            "contents": "render(\\$view = null, \\$layout = null)"
+        },
+        {
+            "trigger": "renderLayout\t[View]",
+            "contents": "renderLayout(\\$content, \\$layout = null)"
+        },
+        {
+            "trigger": "renderCache\t[View]",
+            "contents": "renderCache(\\$filename, \\$timeStart)"
+        },
+        {
+            "trigger": "getVars\t[View]",
+            "contents": "getVars()"
+        },
+        {
+            "trigger": "getVar\t[View]",
+            "contents": "getVar(\\$var)"
+        },
+        {
+            "trigger": "get\t[View]",
+            "contents": "get(\\$var)"
+        },
+        {
+            "trigger": "blocks\t[View]",
+            "contents": "blocks()"
+        },
+        {
+            "trigger": "start\t[View]",
+            "contents": "start(\\$name)"
+        },
+        {
+            "trigger": "append\t[View]",
+            "contents": "append(\\$name, \\$value = null)"
+        },
+        {
+            "trigger": "assign\t[View]",
+            "contents": "assign(\\$name, \\$value)"
+        },
+        {
+            "trigger": "fetch\t[View]",
+            "contents": "fetch(\\$name)"
+        },
+        {
+            "trigger": "end\t[View]",
+            "contents": "end()"
+        },
+        {
+            "trigger": "extend\t[View]",
+            "contents": "extend(\\$name)"
+        },
+        {
+            "trigger": "addScript\t[View]",
+            "contents": "addScript(\\$name, \\$content = null)"
+        },
+        {
+            "trigger": "uuid\t[View]",
+            "contents": "uuid(\\$object, \\$url)"
+        },
+        {
+            "trigger": "set\t[View]",
+            "contents": "set(\\$one, \\$two = null)"
+        },
+        {
+            "trigger": "loadHelpers\t[View]",
+            "contents": "loadHelpers()"
+        },
+        {
+            "trigger": "loadHelper\t[View]",
+            "contents": "loadHelper(\\$helperName, \\$settings = array())"
+        },
+        {
+            "trigger": "pluginSplit\t[View]",
+            "contents": "pluginSplit(\\$name, \\$fallback = true)"
+        },
+        {
+            "trigger": "start\t[ViewBlock]",
+            "contents": "start(\\$name)"
+        },
+        {
+            "trigger": "end\t[ViewBlock]",
+            "contents": "end()"
+        },
+        {
+            "trigger": "append\t[ViewBlock]",
+            "contents": "append(\\$name, \\$value = null)"
+        },
+        {
+            "trigger": "set\t[ViewBlock]",
+            "contents": "set(\\$name, \\$value)"
+        },
+        {
+            "trigger": "get\t[ViewBlock]",
+            "contents": "get(\\$name)"
+        },
+        {
+            "trigger": "keys\t[ViewBlock]",
+            "contents": "keys()"
+        },
+        {
+            "trigger": "active\t[ViewBlock]",
+            "contents": "active()"
+        },
+        {
+            "trigger": "unclosed\t[ViewBlock]",
+            "contents": "unclosed()"
+        },
+        {
+            "trigger": "render\t[XmlView]",
+            "contents": "render(\\$view = null, \\$layout = null)"
+        },
+        {
+            "trigger": "afterRenderFile\t[CacheHelper]",
+            "contents": "afterRenderFile(\\$viewFile, \\$output)"
+        },
+        {
+            "trigger": "afterLayout\t[CacheHelper]",
+            "contents": "afterLayout(\\$layoutFile)"
+        },
+        {
+            "trigger": "cache\t[CacheHelper]",
+            "contents": "cache(\\$file, \\$out)"
+        },
+        {
+            "trigger": "tagIsInvalid\t[FormHelper]",
+            "contents": "tagIsInvalid()"
+        },
+        {
+            "trigger": "create\t[FormHelper]",
+            "contents": "create(\\$model = null, \\$options = array())"
+        },
+        {
+            "trigger": "end\t[FormHelper]",
+            "contents": "end(\\$options = null)"
+        },
+        {
+            "trigger": "secure\t[FormHelper]",
+            "contents": "secure(\\$fields = array())"
+        },
+        {
+            "trigger": "unlockField\t[FormHelper]",
+            "contents": "unlockField(\\$name = null)"
+        },
+        {
+            "trigger": "isFieldError\t[FormHelper]",
+            "contents": "isFieldError(\\$field)"
+        },
+        {
+            "trigger": "error\t[FormHelper]",
+            "contents": "error(\\$field, \\$text = null, \\$options = array())"
+        },
+        {
+            "trigger": "label\t[FormHelper]",
+            "contents": "label(\\$fieldName = null, \\$text = null, \\$options = array())"
+        },
+        {
+            "trigger": "inputs\t[FormHelper]",
+            "contents": "inputs(\\$fields = null, \\$blacklist = null)"
+        },
+        {
+            "trigger": "input\t[FormHelper]",
+            "contents": "input(\\$fieldName, \\$options = array())"
+        },
+        {
+            "trigger": "checkbox\t[FormHelper]",
+            "contents": "checkbox(\\$fieldName, \\$options = array())"
+        },
+        {
+            "trigger": "radio\t[FormHelper]",
+            "contents": "radio(\\$fieldName, \\$options = array(), \\$attributes = array())"
+        },
+        {
+            "trigger": "textarea\t[FormHelper]",
+            "contents": "textarea(\\$fieldName, \\$options = array())"
+        },
+        {
+            "trigger": "hidden\t[FormHelper]",
+            "contents": "hidden(\\$fieldName, \\$options = array())"
+        },
+        {
+            "trigger": "file\t[FormHelper]",
+            "contents": "file(\\$fieldName, \\$options = array())"
+        },
+        {
+            "trigger": "button\t[FormHelper]",
+            "contents": "button(\\$title, \\$options = array())"
+        },
+        {
+            "trigger": "postButton\t[FormHelper]",
+            "contents": "postButton(\\$title, \\$url, \\$options = array())"
+        },
+        {
+            "trigger": "postLink\t[FormHelper]",
+            "contents": "postLink(\\$title, \\$url = null, \\$options = array(), \\$confirmMessage = false)"
+        },
+        {
+            "trigger": "submit\t[FormHelper]",
+            "contents": "submit(\\$caption = null, \\$options = array())"
+        },
+        {
+            "trigger": "select\t[FormHelper]",
+            "contents": "select(\\$fieldName, \\$options = array(), \\$attributes = array())"
+        },
+        {
+            "trigger": "day\t[FormHelper]",
+            "contents": "day(\\$fieldName = null, \\$attributes = array())"
+        },
+        {
+            "trigger": "year\t[FormHelper]",
+            "contents": "year(\\$fieldName, \\$minYear = null, \\$maxYear = null, \\$attributes = array())"
+        },
+        {
+            "trigger": "month\t[FormHelper]",
+            "contents": "month(\\$fieldName, \\$attributes = array())"
+        },
+        {
+            "trigger": "hour\t[FormHelper]",
+            "contents": "hour(\\$fieldName, \\$format24Hours = false, \\$attributes = array())"
+        },
+        {
+            "trigger": "minute\t[FormHelper]",
+            "contents": "minute(\\$fieldName, \\$attributes = array())"
+        },
+        {
+            "trigger": "meridian\t[FormHelper]",
+            "contents": "meridian(\\$fieldName, \\$attributes = array())"
+        },
+        {
+            "trigger": "dateTime\t[FormHelper]",
+            "contents": "dateTime(\\$fieldName, \\$dateFormat = 'DMY', \\$timeFormat = '12', \\$attributes = array())"
+        },
+        {
+            "trigger": "inputDefaults\t[FormHelper]",
+            "contents": "inputDefaults(\\$defaults = null, \\$merge = false)"
+        },
+        {
+            "trigger": "addCrumb\t[HtmlHelper]",
+            "contents": "addCrumb(\\$name, \\$link = null, \\$options = null)"
+        },
+        {
+            "trigger": "docType\t[HtmlHelper]",
+            "contents": "docType(\\$type = 'html5')"
+        },
+        {
+            "trigger": "meta\t[HtmlHelper]",
+            "contents": "meta(\\$type, \\$url = null, \\$options = array())"
+        },
+        {
+            "trigger": "charset\t[HtmlHelper]",
+            "contents": "charset(\\$charset = null)"
+        },
+        {
+            "trigger": "link\t[HtmlHelper]",
+            "contents": "link(\\$title, \\$url = null, \\$options = array(), \\$confirmMessage = false)"
+        },
+        {
+            "trigger": "css\t[HtmlHelper]",
+            "contents": "css(\\$path, \\$rel = null, \\$options = array())"
+        },
+        {
+            "trigger": "script\t[HtmlHelper]",
+            "contents": "script(\\$url, \\$options = array())"
+        },
+        {
+            "trigger": "scriptBlock\t[HtmlHelper]",
+            "contents": "scriptBlock(\\$script, \\$options = array())"
+        },
+        {
+            "trigger": "scriptStart\t[HtmlHelper]",
+            "contents": "scriptStart(\\$options = array())"
+        },
+        {
+            "trigger": "scriptEnd\t[HtmlHelper]",
+            "contents": "scriptEnd()"
+        },
+        {
+            "trigger": "style\t[HtmlHelper]",
+            "contents": "style(\\$data, \\$oneline = true)"
+        },
+        {
+            "trigger": "getCrumbs\t[HtmlHelper]",
+            "contents": "getCrumbs(\\$separator = '&raquo;', \\$startText = false)"
+        },
+        {
+            "trigger": "getCrumbList\t[HtmlHelper]",
+            "contents": "getCrumbList(\\$options = array(), \\$startText = false)"
+        },
+        {
+            "trigger": "image\t[HtmlHelper]",
+            "contents": "image(\\$path, \\$options = array())"
+        },
+        {
+            "trigger": "tableHeaders\t[HtmlHelper]",
+            "contents": "tableHeaders(\\$names, \\$trOptions = null, \\$thOptions = null)"
+        },
+        {
+            "trigger": "tableCells\t[HtmlHelper]",
+            "contents": "tableCells(\\$data, \\$oddTrOptions = null, \\$evenTrOptions = null, \\$useCount = false, \\$continueOddEven = true)"
+        },
+        {
+            "trigger": "tag\t[HtmlHelper]",
+            "contents": "tag(\\$name, \\$text = null, \\$options = array())"
+        },
+        {
+            "trigger": "useTag\t[HtmlHelper]",
+            "contents": "useTag(\\$tag)"
+        },
+        {
+            "trigger": "div\t[HtmlHelper]",
+            "contents": "div(\\$class = null, \\$text = null, \\$options = array())"
+        },
+        {
+            "trigger": "para\t[HtmlHelper]",
+            "contents": "para(\\$class, \\$text, \\$options = array())"
+        },
+        {
+            "trigger": "media\t[HtmlHelper]",
+            "contents": "media(\\$path, \\$options = array())"
+        },
+        {
+            "trigger": "nestedList\t[HtmlHelper]",
+            "contents": "nestedList(\\$list, \\$options = array(), \\$itemOptions = array(), \\$tag = 'ul')"
+        },
+        {
+            "trigger": "loadConfig\t[HtmlHelper]",
+            "contents": "loadConfig(\\$configFile, \\$path = null)"
+        },
+        {
+            "trigger": "get\t[JqueryEngineHelper]",
+            "contents": "get(\\$selector)"
+        },
+        {
+            "trigger": "event\t[JqueryEngineHelper]",
+            "contents": "event(\\$type, \\$callback, \\$options = array())"
+        },
+        {
+            "trigger": "domReady\t[JqueryEngineHelper]",
+            "contents": "domReady(\\$functionBody)"
+        },
+        {
+            "trigger": "each\t[JqueryEngineHelper]",
+            "contents": "each(\\$callback)"
+        },
+        {
+            "trigger": "effect\t[JqueryEngineHelper]",
+            "contents": "effect(\\$name, \\$options = array())"
+        },
+        {
+            "trigger": "request\t[JqueryEngineHelper]",
+            "contents": "request(\\$url, \\$options = array())"
+        },
+        {
+            "trigger": "sortable\t[JqueryEngineHelper]",
+            "contents": "sortable(\\$options = array())"
+        },
+        {
+            "trigger": "drag\t[JqueryEngineHelper]",
+            "contents": "drag(\\$options = array())"
+        },
+        {
+            "trigger": "drop\t[JqueryEngineHelper]",
+            "contents": "drop(\\$options = array())"
+        },
+        {
+            "trigger": "slider\t[JqueryEngineHelper]",
+            "contents": "slider(\\$options = array())"
+        },
+        {
+            "trigger": "serializeForm\t[JqueryEngineHelper]",
+            "contents": "serializeForm(\\$options = array())"
+        },
+        {
+            "trigger": "alert\t[JsBaseEngineHelper]",
+            "contents": "alert(\\$message)"
+        },
+        {
+            "trigger": "redirect\t[JsBaseEngineHelper]",
+            "contents": "redirect(\\$url = null)"
+        },
+        {
+            "trigger": "confirm\t[JsBaseEngineHelper]",
+            "contents": "confirm(\\$message)"
+        },
+        {
+            "trigger": "confirmReturn\t[JsBaseEngineHelper]",
+            "contents": "confirmReturn(\\$message)"
+        },
+        {
+            "trigger": "prompt\t[JsBaseEngineHelper]",
+            "contents": "prompt(\\$message, \\$default = '')"
+        },
+        {
+            "trigger": "object\t[JsBaseEngineHelper]",
+            "contents": "object(\\$data = array(), \\$options = array())"
+        },
+        {
+            "trigger": "value\t[JsBaseEngineHelper]",
+            "contents": "value(\\$val = array(), \\$quoteString = null, \\$key = 'value')"
+        },
+        {
+            "trigger": "escape\t[JsBaseEngineHelper]",
+            "contents": "escape(\\$string)"
+        },
+        {
+            "trigger": "get\t[JsBaseEngineHelper]",
+            "contents": "get(\\$selector)"
+        },
+        {
+            "trigger": "event\t[JsBaseEngineHelper]",
+            "contents": "event(\\$type, \\$callback, \\$options = array())"
+        },
+        {
+            "trigger": "domReady\t[JsBaseEngineHelper]",
+            "contents": "domReady(\\$functionBody)"
+        },
+        {
+            "trigger": "each\t[JsBaseEngineHelper]",
+            "contents": "each(\\$callback)"
+        },
+        {
+            "trigger": "effect\t[JsBaseEngineHelper]",
+            "contents": "effect(\\$name, \\$options = array())"
+        },
+        {
+            "trigger": "request\t[JsBaseEngineHelper]",
+            "contents": "request(\\$url, \\$options = array())"
+        },
+        {
+            "trigger": "drag\t[JsBaseEngineHelper]",
+            "contents": "drag(\\$options = array())"
+        },
+        {
+            "trigger": "drop\t[JsBaseEngineHelper]",
+            "contents": "drop(\\$options = array())"
+        },
+        {
+            "trigger": "sortable\t[JsBaseEngineHelper]",
+            "contents": "sortable(\\$options = array())"
+        },
+        {
+            "trigger": "slider\t[JsBaseEngineHelper]",
+            "contents": "slider(\\$options = array())"
+        },
+        {
+            "trigger": "serializeForm\t[JsBaseEngineHelper]",
+            "contents": "serializeForm(\\$options = array())"
+        },
+        {
+            "trigger": "value\t[JsHelper]",
+            "contents": "value(\\$val = array(), \\$quoteString = null, \\$key = 'value')"
+        },
+        {
+            "trigger": "writeBuffer\t[JsHelper]",
+            "contents": "writeBuffer(\\$options = array())"
+        },
+        {
+            "trigger": "buffer\t[JsHelper]",
+            "contents": "buffer(\\$script, \\$top = false)"
+        },
+        {
+            "trigger": "getBuffer\t[JsHelper]",
+            "contents": "getBuffer(\\$clear = true)"
+        },
+        {
+            "trigger": "link\t[JsHelper]",
+            "contents": "link(\\$title, \\$url = null, \\$options = array())"
+        },
+        {
+            "trigger": "set\t[JsHelper]",
+            "contents": "set(\\$one, \\$two = null)"
+        },
+        {
+            "trigger": "submit\t[JsHelper]",
+            "contents": "submit(\\$caption = null, \\$options = array())"
+        },
+        {
+            "trigger": "get\t[MootoolsEngineHelper]",
+            "contents": "get(\\$selector)"
+        },
+        {
+            "trigger": "event\t[MootoolsEngineHelper]",
+            "contents": "event(\\$type, \\$callback, \\$options = array())"
+        },
+        {
+            "trigger": "domReady\t[MootoolsEngineHelper]",
+            "contents": "domReady(\\$functionBody)"
+        },
+        {
+            "trigger": "each\t[MootoolsEngineHelper]",
+            "contents": "each(\\$callback)"
+        },
+        {
+            "trigger": "effect\t[MootoolsEngineHelper]",
+            "contents": "effect(\\$name, \\$options = array())"
+        },
+        {
+            "trigger": "request\t[MootoolsEngineHelper]",
+            "contents": "request(\\$url, \\$options = array())"
+        },
+        {
+            "trigger": "sortable\t[MootoolsEngineHelper]",
+            "contents": "sortable(\\$options = array())"
+        },
+        {
+            "trigger": "drag\t[MootoolsEngineHelper]",
+            "contents": "drag(\\$options = array())"
+        },
+        {
+            "trigger": "drop\t[MootoolsEngineHelper]",
+            "contents": "drop(\\$options = array())"
+        },
+        {
+            "trigger": "slider\t[MootoolsEngineHelper]",
+            "contents": "slider(\\$options = array())"
+        },
+        {
+            "trigger": "serializeForm\t[MootoolsEngineHelper]",
+            "contents": "serializeForm(\\$options = array())"
+        },
+        {
+            "trigger": "precision\t[NumberHelper]",
+            "contents": "precision(\\$number, \\$precision = 3)"
+        },
+        {
+            "trigger": "toReadableSize\t[NumberHelper]",
+            "contents": "toReadableSize(\\$size)"
+        },
+        {
+            "trigger": "toPercentage\t[NumberHelper]",
+            "contents": "toPercentage(\\$number, \\$precision = 2)"
+        },
+        {
+            "trigger": "format\t[NumberHelper]",
+            "contents": "format(\\$number, \\$options = false)"
+        },
+        {
+            "trigger": "currency\t[NumberHelper]",
+            "contents": "currency(\\$number, \\$currency = 'USD', \\$options = array())"
+        },
+        {
+            "trigger": "addFormat\t[NumberHelper]",
+            "contents": "addFormat(\\$formatName, \\$options)"
+        },
+        {
+            "trigger": "beforeRender\t[PaginatorHelper]",
+            "contents": "beforeRender(\\$viewFile)"
+        },
+        {
+            "trigger": "params\t[PaginatorHelper]",
+            "contents": "params(\\$model = null)"
+        },
+        {
+            "trigger": "options\t[PaginatorHelper]",
+            "contents": "options(\\$options = array())"
+        },
+        {
+            "trigger": "current\t[PaginatorHelper]",
+            "contents": "current(\\$model = null)"
+        },
+        {
+            "trigger": "sortKey\t[PaginatorHelper]",
+            "contents": "sortKey(\\$model = null, \\$options = array())"
+        },
+        {
+            "trigger": "sortDir\t[PaginatorHelper]",
+            "contents": "sortDir(\\$model = null, \\$options = array())"
+        },
+        {
+            "trigger": "prev\t[PaginatorHelper]",
+            "contents": "prev(\\$title = '<< Previous', \\$options = array(), \\$disabledTitle = null, \\$disabledOptions = array())"
+        },
+        {
+            "trigger": "next\t[PaginatorHelper]",
+            "contents": "next(\\$title = 'Next >>', \\$options = array(), \\$disabledTitle = null, \\$disabledOptions = array())"
+        },
+        {
+            "trigger": "sort\t[PaginatorHelper]",
+            "contents": "sort(\\$key, \\$title = null, \\$options = array())"
+        },
+        {
+            "trigger": "link\t[PaginatorHelper]",
+            "contents": "link(\\$title, \\$url = array(), \\$options = array())"
+        },
+        {
+            "trigger": "url\t[PaginatorHelper]",
+            "contents": "url(\\$options = array(), \\$asArray = false, \\$model = null)"
+        },
+        {
+            "trigger": "hasPrev\t[PaginatorHelper]",
+            "contents": "hasPrev(\\$model = null)"
+        },
+        {
+            "trigger": "hasNext\t[PaginatorHelper]",
+            "contents": "hasNext(\\$model = null)"
+        },
+        {
+            "trigger": "hasPage\t[PaginatorHelper]",
+            "contents": "hasPage(\\$model = null, \\$page = 1)"
+        },
+        {
+            "trigger": "defaultModel\t[PaginatorHelper]",
+            "contents": "defaultModel()"
+        },
+        {
+            "trigger": "counter\t[PaginatorHelper]",
+            "contents": "counter(\\$options = array())"
+        },
+        {
+            "trigger": "numbers\t[PaginatorHelper]",
+            "contents": "numbers(\\$options = array())"
+        },
+        {
+            "trigger": "first\t[PaginatorHelper]",
+            "contents": "first(\\$first = '<< first', \\$options = array())"
+        },
+        {
+            "trigger": "last\t[PaginatorHelper]",
+            "contents": "last(\\$last = 'last >>', \\$options = array())"
+        },
+        {
+            "trigger": "get\t[PrototypeEngineHelper]",
+            "contents": "get(\\$selector)"
+        },
+        {
+            "trigger": "event\t[PrototypeEngineHelper]",
+            "contents": "event(\\$type, \\$callback, \\$options = array())"
+        },
+        {
+            "trigger": "domReady\t[PrototypeEngineHelper]",
+            "contents": "domReady(\\$functionBody)"
+        },
+        {
+            "trigger": "each\t[PrototypeEngineHelper]",
+            "contents": "each(\\$callback)"
+        },
+        {
+            "trigger": "effect\t[PrototypeEngineHelper]",
+            "contents": "effect(\\$name, \\$options = array())"
+        },
+        {
+            "trigger": "request\t[PrototypeEngineHelper]",
+            "contents": "request(\\$url, \\$options = array())"
+        },
+        {
+            "trigger": "sortable\t[PrototypeEngineHelper]",
+            "contents": "sortable(\\$options = array())"
+        },
+        {
+            "trigger": "drag\t[PrototypeEngineHelper]",
+            "contents": "drag(\\$options = array())"
+        },
+        {
+            "trigger": "drop\t[PrototypeEngineHelper]",
+            "contents": "drop(\\$options = array())"
+        },
+        {
+            "trigger": "slider\t[PrototypeEngineHelper]",
+            "contents": "slider(\\$options = array())"
+        },
+        {
+            "trigger": "serializeForm\t[PrototypeEngineHelper]",
+            "contents": "serializeForm(\\$options = array())"
+        },
+        {
+            "trigger": "document\t[RssHelper]",
+            "contents": "document(\\$attrib = array(), \\$content = null)"
+        },
+        {
+            "trigger": "channel\t[RssHelper]",
+            "contents": "channel(\\$attrib = array(), \\$elements = array(), \\$content = null)"
+        },
+        {
+            "trigger": "items\t[RssHelper]",
+            "contents": "items(\\$items, \\$callback = null)"
+        },
+        {
+            "trigger": "item\t[RssHelper]",
+            "contents": "item(\\$att = array(), \\$elements = array())"
+        },
+        {
+            "trigger": "time\t[RssHelper]",
+            "contents": "time(\\$time)"
+        },
+        {
+            "trigger": "elem\t[RssHelper]",
+            "contents": "elem(\\$name, \\$attrib = array(), \\$content = null, \\$endTag = true)"
+        },
+        {
+            "trigger": "read\t[SessionHelper]",
+            "contents": "read(\\$name = null)"
+        },
+        {
+            "trigger": "check\t[SessionHelper]",
+            "contents": "check(\\$name)"
+        },
+        {
+            "trigger": "error\t[SessionHelper]",
+            "contents": "error()"
+        },
+        {
+            "trigger": "flash\t[SessionHelper]",
+            "contents": "flash(\\$key = 'flash', \\$attrs = array())"
+        },
+        {
+            "trigger": "valid\t[SessionHelper]",
+            "contents": "valid()"
+        },
+        {
+            "trigger": "autoLinkUrls\t[TextHelper]",
+            "contents": "autoLinkUrls(\\$text, \\$options = array())"
+        },
+        {
+            "trigger": "autoLinkEmails\t[TextHelper]",
+            "contents": "autoLinkEmails(\\$text, \\$options = array())"
+        },
+        {
+            "trigger": "autoLink\t[TextHelper]",
+            "contents": "autoLink(\\$text, \\$options = array())"
+        },
+        {
+            "trigger": "highlight\t[TextHelper]",
+            "contents": "highlight(\\$text, \\$phrase, \\$options = array())"
+        },
+        {
+            "trigger": "stripLinks\t[TextHelper]",
+            "contents": "stripLinks(\\$text)"
+        },
+        {
+            "trigger": "truncate\t[TextHelper]",
+            "contents": "truncate(\\$text, \\$length = 100, \\$options = array())"
+        },
+        {
+            "trigger": "excerpt\t[TextHelper]",
+            "contents": "excerpt(\\$text, \\$phrase, \\$radius = 100, \\$ending = '...')"
+        },
+        {
+            "trigger": "toList\t[TextHelper]",
+            "contents": "toList(\\$list, \\$and = 'and', \\$separator = ', ')"
+        },
+        {
+            "trigger": "convertSpecifiers\t[TimeHelper]",
+            "contents": "convertSpecifiers(\\$format, \\$time = null)"
+        },
+        {
+            "trigger": "convert\t[TimeHelper]",
+            "contents": "convert(\\$serverTime, \\$timezone)"
+        },
+        {
+            "trigger": "serverOffset\t[TimeHelper]",
+            "contents": "serverOffset()"
+        },
+        {
+            "trigger": "fromString\t[TimeHelper]",
+            "contents": "fromString(\\$dateString, \\$timezone = null)"
+        },
+        {
+            "trigger": "nice\t[TimeHelper]",
+            "contents": "nice(\\$dateString = null, \\$timezone = null, \\$format = null)"
+        },
+        {
+            "trigger": "niceShort\t[TimeHelper]",
+            "contents": "niceShort(\\$dateString = null, \\$timezone = null)"
+        },
+        {
+            "trigger": "daysAsSql\t[TimeHelper]",
+            "contents": "daysAsSql(\\$begin, \\$end, \\$fieldName, \\$timezone = null)"
+        },
+        {
+            "trigger": "dayAsSql\t[TimeHelper]",
+            "contents": "dayAsSql(\\$dateString, \\$fieldName, \\$timezone = null)"
+        },
+        {
+            "trigger": "isToday\t[TimeHelper]",
+            "contents": "isToday(\\$dateString, \\$timezone = null)"
+        },
+        {
+            "trigger": "isThisWeek\t[TimeHelper]",
+            "contents": "isThisWeek(\\$dateString, \\$timezone = null)"
+        },
+        {
+            "trigger": "isThisMonth\t[TimeHelper]",
+            "contents": "isThisMonth(\\$dateString, \\$timezone = null)"
+        },
+        {
+            "trigger": "isThisYear\t[TimeHelper]",
+            "contents": "isThisYear(\\$dateString, \\$timezone = null)"
+        },
+        {
+            "trigger": "wasYesterday\t[TimeHelper]",
+            "contents": "wasYesterday(\\$dateString, \\$timezone = null)"
+        },
+        {
+            "trigger": "isTomorrow\t[TimeHelper]",
+            "contents": "isTomorrow(\\$dateString, \\$timezone = null)"
+        },
+        {
+            "trigger": "toQuarter\t[TimeHelper]",
+            "contents": "toQuarter(\\$dateString, \\$range = false)"
+        },
+        {
+            "trigger": "toUnix\t[TimeHelper]",
+            "contents": "toUnix(\\$dateString, \\$timezone = null)"
+        },
+        {
+            "trigger": "toAtom\t[TimeHelper]",
+            "contents": "toAtom(\\$dateString, \\$timezone = null)"
+        },
+        {
+            "trigger": "toRSS\t[TimeHelper]",
+            "contents": "toRSS(\\$dateString, \\$timezone = null)"
+        },
+        {
+            "trigger": "timeAgoInWords\t[TimeHelper]",
+            "contents": "timeAgoInWords(\\$dateTime, \\$options = array())"
+        },
+        {
+            "trigger": "wasWithinLast\t[TimeHelper]",
+            "contents": "wasWithinLast(\\$timeInterval, \\$dateString, \\$timezone = null)"
+        },
+        {
+            "trigger": "isWithinNext\t[TimeHelper]",
+            "contents": "isWithinNext(\\$timeInterval, \\$dateString, \\$timezone = null)"
+        },
+        {
+            "trigger": "gmt\t[TimeHelper]",
+            "contents": "gmt(\\$string = null)"
+        },
+        {
+            "trigger": "format\t[TimeHelper]",
+            "contents": "format(\\$format, \\$date = null, \\$invalid = false, \\$timezone = null)"
+        },
+        {
+            "trigger": "i18nFormat\t[TimeHelper]",
+            "contents": "i18nFormat(\\$date, \\$format = null, \\$invalid = false, \\$timezone = null)"
+        }
+    ]
+}
